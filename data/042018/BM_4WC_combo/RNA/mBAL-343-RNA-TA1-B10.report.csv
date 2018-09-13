@@ -1,0 +1,288 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Burkholderia cenocepacia ( 95486 ),Burkholderia ( 32008 ),734485,83296,22999,50.49,8.82,1648.04,2167.4202940938185,2.72,1.78,31.7,374.92
+Bacteria,uncultured Burkholderia sp. ( 188058 ),Burkholderia ( 32008 ),56581,6411,22999,99.0,8.82,64.76,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia cepacia ( 292 ),Burkholderia ( 32008 ),6603,748,22999,5.87,8.82,127.39,2167.4202940938185,0.04,1.78,1.53,374.92
+Bacteria,Burkholderia vietnamiensis ( 60552 ),Burkholderia ( 32008 ),4827,546,22999,5.17,8.82,105.86,2167.4202940938185,-0.2,1.78,0.05,374.92
+Bacteria,Burkholderia sp. IBUN 2G-57 ( 392439 ),Burkholderia ( 32008 ),3954,448,22999,100.0,8.82,4.48,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. C20 ( 307484 ),Burkholderia ( 32008 ),2170,245,22999,100.0,8.82,2.46,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia ambifaria ( 152480 ),Burkholderia ( 32008 ),1861,223,22999,3.85,8.82,53.89,2167.4202940938185,1.26,1.78,12.46,374.92
+Bacteria,Burkholderia sp. HMSV1 ( 1564609 ),Burkholderia ( 32008 ),1688,191,22999,100.0,8.82,1.91,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Taylorella asinigenitalis ( 84590 ),Taylorella ( 29574 ),1381,321,0,-0.06,-0.11,0.22,0.22,4.33,4.3,74.22,74.22
+Bacteria,Burkholderia sp. WAW-1 ( 980734 ),Burkholderia ( 32008 ),1302,147,22999,100.0,8.82,1.48,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. YH30 ( 1506398 ),Burkholderia ( 32008 ),1157,131,22999,100.0,8.82,1.31,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. ( 36773 ),Burkholderia ( 32008 ),1034,117,22999,35.76,8.82,3.28,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia pseudomallei ( 28450 ),Burkholderia ( 32008 ),969,213,22999,2.04,8.82,40.88,2167.4202940938185,2.04,1.78,63.78,374.92
+Bacteria,Burkholderia multivorans ( 87883 ),Burkholderia ( 32008 ),910,250,22999,2.19,8.82,30.06,2167.4202940938185,3.32,1.78,55.47,374.92
+Bacteria,Burkholderia sp. UT 1-12 ( 1533984 ),Burkholderia ( 32008 ),668,75,22999,99.0,8.82,0.77,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. ED20 ( 321913 ),Burkholderia ( 32008 ),626,71,22999,100.0,8.82,0.71,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. NTUIOB TPE5 ( 1145011 ),Burkholderia ( 32008 ),578,65,22999,100.0,8.82,0.66,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. LS-044 ( 1459967 ),Burkholderia ( 32008 ),578,65,22999,100.0,8.82,0.66,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia mallei ( 13373 ),Burkholderia ( 32008 ),527,60,22999,3.46,8.82,17.22,2167.4202940938185,0.4,1.78,2.46,374.92
+Bacteria,Burkholderia sp. 41-2 ( 398732 ),Burkholderia ( 32008 ),525,59,22999,99.0,8.82,0.6,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Brij35 ( 412700 ),Burkholderia ( 32008 ),482,54,22999,100.0,8.82,0.55,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MSMB1 ( 430532 ),Burkholderia ( 32008 ),434,49,22999,100.0,8.82,0.49,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia seminalis ( 488731 ),Burkholderia ( 32008 ),429,48,22999,99.0,8.82,0.49,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. F002 ( 1534987 ),Burkholderia ( 32008 ),385,43,22999,100.0,8.82,0.44,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. RS25 ( 1295337 ),Burkholderia ( 32008 ),385,43,22999,100.0,8.82,0.44,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia phenazinium ( 60549 ),Burkholderia ( 32008 ),379,42,22999,35.73,8.82,1.2,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. PG1-1/19c ( 401453 ),Burkholderia ( 32008 ),337,38,22999,100.0,8.82,0.38,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia stabilis ( 95485 ),Burkholderia ( 32008 ),289,32,22999,100.0,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. STM 1424 ( 345617 ),Burkholderia ( 32008 ),286,32,22999,99.0,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. GAH5 ( 529009 ),Burkholderia ( 32008 ),286,32,22999,99.0,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. KP5Blue ( 1081783 ),Burkholderia ( 32008 ),286,32,22999,99.0,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia unamae ( 219649 ),Burkholderia ( 32008 ),270,30,22999,80.23,8.82,0.38,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. ahR47 ( 1538197 ),Burkholderia ( 32008 ),241,27,22999,100.0,8.82,0.27,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MMD37 ( 1073425 ),Burkholderia ( 32008 ),241,27,22999,100.0,8.82,0.27,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. RIFA 2029 ( 1539730 ),Burkholderia ( 32008 ),241,27,22999,100.0,8.82,0.27,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Os13 ( 1050742 ),Burkholderia ( 32008 ),238,27,22999,99.0,8.82,0.27,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia pyrrocinia ( 60550 ),Burkholderia ( 32008 ),213,24,22999,26.0,8.82,0.93,2167.4202940938185,-0.21,1.78,0.38,374.92
+Bacteria,Burkholderia metallica ( 488729 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. enrichment culture clone AULS-B1a ( 1042886 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. I_66-LFP1B10B ( 1172511 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. S276 ( 1118108 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. AB2 ( 116646 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BRRh-2 ( 1463154 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. TC2.2.2F4 ( 711493 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. NTUIOB TPF12 ( 1144994 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. LP1 ( 1545548 ),Burkholderia ( 32008 ),192,21,22999,100.0,8.82,0.22,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia kururiensis ( 984307 ),Burkholderia ( 32008 ),190,21,22999,99.0,8.82,0.22,2167.4202940938185,-0.3,1.78,0.05,374.92
+Bacteria,Burkholderia thailandensis ( 57975 ),Burkholderia ( 32008 ),190,21,22999,1.49,8.82,14.48,2167.4202940938185,-0.36,1.78,0.05,374.92
+Bacteria,Burkholderia tropica ( 92647 ),Burkholderia ( 32008 ),145,16,22999,60.27,8.82,0.27,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MG-2011-87-HA ( 1041657 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. YC15A ( 1515240 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. XJ11 ( 1325332 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. AKB6 ( 933555 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa277 ( 1450844 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. CBPB-CHS ( 298564 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia arboris ( 488730 ),Burkholderia ( 32008 ),144,16,22999,100.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia hospita ( 169430 ),Burkholderia ( 32008 ),143,16,22999,99.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. W3 ( 281316 ),Burkholderia ( 32008 ),143,16,22999,99.0,8.82,0.16,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Microvirgula aerodenitrificans ( 57480 ),Microvirgula ( 57479 ),135,2,2,49.77,49.77,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia sp. DMAX ( 490628 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa209 ( 1450776 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa221 ( 1450788 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. SY 9 ( 554458 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa269 ( 1450836 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa273 ( 1450840 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2389 ( 1219713 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa304 ( 1450865 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. R2S14 ( 866729 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. A-9 ( 1165519 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. HWR-103 ( 1030307 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. B48 ( 1435781 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. S30 ( 1503965 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sordidicola ( 196367 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. KBC-1 ( 299153 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MM32Nov ( 1491901 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. D1-10 ( 1040779 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. II-02 ( 406388 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. N14 ( 447069 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BCB-16 ( 428615 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BAMKar8 ( 1571702 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. enrichment culture clone HSL52 ( 887591 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. DF4MM3 ( 314624 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. B8(2013) ( 1435956 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Bac112D4 ( 1420801 ),Burkholderia ( 32008 ),96,10,22999,100.0,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2Sp32 ( 388929 ),Burkholderia ( 32008 ),51,5,22999,6.64,8.82,0.87,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Pyr42 ( 756222 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. VMM 1-21-1 B5 ( 1631967 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Gan-DAB-FL5 ( 1578963 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. RL23 ( 1573449 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IHB B 2259 ( 882159 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. DT10(2011) ( 941877 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. TSBF 699F ( 888086 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. PCP15 ( 882730 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. TC3.3.1R6 ( 711496 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sediminicola ( 458836 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 3Sp120 ( 387376 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia diffusa ( 488732 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. LMG 22946 ( 326478 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. LSB13479 ( 415750 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. YC05107 ( 503165 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. HKI 403 ( 616822 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. ICBR 187 ( 638091 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BPZ12 ( 676197 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. enrichment culture clone YR34 ( 694265 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Hws-22 ( 277959 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 45250588-5 ( 242882 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2334 ( 1219692 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. CEB01056 ( 198809 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BCB-24 ( 428616 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MP2 ( 1545558 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. A-6 ( 1141208 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. hg-2 ( 1398685 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. ME59-1 ( 1386488 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. txj1302Y4 ( 1107490 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. SAP27_1 ( 1149972 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. casida ( 115546 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. G7(2011) ( 1087228 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. A14 ( 1387765 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. NF155 ( 1372732 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Os48 ( 1050750 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. hn-1 ( 1398686 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BTLbbc-03 ( 1462559 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. B18 ( 1435767 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. B61 ( 1435788 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. AR7 ( 1431673 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. T3C ( 1447808 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBa228 ( 1450795 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBb344 ( 1451001 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. IBP-VHS23 ( 1138325 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. LS-047 ( 1459968 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. KM-F4-3 ( 1002581 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. enrichment culture clone HD-12 ( 1196667 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. FSBSA14 ( 1484734 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Hu75A ( 1515234 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. B1-2 ( 1040774 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2333 ( 1219691 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. D412 ( 1513796 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. VK-11 ( 1029652 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. YC75B ( 1515245 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BDU5 ( 1385590 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 247S ( 1249286 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 29R ( 1249299 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. BAR009 ( 1048791 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. Hu45A ( 1515229 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. HP5 ( 1545544 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2339 ( 1219697 ),Burkholderia ( 32008 ),48,5,22999,100.0,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. MG-2011-154-IG ( 1041671 ),Burkholderia ( 32008 ),33,3,22999,70.14,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia anthina ( 179879 ),Burkholderia ( 32008 ),31,7,22999,22.56,8.82,0.11,2167.4202940938185,100.0,1.78,0.05,374.92
+Bacteria,Burkholderia sp. DF4MM7 ( 314626 ),Burkholderia ( 32008 ),27,3,22999,57.36,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. RPE64 ( 758793 ),Burkholderia ( 32008 ),21,2,22999,0.75,8.82,3.22,2167.4202940938185,-0.3,1.78,0.05,374.92
+Bacteria,Burkholderia sp. YI23 ( 1097668 ),Burkholderia ( 32008 ),17,1,22999,0.49,8.82,4.04,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 2Sp102 ( 388936 ),Burkholderia ( 32008 ),13,1,22999,4.7,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. KJ006 ( 416344 ),Burkholderia ( 32008 ),11,1,22999,0.33,8.82,3.93,2167.4202940938185,0.14,1.78,0.22,374.92
+Bacteria,Burkholderia endofungorum ( 417203 ),Burkholderia ( 32008 ),10,1,22999,11.07,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia ubonensis ( 101571 ),Burkholderia ( 32008 ),6,0,22999,0.23,8.82,3.17,2167.4202940938185,-0.23,1.78,0.27,374.92
+Bacteria,Polynucleobacter necessarius ( 576610 ),Polynucleobacter ( 44013 ),4,4,2,0.9,0.89,5.52,5.52,-0.35,-0.35,0.05,0.05
+Caudovirales (dsDNA phages),Burkholderia phage KL3 ( 910474 ),P2likevirus ( 140410 ),3,16,0,100.0,0.24,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Tremblaya princeps ( 189385 ),Candidatus Tremblaya ( 189384 ),2,0,0,8.82,5.78,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia caribensis ( 75105 ),Burkholderia ( 32008 ),2,0,22999,5.4,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. 1Sm25 ( 387378 ),Burkholderia ( 32008 ),2,0,22999,5.26,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia terricola ( 169427 ),Burkholderia ( 32008 ),1,0,22999,3.29,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Candidatus Profftella armatura ( 669502 ),Candidatus Profftella ( 1381133 ),1,0,0,3.69,3.69,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Glomeribacter gigasporarum ( 132144 ),Candidatus Glomeribacter ( 224135 ),0,0,0,3.17,3.17,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia sp. TSV202 ( 1439853 ),Burkholderia ( 32008 ),0,0,22999,0.4,8.82,0.11,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia oklahomensis ( 342113 ),Burkholderia ( 32008 ),0,0,22999,-0.16,8.82,0.87,2167.4202940938185,0.7,1.78,1.15,374.92
+Bacteria,Mycoplasma hyosynoviae ( 29559 ),Mycoplasma ( 2093 ),0,5,0,96.77,0.02,0.05,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Anaerobiospirillum succiniciproducens ( 13335 ),Anaerobiospirillum ( 13334 ),0,0,0,0.83,0.82,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Mycoplasma penetrans ( 28227 ),Mycoplasma ( 2093 ),0,1,0,10.61,0.02,0.11,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma arginini ( 2094 ),Mycoplasma ( 2093 ),0,1,0,6.57,0.02,0.16,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma mobile ( 2118 ),Mycoplasma ( 2093 ),0,0,0,10.47,0.02,0.05,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma orale ( 2121 ),Mycoplasma ( 2093 ),0,0,0,4.49,0.02,0.11,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma canadense ( 29554 ),Mycoplasma ( 2093 ),0,0,0,6.17,0.02,0.05,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma salivarium ( 2124 ),Mycoplasma ( 2093 ),0,0,0,2.92,0.02,0.11,0.82,1.17,-0.02,0.05,0.05
+Bacteria,Mycoplasma hominis ( 2098 ),Mycoplasma ( 2093 ),0,0,0,0.93,0.02,0.11,0.82,0.0,-0.02,0.0,0.05
+Bacteria,Mycoplasma arthritidis ( 2111 ),Mycoplasma ( 2093 ),0,0,0,1.75,0.02,0.05,0.82,0.0,-0.02,0.0,0.05
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,-7,0,-0.3,0.0,24.87,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium H3B6aut ( 912915 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,soil bacterium PB-P1-21 ( 404516 ),No genus ( -1 ),0,81,0,100.0,0.0,0.82,0.0,0.0,0.0,0.0,0.0
+Bacteria,Methylophilaceae bacterium MMS-2-53 ( 1581557 ),No genus ( -1 ),0,7,0,1.13,0.0,6.61,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured Bay of Fundy bacterium BA10-1A ( 146889 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium DR2A-6G4 ( 257217 ),No genus ( -1 ),0,393,0,100.0,0.0,3.93,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderiales bacterium GJ-E10 ( 1469502 ),No genus ( -1 ),0,16,0,2.43,0.0,7.0,0.0,0.0,0.0,0.0,0.0
+Bacteria,proteobacterium K12 ( 1331933 ),No genus ( -1 ),0,10,0,100.0,0.0,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium SNB-CN32 ( 1476049 ),No genus ( -1 ),0,43,0,100.0,0.0,0.44,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium oxSCC-12 ( 96351 ),No genus ( -1 ),0,270,0,99.0,0.0,2.73,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured beta proteobacterium CBNPD1 BAC clone 578 ( 417305 ),No genus ( -1 ),0,0,0,-0.12,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured Burkholderiales bacterium ( 208544 ),No genus ( -1 ),0,0,0,0.55,0.0,1.48,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured soil bacterium ( 164851 ),No genus ( -1 ),0,0,0,-0.21,0.0,1.64,0.0,0.0,0.0,0.0,0.0
+Bacteria,beta proteobacterium CB ( 543913 ),No genus ( -1 ),0,0,0,-0.16,0.0,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured Burkholderiaceae bacterium ( 188056 ),No genus ( -1 ),0,0,0,-0.15,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured organism ( 155900 ),No genus ( -1 ),0,0,0,-0.26,0.0,0.93,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured prokaryote ( 198431 ),No genus ( -1 ),0,0,0,-0.11,0.0,0.33,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium C16(2010) ( 875086 ),No genus ( -1 ),0,427,0,99.0,0.0,4.32,0.0,0.0,0.0,0.0,0.0
+Environmental samples,unidentified marine bacterioplankton ( 13136 ),No genus ( -1 ),0,0,0,0.39,0.0,0.71,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium symbiont of Ardisia crenata ( 1266002 ),No genus ( -1 ),0,0,0,4.65,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Rhodocyclaceae bacterium PG1-Ca6 ( 1565605 ),No genus ( -1 ),0,0,0,-0.31,0.0,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium PT15 ( 339691 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,soil bacterium Carb-S3N-M1LLLSSL-3 ( 517815 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderiaceae bacterium LIME1h ( 1433053 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,arctic soil bacterium K1E1 ( 354682 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium btn 7a-3 ( 366989 ),No genus ( -1 ),0,153,0,100.0,0.0,1.53,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderiaceae bacterium C7c ( 1432981 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),unidentified ( 32644 ),No genus ( -1 ),0,29,0,0.5,0.0,59.57,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium C13(2010) ( 875084 ),No genus ( -1 ),0,48,0,99.0,0.0,0.49,0.0,0.0,0.0,0.0,0.0
+Environmental samples,bacterium enrichment culture clone PF-1_58 ( 1242491 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,soil bacterium S9 ( 299429 ),No genus ( -1 ),0,16,0,100.0,0.0,0.16,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured beta proteobacterium ( 86027 ),No genus ( -1 ),0,2,0,0.19,0.0,13.77,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured proteobacterium ( 153809 ),No genus ( -1 ),0,0,0,-0.19,0.0,0.6,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderiaceae bacterium 2BH2530.3 ( 1432900 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,beta proteobacterium NIO_00091 ( 1141893 ),No genus ( -1 ),0,5,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderiales bacterium F1H10E12 ( 1351602 ),No genus ( -1 ),0,10,0,100.0,0.0,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,Desulfocapsa sulfexigens ( 65555 ),Desulfocapsa ( 53318 ),0,0,0,-0.06,-0.07,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,[Mannheimia] succiniciproducens ( 157673 ),Basfia ( 697331 ),0,0,0,-0.07,-0.07,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Atopobium parvulum ( 1382 ),Atopobium ( 1380 ),0,0,0,0.03,-0.15,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Marinomonas sp. MWYL1 ( 400668 ),Marinomonas ( 28253 ),0,0,0,-0.12,-0.16,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Capronia epimyces ( 43228 ),Capronia ( 43220 ),0,0,0,-0.07,-0.26,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Olsenella uli ( 133926 ),Olsenella ( 133925 ),0,0,0,-0.15,-0.16,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Herbaspirillum huttiense ( 863372 ),Herbaspirillum ( 963 ),0,0,0,-0.09,-0.15,0.11,2.79,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides vulgatus ( 821 ),Bacteroides ( 816 ),0,0,0,-0.16,-0.18,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Fusobacterium nucleatum ( 851 ),Fusobacterium ( 848 ),0,0,0,-0.17,-0.17,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Methylobacillus flagellatus ( 405 ),Methylobacillus ( 404 ),0,0,0,-0.18,-0.19,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Porphyromonas asaccharolytica ( 28123 ),Porphyromonas ( 836 ),0,0,0,-0.19,-0.18,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas monteilii ( 76759 ),Pseudomonas ( 286 ),0,0,0,-0.14,-0.3,0.05,0.0,0.0,-0.39,0.0,0.16
+Bacteria,Ochrobactrum anthropi ( 529 ),Ochrobactrum ( 528 ),0,0,0,-0.1,-0.1,0.16,0.16,-0.12,-0.12,0.05,0.05
+Bacteria,Delftia sp. Cs1-4 ( 742013 ),Delftia ( 80865 ),0,0,0,-0.2,-0.11,0.11,0.11,0.0,-0.37,0.0,0.05
+Bacteria,Pseudomonas pseudoalcaligenes ( 330 ),Pseudomonas ( 286 ),0,0,0,-0.19,-0.3,0.05,0.0,0.0,-0.39,0.0,0.16
+Bacteria,Staphylococcus haemolyticus ( 1283 ),Staphylococcus ( 1279 ),0,0,0,-0.21,-0.27,0.05,0.11,0.0,-0.32,0.0,0.05
+Bacteria,Alcaligenes faecalis ( 511 ),Alcaligenes ( 507 ),0,0,0,-0.28,-0.21,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Yersinia enterocolitica ( 630 ),Yersinia ( 629 ),0,0,0,-0.25,-0.24,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium chelonae ( 1774 ),Mycobacterium ( 1763 ),0,0,0,-0.3,-0.21,0.05,0.05,0.0,-0.38,0.0,0.05
+Bacteria,Corynebacterium aurimucosum ( 169292 ),Corynebacterium ( 1716 ),0,0,0,-0.28,-0.24,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,0,-0.13,-0.26,0.11,0.11,0.0,0.77,0.0,14.43
+Bacteria,Corynebacterium sp. ATCC 6931 ( 1487956 ),Corynebacterium ( 1716 ),0,0,0,-0.3,-0.24,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas mosselii ( 78327 ),Pseudomonas ( 286 ),0,0,0,-0.26,-0.3,0.05,0.0,0.0,-0.39,0.0,0.16
+Bacteria,Ramlibacter tataouinensis ( 94132 ),Ramlibacter ( 174951 ),0,0,0,-0.29,-0.29,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Pandoraea pulmonicola ( 93221 ),Pandoraea ( 93217 ),0,0,0,-0.3,-0.31,0.05,0.33,0.0,-0.29,0.0,0.33
+Bacteria,Bordetella avium ( 521 ),Bordetella ( 517 ),0,0,0,-0.27,-0.35,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Gordonia sp. KTR9 ( 337191 ),Gordonia ( 2053 ),0,0,0,-0.29,-0.34,0.05,0.05,0.0,-0.36,0.0,0.11
+Bacteria,Herbaspirillum seropedicae ( 964 ),Herbaspirillum ( 963 ),0,0,0,-0.33,-0.15,0.11,2.79,0.0,0.0,0.0,0.0
+Bacteria,Bradyrhizobium japonicum ( 375 ),Bradyrhizobium ( 374 ),0,0,0,-0.31,-0.31,0.05,0.38,0.0,-0.35,0.0,0.16
+Bacteria,Bradyrhizobium oligotrophicum ( 44255 ),Bradyrhizobium ( 374 ),0,0,0,-0.32,-0.31,0.05,0.38,0.0,-0.35,0.0,0.16
+Bacteria,Bradyrhizobium sp. S23321 ( 335659 ),Bradyrhizobium ( 374 ),0,0,0,-0.32,-0.31,0.05,0.38,0.0,-0.35,0.0,0.16
+Bacteria,Rhodopseudomonas palustris ( 1076 ),Rhodopseudomonas ( 1073 ),0,0,0,-0.33,-0.33,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Thiobacillus denitrificans ( 36861 ),Thiobacillus ( 919 ),0,0,0,-0.32,-0.33,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Alicycliphilus denitrificans ( 179636 ),Alicycliphilus ( 201096 ),0,0,0,-0.33,-0.33,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Myxococcus stipitatus ( 83455 ),Myxococcus ( 32 ),0,0,0,-0.34,-0.38,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Aromatoleum aromaticum ( 551760 ),Aromatoleum ( 551759 ),0,0,0,-0.37,-0.37,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Janthinobacterium agaricidamnosum ( 55508 ),Janthinobacterium ( 29580 ),0,0,0,-0.34,-0.4,0.05,0.05,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,Herminiimonas arsenicoxydans ( 204773 ),Herminiimonas ( 303379 ),0,0,0,-0.27,-0.27,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Sideroxydans lithotrophicus ( 63745 ),Sideroxydans ( 314343 ),0,0,0,-0.27,-0.27,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Serratia marcescens ( 615 ),Serratia ( 613 ),0,0,0,-0.35,-0.43,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Francisella tularensis ( 263 ),Francisella ( 262 ),0,0,0,0.9,-0.03,0.33,0.33,0.0,0.0,0.0,0.0
+Bacteria,Advenella kashmirensis ( 310575 ),Advenella ( 290425 ),0,0,0,-0.25,-0.36,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Kinetoplastibacterium galatii ( 994695 ),Kinetoplastibacterium ( 33055 ),0,0,0,1.21,-0.15,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Cupriavidus taiwanensis ( 164546 ),Cupriavidus ( 106589 ),0,0,0,-0.3,-0.31,0.11,1.589050073272727,0.0,0.0,0.0,0.0
+Bacteria,uncultured Asaia sp. ( 287950 ),Asaia ( 91914 ),0,0,0,0.83,-0.24,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Aeromonas schubertii ( 652 ),Aeromonas ( 642 ),0,0,0,0.2,-0.34,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Accumulibacter phosphatis ( 327160 ),Candidatus Accumulibacter ( 327159 ),0,0,0,-0.32,-0.32,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus epidermidis ( 1282 ),Staphylococcus ( 1279 ),0,0,0,-0.24,-0.27,0.05,0.11,-0.44,-0.32,0.05,0.05
+Bacteria,Methylobacterium populi ( 223967 ),Methylobacterium ( 407 ),0,0,0,-0.28,-0.33,0.05,0.05,-0.35,-0.34,0.05,0.05
+Bacteria,Ralstonia syzygii ( 28097 ),Ralstonia ( 48736 ),0,0,-12,-0.32,-0.33,0.11,18.53,0.0,-0.36,0.0,0.11
+Bacteria,Bradyrhizobium diazoefficiens ( 1355477 ),Bradyrhizobium ( 374 ),0,0,0,-0.31,-0.31,0.22,0.38,0.0,-0.35,0.0,0.16
+Bacteria,Pandoraea sp. RB-44 ( 1380774 ),Pandoraea ( 93217 ),0,0,0,-0.25,-0.31,0.27,0.33,0.0,-0.29,0.0,0.33
+Bacteria,Cupriavidus basilensis ( 68895 ),Cupriavidus ( 106589 ),0,0,0,-0.32,-0.31,0.27,1.589050073272727,0.0,0.0,0.0,0.0
+Bacteria,Ralstonia pickettii ( 329 ),Ralstonia ( 48736 ),0,0,-12,-0.36,-0.33,0.33,18.53,0.0,-0.36,0.0,0.11
+Bacteria,Curvibacter putative symbiont of Hydra magnipapillata ( 667019 ),Curvibacter ( 281915 ),0,1,0,0.14,0.14,5.9,5.9,0.07,-0.18,14.05,14.05
+Bacteria,Cupriavidus necator ( 106590 ),Cupriavidus ( 106589 ),0,0,0,-0.32,-0.31,0.6,1.589050073272727,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia phymatum ( 148447 ),Burkholderia ( 32008 ),0,0,22999,-0.05,8.82,0.98,2167.4202940938185,0.1,1.78,1.8,374.92
+Bacteria,Stenotrophomonas maltophilia ( 40324 ),Stenotrophomonas ( 40323 ),0,0,0,-0.31,-0.32,0.71,0.71,-0.37,-0.37,0.16,0.16
+Eukaryotes,Brugia timori ( 42155 ),Brugia ( 6278 ),0,-1,-1,-0.08,-0.08,15.25,15.25,0.0,0.0,0.0,0.0
+Bacteria,Cupriavidus metallidurans ( 119219 ),Cupriavidus ( 106589 ),0,0,0,-0.26,-0.31,1.37,1.589050073272727,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia fungorum ( 134537 ),Burkholderia ( 32008 ),0,0,22999,-0.37,8.82,0.05,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Ralstonia sp. 1-6 ( 1221567 ),Ralstonia ( 48736 ),0,0,-12,5.25,-0.33,0.11,18.53,0.0,-0.36,0.0,0.11
+Bacteria,Burkholderia phenoliruptrix ( 252970 ),Burkholderia ( 32008 ),0,0,22999,-0.06,8.82,0.44,2167.4202940938185,-0.22,1.78,0.22,374.92
+Bacteria,Burkholderia rhizoxinica ( 412963 ),Burkholderia ( 32008 ),0,0,22999,-0.24,8.82,0.16,2167.4202940938185,-0.29,1.78,0.11,374.92
+Bacteria,Burkholderia sp. CCGE1003 ( 640512 ),Burkholderia ( 32008 ),0,0,22999,-0.23,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia sp. CCGE1002 ( 640511 ),Burkholderia ( 32008 ),0,0,22999,-0.26,8.82,0.33,2167.4202940938185,0.0,1.78,0.0,374.92
+Bacteria,Burkholderia xenovorans ( 36873 ),Burkholderia ( 32008 ),0,0,22999,-0.32,8.82,0.16,2167.4202940938185,-0.23,1.78,0.71,374.92
+Bacteria,Burkholderia gladioli ( 28095 ),Burkholderia ( 32008 ),0,0,22999,-0.02,8.82,5.79,2167.4202940938185,-0.26,1.78,0.27,374.92
+Bacteria,Ralstonia solanacearum ( 305 ),Ralstonia ( 48736 ),-1,-4,-12,-0.23,-0.33,17.98,18.53,0.0,-0.36,0.0,0.11
+Bacteria,Herbaspirillum chlorophenolicum ( 211589 ),Herbaspirillum ( 963 ),-1,9,0,3.83,-0.15,2.57,2.79,0.0,0.0,0.0,0.0
+Bacteria,Achromobacter sp. enrichment culture clone HD-14 ( 1196665 ),Achromobacter ( 222 ),-1,5,0,100.0,-0.29,0.05,0.11,0.0,0.0,0.0,0.0
+Bacteria,Achromobacter sp. 26 ( 1104363 ),Achromobacter ( 222 ),-1,5,0,100.0,-0.29,0.05,0.11,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia lata ( 482957 ),Burkholderia ( 32008 ),-2,0,22999,-0.08,8.82,2.73,2167.4202940938185,-0.3,1.78,0.33,374.92
+Bacteria,Burkholderia glumae ( 337 ),Burkholderia ( 32008 ),-2,0,22999,-0.22,8.82,1.48,2167.4202940938185,-0.24,1.78,0.27,374.92

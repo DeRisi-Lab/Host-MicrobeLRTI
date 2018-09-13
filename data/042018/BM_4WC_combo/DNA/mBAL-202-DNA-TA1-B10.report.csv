@@ -1,0 +1,30 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Fungi,Rhizopus microsporus ( 58291 ),Rhizopus ( 4842 ),6199,717,3,8.11,0.25,0.35,0.43,99.0,8.67,7.22,7.57
+Viruses,Human herpesvirus 7 ( 10372 ),Roseolovirus ( 40272 ),1961,19,23,100.0,100.0,0.12,0.12,100.0,100.0,0.08,0.08
+Fungi,Serpula lacrymans ( 85982 ),Serpula ( 80744 ),0,0,0,2.73,2.73,0.12,0.12,0.0,0.0,0.0,0.0
+Mammalia,Pongo pygmaeus ( 9600 ),Pongo ( 9599 ),0,0,0,18.96,1.09,0.04,0.31,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.79,0.79,0.71,0.71,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.93,1.09,0.27,0.31,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,1.11,1.11,0.12,0.12,0.0,0.0,0.0,0.0
+Fungi,Batrachochytrium dendrobatidis ( 109871 ),Batrachochytrium ( 100474 ),0,0,0,1.4,1.4,0.04,0.04,0.0,0.0,0.0,0.0
+Fungi,Absidia idahoensis ( 572091 ),Absidia ( 4828 ),0,0,0,0.61,0.61,0.16,0.16,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,0,0,2.75,0.17,0.08,0.2,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.16,0.16,0.43,0.43,0.26,0.26,0.04,0.04
+Fungi,Rhizopus oryzae ( 64495 ),Rhizopus ( 4842 ),0,0,3,0.07,0.25,0.08,0.43,0.0,8.67,0.0,7.57
+Fungi,Punctularia strigosozonata ( 202698 ),Punctularia ( 133746 ),0,0,0,0.1,0.1,0.08,0.08,0.0,0.0,0.0,0.0
+Fungi,uncultured Mucor ( 637848 ),No genus ( -1 ),0,0,0,0.39,0.0,0.04,0.0,0.0,0.0,0.0,0.0
+Fungi,Agaricus bisporus ( 5341 ),Agaricus ( 5340 ),0,0,0,-0.05,-0.05,0.04,0.04,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,-0.05,-0.05,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,-0.02,0.17,0.12,0.2,0.0,0.0,0.0,0.0
+Escherichia coli,Escherichia coli ( 562 ),Escherichia ( 561 ),0,0,0,-0.1,-0.1,0.04,0.0,0.0,0.0,0.0,0.0
+Bacteria,Sphingomonas wittichii ( 160791 ),Sphingomonas ( 13687 ),0,0,0,-0.12,-0.14,0.04,0.04,0.0,-0.32,0.0,0.04
+Bacteria,Pseudoalteromonas sp. OCN003 ( 1348114 ),Pseudoalteromonas ( 53246 ),0,0,0,-0.12,-0.2,0.04,0.04,0.0,0.0,0.0,0.0
+Eukaryotes,Schistosoma mattheei ( 31246 ),Schistosoma ( 6181 ),0,0,0,0.14,-0.2,0.04,0.04,0.0,0.0,0.0,0.0
+Fungi,Schizosaccharomyces pombe ( 4896 ),Schizosaccharomyces ( 4895 ),0,0,0,0.13,-0.21,0.04,0.04,0.0,0.0,0.0,0.0
+Fungi,Candida tropicalis ( 5482 ),Candida ( 1535326 ),0,0,0,0.14,-0.23,0.04,0.04,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,0.25,-0.18,0.04,0.31,0.0,0.0,0.0,0.0
+Mammalia,Lipotes vexillifer ( 118797 ),Lipotes ( 118796 ),0,0,0,-0.22,-0.22,0.04,0.04,0.0,0.0,0.0,0.0
+Fungi,Leptosphaeria maculans ( 5022 ),Leptosphaeria ( 5021 ),0,0,0,-0.21,-0.27,0.04,0.04,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.22,-0.18,0.2,0.31,0.0,0.0,0.0,0.0
+Bacteria,Azospira oryzae ( 146939 ),Azospira ( 146937 ),0,0,0,-0.31,-0.31,0.04,0.04,-0.33,-0.33,0.04,0.04
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,2.21,-0.18,0.08,0.31,0.0,0.0,0.0,0.0

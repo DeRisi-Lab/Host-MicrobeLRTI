@@ -1,0 +1,40 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Caudovirales (dsDNA phages),Pseudomonas phage PB1 ( 538398 ),Pbunalikevirus ( 1198980 ),6,5,0,100.0,1.19,0.05,0.05,0.0,0.0,0.0,0.0
+Viruses,Human herpesvirus 4 ( 10376 ),Lymphocryptovirus ( 10375 ),5,1,2,3.0,3.0,0.44,0.44,3.32,3.32,0.11,0.11
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),1,0,0,2.46,2.46,0.22,0.22,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),1,0,0,3.23,3.23,0.11,0.11,0.0,0.0,0.0,0.0
+Mammalia,Heterocephalus glaber ( 10181 ),Heterocephalus ( 10180 ),0,0,0,3.84,3.84,0.05,0.05,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.92,0.9,0.27,0.27,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.29,0.29,0.33,0.33,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.17,0.17,0.44,0.44,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.1,0.08,0.16,0.16,0.0,0.0,0.0,0.0
+Artificial Sequences,synthetic construct ( 32630 ),No genus ( -1 ),0,0,0,-0.2,0.0,0.38,0.0,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Propionibacterium phage PHL067M10 ( 1235649 ),No genus ( -1 ),0,0,0,1.49,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Plautia stali symbiont ( 891974 ),No genus ( -1 ),0,0,0,-0.31,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Unclassified Phage,Staphylococcus phage SA97 ( 1498171 ),No genus ( -1 ),0,0,0,2.12,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Staphylococcus phage IME-SA4 ( 1610872 ),No genus ( -1 ),0,0,0,0.67,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus equinus ( 1335 ),Streptococcus ( 1301 ),0,0,0,-0.03,-0.18,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus sp. 7L76 ( 657310 ),Enterococcus ( 1350 ),0,0,0,-0.03,-0.19,0.16,2.01,0.0,-0.18,0.0,0.98
+Bacteria,Brevundimonas subvibrioides ( 74313 ),Brevundimonas ( 41275 ),0,0,0,-0.14,-0.16,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,0,-0.12,-0.22,0.05,0.05,0.0,-0.16,0.0,0.05
+Bacteria,Pseudomonas alkylphenolia ( 237609 ),Pseudomonas ( 286 ),0,0,-24,-0.11,-0.24,0.05,39.07429187227273,0.0,-0.34,0.0,13.88
+Bacteria,Corynebacterium aurimucosum ( 169292 ),Corynebacterium ( 1716 ),0,0,0,-0.28,-0.24,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas protegens ( 380021 ),Pseudomonas ( 286 ),0,0,-24,-0.34,-0.24,0.05,39.07429187227273,0.0,-0.34,0.0,13.88
+Bacteria,Pseudomonas denitrificans ( 43306 ),Pseudomonas ( 286 ),0,0,-24,-0.35,-0.24,0.05,39.07429187227273,0.0,-0.34,0.0,13.88
+Bacteria,Enterococcus faecalis ( 1351 ),Enterococcus ( 1350 ),0,0,0,-0.01,-0.19,1.36,2.01,0.02,-0.18,0.87,0.98
+Bacteria,Methylobacterium nodulans ( 114616 ),Methylobacterium ( 407 ),0,0,0,-0.33,-0.33,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Phenylobacterium zucineum ( 284016 ),Phenylobacterium ( 20 ),0,0,0,-0.33,-0.34,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Rhizobium sp. LPU83 ( 348824 ),Rhizobium ( 379 ),0,0,0,-0.35,-0.32,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Bacillus subtilis ( 1423 ),Bacillus ( 1386 ),0,0,0,-0.22,-0.54,0.05,0.05,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.26,-0.25,0.11,0.16,0.0,0.0,0.0,0.0
+Bacteria,Methylocystis sp. SC2 ( 187303 ),Methylocystis ( 133 ),0,0,0,-0.36,-0.36,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas pseudoalcaligenes ( 330 ),Pseudomonas ( 286 ),0,0,-24,-0.19,-0.24,0.05,39.07429187227273,-0.39,-0.34,0.05,13.88
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,1.4,-0.25,0.05,0.16,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus faecium ( 1352 ),Enterococcus ( 1350 ),0,0,0,-0.21,-0.19,0.49,2.01,0.0,-0.18,0.0,0.98
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.54,0.54,-0.33,-0.24,0.16,0.16
+Fungi,Candida albicans ( 5476 ),Candida ( 1535326 ),0,0,0,0.69,-0.19,0.22,0.22,0.6,-0.18,0.11,0.11
+Bacteria,Staphylococcus haemolyticus ( 1283 ),Staphylococcus ( 1279 ),0,0,-3,-0.19,-0.25,1.09,5.5,-0.1,-0.3,0.22,2.78
+Bacteria,Staphylococcus epidermidis ( 1282 ),Staphylococcus ( 1279 ),0,0,-3,-0.23,-0.25,1.58,5.5,-0.4,-0.3,0.65,2.78
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,-1,-3,-0.25,-0.25,2.83,5.5,-0.3,-0.3,1.58,2.78
+Bacteria,Pseudomonas aeruginosa ( 287 ),Pseudomonas ( 286 ),0,0,-24,0.04,-0.24,41.09,39.07429187227273,-0.18,-0.34,8.76,13.88
+Bacteria,Pseudomonas sp. M18 ( 228095 ),Pseudomonas ( 286 ),-1,5,-24,100.0,-0.24,0.05,39.07429187227273,0.0,-0.34,0.0,13.88

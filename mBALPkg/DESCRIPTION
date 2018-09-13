@@ -1,0 +1,22 @@
+Package: mBALPkg
+Title: Package containing all required functions for analysis of the mBAL study
+Version: 0.0.0.9000
+Authors@R: person("Katrina", "Kalantar", email = "kkalantar@berkeley.edu", role = c("aut", "cre"))
+Description: This package contains the analytical implementation described in "Combined Host and Microbe Next Generation Sequencing for Lower Respiratory Tract Infection Diagnosis in Critically Ill Adults" for distinguishing patients with lower respiratory tract infection (LRTI) from those without LRTI.
+Depends: R (>= 3.4.0)
+Imports:
+	DESeq2 (>= 1.16.1),
+	pROC (>= 1.10.0),
+	vegan (>= 2.4.4),
+	randomForest (>= 4.6.12),
+	scatterplot3d (>= 0.3.40),
+	gplots (>= 3.0.1),
+	glmnet (>= 2.0.10),
+	class (>= 7.3.14),
+	Biobase (>= 2.36.2),
+	e1071 (>= 1.6.8),
+	ROCR (>= 1.0.7)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000

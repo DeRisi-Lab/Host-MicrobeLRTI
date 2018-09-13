@@ -1,0 +1,36 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Fungi,Candida sp. YS44 ( 368399 ),Candida ( 5475 ),0,1,0,33.99,0.01,0.03,0.03,0.0,0.0,0.0,0.0
+Viridiplantae (green plants),uncultured Trebouxiophyceae ( 167235 ),No genus ( -1 ),0,0,0,-0.1,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured rumen bacterium ( 136703 ),No genus ( -1 ),0,0,0,-0.19,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.69,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium HF0010_04H24 ( 542472 ),No genus ( -1 ),0,0,0,-0.23,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Viruses,Human mastadenovirus C ( 129951 ),Mastadenovirus ( 10509 ),0,0,0,-0.06,-0.06,0.03,0.03,-0.05,-0.05,0.03,0.03
+Bacteria,Mesorhizobium sp. GN25 ( 400159 ),Mesorhizobium ( 68287 ),0,0,0,0.05,-0.19,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Francisella tularensis ( 263 ),Francisella ( 262 ),0,0,0,-0.09,-0.14,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Acinetobacter calcoaceticus ( 471 ),Acinetobacter ( 469 ),0,0,0,-0.13,-0.13,0.03,0.07,0.0,-0.13,0.0,0.03
+Bacteria,Acinetobacter radioresistens ( 40216 ),Acinetobacter ( 469 ),0,0,0,-0.18,-0.13,0.03,0.07,0.0,-0.13,0.0,0.03
+Bacteria,Micrococcus luteus ( 1270 ),Micrococcus ( 1269 ),0,0,0,-0.18,-0.19,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus pasteuri ( 45972 ),Staphylococcus ( 1279 ),0,0,-4,-0.19,-0.25,0.03,7.11,0.0,-0.32,0.0,1.18
+Bacteria,uncultured Enterococcus sp. ( 167972 ),Enterococcus ( 1350 ),0,0,0,-0.21,-0.23,0.03,0.23,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus pseudintermedius ( 283734 ),Staphylococcus ( 1279 ),0,0,-4,-0.22,-0.25,0.03,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Cellulosilyticum lentocellum ( 29360 ),Cellulosilyticum ( 698776 ),0,0,0,-0.24,-0.24,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium abscessus ( 36809 ),Mycobacterium ( 1763 ),0,0,0,-0.29,-0.21,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium aurimucosum ( 169292 ),Corynebacterium ( 1716 ),0,0,0,-0.28,-0.24,0.03,0.0,0.0,0.0,0.0,0.0
+Bacteria,Rhizobium sp. IRBG74 ( 424182 ),Rhizobium ( 379 ),0,0,0,-0.27,-0.32,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus sp. EA_L_11 ( 1509160 ),Staphylococcus ( 1279 ),0,0,-4,0.52,-0.25,0.03,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Gluconobacter oxydans ( 442 ),Gluconobacter ( 441 ),0,0,0,-0.37,-0.37,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus sp. S-C32 ( 1645982 ),Staphylococcus ( 1279 ),0,0,-4,0.56,-0.25,0.03,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Rhodobacter capsulatus ( 1061 ),Rhodobacter ( 1060 ),0,0,0,-0.44,-0.35,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Paracoccus denitrificans ( 266 ),Paracoccus ( 265 ),0,0,0,-0.36,-0.43,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Bradyrhizobium sp. LAR-20 ( 450622 ),Bradyrhizobium ( 374 ),0,0,0,0.54,-0.31,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus lugdunensis ( 28035 ),Staphylococcus ( 1279 ),0,0,-4,-0.18,-0.25,0.16,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Staphylococcus carnosus ( 1281 ),Staphylococcus ( 1279 ),0,0,-4,-0.31,-0.25,0.1,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Enterococcus faecium ( 1352 ),Enterococcus ( 1350 ),0,0,0,-0.23,-0.23,0.2,0.23,0.0,0.0,0.0,0.0
+Bacteria,Bacillus megaterium ( 1404 ),Bacillus ( 1386 ),0,0,0,-0.34,-0.54,0.07,0.07,0.0,-0.32,0.0,0.2
+Bacteria,Staphylococcus sp. 2Sp42 ( 388930 ),Staphylococcus ( 1279 ),0,0,-4,-0.17,-0.25,0.33,7.11,0.0,-0.32,0.0,1.18
+Bacteria,uncultured Staphylococcus sp. ( 189668 ),Staphylococcus ( 1279 ),0,0,-4,-0.22,-0.25,0.43,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Staphylococcus xylosus ( 1288 ),Staphylococcus ( 1279 ),0,0,-4,-0.32,-0.25,0.43,7.11,0.0,-0.32,0.0,1.18
+Bacteria,Staphylococcus epidermidis ( 1282 ),Staphylococcus ( 1279 ),0,0,-4,-0.23,-0.25,1.44,7.11,0.0,-0.32,0.0,1.18
+Fungi,Candida albicans ( 5476 ),Candida ( 1535326 ),0,0,0,1.58,-0.15,0.43,0.43,0.23,-0.2,0.07,0.07
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,-1,-4,-0.2,-0.25,4.06,7.11,-0.31,-0.32,1.11,1.18
+Bacteria,Staphylococcus sp. 'Staph. M2' ( 427579 ),Staphylococcus ( 1279 ),0,3,-4,100.0,-0.25,0.03,7.11,0.0,-0.32,0.0,1.18

@@ -1,0 +1,39 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Scytonema sp. FGP-7A ( 387897 ),Scytonema ( 1203 ),4,4,0,54.83,1.17,0.08,0.15,0.0,0.0,0.0,0.0
+Bacteria,Scytonema hyalinum ( 119533 ),Scytonema ( 1203 ),3,2,0,54.83,1.17,0.05,0.15,0.0,0.0,0.0,0.0
+Bacteria,Scytonema sp. YK-02 ( 1137090 ),Scytonema ( 1203 ),2,2,0,100.0,1.17,0.03,0.15,0.0,0.0,0.0,0.0
+Bacteria,Trichormus azollae ( 1164 ),Trichormus ( 264688 ),0,0,0,0.07,0.07,0.23,0.23,0.0,0.0,0.0,0.0
+Bacteria,planctomycete str. 449 ( 79870 ),No genus ( -1 ),0,0,0,-0.07,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.21,0.0,0.0,0.0,0.0,0.0
+Bacteria,planctomycete str. 658 ( 149590 ),No genus ( -1 ),0,0,0,-0.06,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured cyanobacterium ( 1211 ),No genus ( -1 ),0,0,0,-0.16,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Rivularia sp. PCC 7116 ( 373994 ),Rivularia ( 373984 ),0,0,0,-0.09,-0.09,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Nostoc sp. PCC 7524 ( 28072 ),Nostoc ( 1177 ),0,0,0,-0.03,-0.1,0.1,0.26,0.0,-0.39,0.0,0.03
+Bacteria,Crinalium epipsammum ( 241425 ),Crinalium ( 241421 ),0,0,0,-0.13,-0.13,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Cylindrospermum stagnale ( 142864 ),Cylindrospermum ( 56106 ),0,0,0,-0.1,-0.1,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Nostoc sp. PCC 7120 ( 103690 ),Nostoc ( 1177 ),0,0,0,-0.1,-0.1,0.05,0.26,0.0,-0.39,0.0,0.03
+Bacteria,Nodularia spumigena ( 70799 ),Nodularia ( 159191 ),0,0,0,-0.07,-0.08,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Lachnoclostridium phytofermentans ( 66219 ),Lachnoclostridium ( 1506553 ),0,0,0,-0.12,-0.2,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Tannerella forsythia ( 28112 ),Tannerella ( 195950 ),0,0,0,-0.16,-0.16,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Nostoc sp. PCC 7107 ( 317936 ),Nostoc ( 1177 ),0,0,0,-0.13,-0.1,0.05,0.26,0.0,-0.39,0.0,0.03
+Bacteria,Anabaena cylindrica ( 1165 ),Anabaena ( 1163 ),0,0,0,-0.1,-0.11,0.08,0.15,0.0,0.0,0.0,0.0
+Bacteria,Dyadobacter fermentans ( 94254 ),Dyadobacter ( 120831 ),0,0,0,-0.18,-0.18,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Oscillatoria acuminata ( 118323 ),Oscillatoria ( 1158 ),0,0,0,-0.11,-0.16,0.05,0.05,0.0,0.0,0.0,0.0
+Red Algae,Polysiphonia senticulosa ( 335259 ),Polysiphonia ( 2804 ),0,0,0,-0.19,-0.19,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Calothrix parietina ( 32054 ),Calothrix ( 1186 ),0,0,0,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Chroococcidiopsis thermalis ( 54299 ),Chroococcidiopsis ( 54298 ),0,0,0,-0.23,-0.1,0.05,0.18,0.0,0.0,0.0,0.0
+Bacteria,uncultured Chroococcidiopsis sp. ( 259957 ),Chroococcidiopsis ( 54298 ),0,0,0,-0.1,-0.1,0.13,0.18,0.0,0.0,0.0,0.0
+Fungi,Candida dubliniensis ( 42374 ),Candida ( 1535326 ),0,0,0,0.12,-0.2,0.05,0.21,0.0,0.0,0.0,0.0
+Bacteria,uncultured Methylobacterium sp. ( 157278 ),Methylobacterium ( 407 ),0,0,0,-0.15,-0.33,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Microcystis aeruginosa ( 1126 ),Microcystis ( 1125 ),0,0,0,-0.23,-0.23,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus sp. 2Sp42 ( 388930 ),Staphylococcus ( 1279 ),0,0,0,-0.22,-0.27,0.03,0.05,0.0,-0.32,0.0,0.03
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.18,-0.18,0.05,0.05,0.0,-0.24,0.0,0.03
+Bacteria,Corynebacterium halotolerans ( 225326 ),Corynebacterium ( 1716 ),0,0,0,-0.32,-0.24,0.03,0.0,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.3,-0.31,0.03,0.03,0.0,0.0,0.0,0.0
+Bacteria,Anabaena sphaerica ( 212446 ),Anabaena ( 1163 ),0,0,0,0.47,-0.11,0.05,0.15,0.0,0.0,0.0,0.0
+Bacteria,Nostoc punctiforme ( 272131 ),Nostoc ( 1177 ),0,0,0,-0.11,-0.1,0.05,0.26,-0.24,-0.39,0.03,0.03
+Bacteria,Staphylococcus haemolyticus ( 1283 ),Staphylococcus ( 1279 ),0,0,0,-0.21,-0.27,0.03,0.05,-0.2,-0.32,0.03,0.03
+Bacteria,Burkholderia fungorum ( 134537 ),Burkholderia ( 32008 ),0,0,0,-0.37,-0.34,0.03,0.0,0.0,-0.37,0.0,0.03
+Bacteria,Cyanobium gracile ( 59930 ),Cyanobium ( 167375 ),0,0,0,-0.4,-0.34,0.03,0.03,0.0,0.0,0.0,0.0
+Fungi,Candida albicans ( 5476 ),Candida ( 1535326 ),0,0,0,0.42,-0.2,0.15,0.21,0.0,0.0,0.0,0.0
+Bacteria,Anabaena torulosa ( 156211 ),Anabaena ( 1163 ),0,2,0,100.0,-0.11,0.03,0.15,0.0,0.0,0.0,0.0

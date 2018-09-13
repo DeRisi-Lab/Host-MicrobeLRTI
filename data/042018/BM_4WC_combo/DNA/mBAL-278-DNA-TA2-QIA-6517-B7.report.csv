@@ -1,0 +1,40 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Moraxella catarrhalis ( 480 ),Moraxella ( 475 ),510069,25210,10189,28.52,9.89,289.69,289.79,99.0,25.27,171.21,172.13
+Eukaryotes,Anadara sp. KJP-2011 ( 944639 ),Anadara ( 6554 ),1016,10,10,100.0,100.0,0.1,0.1,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),6,2,2,2.95,2.9,0.71,0.71,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),4,2,2,1.73,1.73,1.63,1.63,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),0,0,0,2.99,2.99,0.1,0.1,0.0,0.0,0.0,0.0
+Fungi,Schizosaccharomyces pombe ( 4896 ),Schizosaccharomyces ( 4895 ),0,0,0,0.7,-0.14,0.1,0.1,4.47,1.88,0.1,0.1
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,2,0,9.81,0.11,0.3,0.91,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.89,0.89,0.1,0.1,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.39,0.39,0.41,0.41,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,1.22,0.11,0.1,0.91,0.0,0.0,0.0,0.0
+Viridiplantae (green plants),Sorghum bicolor ( 4558 ),Sorghum ( 4557 ),0,0,0,0.02,0.02,0.1,0.1,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.1,0.0,0.0,0.0,0.0,0.0
+Bacteria,Methylophilaceae bacterium MMS-2-53 ( 1581557 ),No genus ( -1 ),0,0,0,-0.27,0.0,0.1,0.0,0.0,0.0,0.0,0.0
+Bacteria,Olsenella uli ( 133926 ),Olsenella ( 133925 ),0,0,0,-0.05,-0.07,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Actinobacillus equuli ( 718 ),Actinobacillus ( 713 ),0,0,0,-0.05,-0.17,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Xenorhabdus bovienii ( 40576 ),Xenorhabdus ( 626 ),0,0,0,-0.09,-0.12,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Vibrio vulnificus ( 672 ),Vibrio ( 662 ),0,0,0,-0.09,-0.21,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Mannheimia varigena ( 85404 ),Mannheimia ( 75984 ),0,0,0,-0.13,-0.15,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Rothia dentocariosa ( 2047 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.1,0.3,0.0,0.0,0.0,0.0
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,0,-0.11,-0.21,0.1,0.61,0.0,-0.16,0.0,0.3
+Bacteria,Streptococcus sanguinis ( 1305 ),Streptococcus ( 1301 ),0,0,0,-0.16,-0.18,0.1,0.51,0.0,-0.23,0.0,0.3
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.07,0.11,0.51,0.91,0.0,0.0,0.0,0.0
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.2,0.3,0.0,0.0,0.0,0.0
+Bacteria,Psychrobacter sp. EP06 ( 402754 ),Psychrobacter ( 497 ),0,0,0,-0.18,-0.27,0.1,0.1,0.0,-0.23,0.0,0.81
+Bacteria,Chromohalobacter salexigens ( 158080 ),Chromohalobacter ( 42054 ),0,0,0,-0.26,-0.2,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,0,-0.12,-0.23,0.2,1.02,0.0,-0.3,0.0,0.71
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,0,-0.18,-0.18,0.2,0.51,0.0,-0.23,0.0,0.3
+Bacteria,Frankia sp. CcI3 ( 106370 ),Frankia ( 1854 ),0,0,0,-0.22,-0.47,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Neisseria gonorrhoeae ( 485 ),Neisseria ( 482 ),0,0,0,-0.16,-0.23,0.3,1.02,0.0,-0.3,0.0,0.71
+Bacteria,Propionibacterium freudenreichii ( 1744 ),Propionibacterium ( 1743 ),0,0,0,-0.47,-0.27,0.1,0.0,0.0,-0.3,0.0,0.1
+Bacteria,Pseudomonas sp. TKP ( 1415630 ),Pseudomonas ( 286 ),0,0,0,-0.16,-0.3,0.1,0.0,-0.24,-0.39,0.1,0.1
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,0,-0.22,-0.18,0.2,0.51,-0.33,-0.23,0.1,0.3
+Bacteria,Streptomyces glaucescens ( 1907 ),Streptomyces ( 1883 ),0,0,0,-0.32,-0.54,0.1,0.0,0.0,0.0,0.0,0.0
+Bacteria,Fusobacterium nucleatum ( 851 ),Fusobacterium ( 848 ),0,0,0,-0.16,-0.16,0.41,0.41,-0.31,-0.33,0.1,0.2
+Bacteria,Haemophilus parainfluenzae ( 729 ),Haemophilus ( 724 ),0,0,0,-0.18,-0.17,0.41,0.41,-0.41,-0.24,0.1,0.1
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,0,0,3.63,-0.07,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),0,0,0,-0.22,-0.21,0.51,0.61,-0.15,-0.16,0.2,0.3
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),0,0,0,-0.31,-0.23,0.51,1.02,-0.33,-0.3,0.2,0.71
+Bacteria,Moraxella bovis ( 476 ),Moraxella ( 475 ),0,0,10189,-0.23,9.89,0.1,289.79,0.0,25.27,0.0,172.13

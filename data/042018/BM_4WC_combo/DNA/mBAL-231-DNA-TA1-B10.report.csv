@@ -1,0 +1,162 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Viruses,Torque teno virus 3 ( 687342 ),Alphatorquevirus ( 687331 ),8945,372,828,100.0,17.01,3.41,7.14,100.0,99.0,0.32,1.59
+Viruses,Torque teno virus 24 ( 687363 ),Alphatorquevirus ( 687331 ),4477,110,828,99.0,17.01,0.79,7.14,100.0,99.0,0.32,1.59
+Viruses,Torque teno virus 5 ( 687344 ),Alphatorquevirus ( 687331 ),3754,182,828,100.0,17.01,1.75,7.14,100.0,99.0,0.08,1.59
+Viruses,Torque teno virus 10 ( 687349 ),Alphatorquevirus ( 687331 ),944,55,828,100.0,17.01,0.56,7.14,0.0,99.0,0.0,1.59
+Viruses,Torque teno virus 11 ( 687350 ),Alphatorquevirus ( 687331 ),539,31,828,100.0,17.01,0.32,7.14,0.0,99.0,0.0,1.59
+Bacteria,Atopobium parvulum ( 1382 ),Atopobium ( 1380 ),344,80,36,23.7,4.21,3.33,3.33,3.77,6.61,0.48,3.89
+Viruses,Torque teno virus 8 ( 687347 ),Alphatorquevirus ( 687331 ),269,15,828,100.0,17.01,0.16,7.14,0.0,99.0,0.0,1.59
+Viruses,Torque teno virus 12 ( 687351 ),Alphatorquevirus ( 687331 ),134,7,828,100.0,17.01,0.08,7.14,0.0,99.0,0.0,1.59
+Viruses,Torque teno virus 19 ( 687358 ),Alphatorquevirus ( 687331 ),134,7,828,100.0,17.01,0.08,7.14,0.0,99.0,0.0,1.59
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),21,103,12,2.06,0.39,26.26,29.91,4.68,0.02,10.47,19.59
+Bacteria,Veillonella atypica ( 39777 ),Veillonella ( 29465 ),7,69,3,99.0,0.03,0.4,15.07,8.29,0.2,3.65,14.6
+Mammalia,Colobus angolensis ( 54131 ),Colobus ( 9570 ),2,0,0,6.02,6.02,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Neisseria polysaccharea ( 489 ),Neisseria ( 482 ),1,7,6,100.0,0.18,0.08,11.5,0.21,0.35,0.08,8.96
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),1,7,6,1.16,0.18,5.87,11.5,0.26,0.35,1.75,8.96
+Bacteria,Neisseria subflava ( 28449 ),Neisseria ( 482 ),1,4,6,11.6,0.18,0.08,11.5,7.85,0.35,0.4,8.96
+Bacteria,Neisseria lactamica ( 486 ),Neisseria ( 482 ),0,5,6,2.87,0.18,1.82,11.5,0.0,0.35,0.0,8.96
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,4,3,0.03,0.03,14.6,15.07,1.34,0.2,2.78,14.6
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,5,0,-0.01,-0.06,11.9,12.3,1.22,0.11,4.68,4.68
+Bacteria,Neisseria gonorrhoeae ( 485 ),Neisseria ( 482 ),0,2,6,1.37,0.18,1.75,11.5,0.46,0.35,0.4,8.96
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),0,0,0,2.25,2.25,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Veillonella sp. VA9 ( 741924 ),Veillonella ( 29465 ),0,7,3,100.0,0.03,0.08,15.07,0.0,0.2,0.0,14.6
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.53,0.53,0.71,0.71,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.52,0.48,0.32,0.32,0.0,0.0,0.0,0.0
+Bacteria,Brachyspira intermedia ( 84377 ),Brachyspira ( 29521 ),0,0,0,5.32,0.17,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Sebaldella termitidis ( 826 ),Sebaldella ( 32068 ),0,0,0,-0.16,-0.16,0.08,0.08,0.9,0.9,0.08,0.08
+Bacteria,Capnocytophaga ochracea ( 1018 ),Capnocytophaga ( 1016 ),0,0,1,-0.19,-0.22,0.71,0.71,0.18,3.02,0.16,9.68
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.39,0.38,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Campylobacter concisus ( 199 ),Campylobacter ( 194 ),0,0,0,-0.03,-0.15,1.11,1.11,0.54,0.06,0.48,0.63
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.17,0.17,0.24,0.24,0.0,0.0,0.0,0.0
+Bacteria,Mageeibacillus indolicus ( 884684 ),Mageeibacillus ( 1637257 ),0,0,0,0.21,0.21,0.08,0.08,0.0,0.0,0.0,0.0
+Viruses,Torque teno virus ( 68887 ),No genus ( -1 ),0,10845,0,99.0,0.0,97.73,0.0,99.0,0.0,11.82,0.0
+Viruses,uncultured Anellovirus ( 1034771 ),No genus ( -1 ),0,1308,0,100.0,0.0,6.98,0.0,100.0,0.0,6.11,0.0
+Caudovirales (dsDNA phages),Streptococcus phage Cp-1 ( 10747 ),No genus ( -1 ),0,7,0,100.0,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pAM120 ( 46449 ),No genus ( -1 ),0,0,0,0.34,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Saccharibacteria oral taxon TM7x ( 1476577 ),No genus ( -1 ),0,0,0,0.01,0.0,0.48,0.0,0.22,0.0,0.71,0.0
+Caudovirales (dsDNA phages),Streptococcus phage PH15 ( 537874 ),No genus ( -1 ),0,2,0,29.21,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured organism ( 155900 ),No genus ( -1 ),0,0,0,-0.29,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Unclassified Phage,Bifidobacterium phage Bbif-1 ( 743964 ),No genus ( -1 ),0,5,0,70.55,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.63,0.0,0.0,0.0,0.0,0.0
+Unclassified Phage,Streptococcus phage 040922 ( 870470 ),No genus ( -1 ),0,0,0,10.88,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Dokdonia sp. MED134 ( 313590 ),Dokdonia ( 326319 ),0,0,0,0.01,-0.12,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,-0.04,-0.04,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Bifidobacterium pseudolongum ( 1694 ),Bifidobacterium ( 1678 ),0,0,0,-0.02,-0.2,0.08,0.4,0.0,0.0,0.0,0.0
+Bacteria,Bacillus mycoides ( 1405 ),Bacillus ( 1386 ),0,0,0,0.01,-0.52,0.08,0.24,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus uberis ( 1349 ),Streptococcus ( 1301 ),0,0,-4,-0.04,-0.17,0.08,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Anabaena sp. 90 ( 46234 ),Anabaena ( 1163 ),0,0,0,-0.05,-0.12,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Clostridium ljungdahlii ( 1538 ),Clostridium ( 1485 ),0,0,0,-0.05,-0.18,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Odoribacter splanchnicus ( 28118 ),Odoribacter ( 283168 ),0,0,0,-0.1,-0.1,0.08,0.08,0.0,-0.06,0.0,0.08
+Bacteria,Candidatus Saccharimonas aalborgensis ( 1332188 ),Candidatus Saccharimonas ( 1331051 ),0,0,0,-0.1,-0.1,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Actinobacillus suis ( 716 ),Actinobacillus ( 713 ),0,0,0,-0.07,-0.17,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Bos taurus ( 9913 ),Bos ( 9903 ),0,0,0,-0.08,-0.08,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Muricauda ruestringensis ( 111501 ),Muricauda ( 111500 ),0,0,0,0.08,-0.19,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Rothia dentocariosa ( 2047 ),Rothia ( 32207 ),0,0,0,-0.14,-0.06,0.16,12.3,0.0,0.11,0.0,4.68
+Bacteria,Pseudoalteromonas sp. OCN003 ( 1348114 ),Pseudoalteromonas ( 53246 ),0,0,0,-0.08,-0.19,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Fluviicola taffensis ( 191579 ),Fluviicola ( 332102 ),0,0,0,-0.13,-0.13,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides helcogenes ( 290053 ),Bacteroides ( 816 ),0,0,0,-0.11,-0.17,0.08,0.56,0.0,-0.27,0.0,0.32
+Bacteria,Bifidobacterium dentium ( 1689 ),Bifidobacterium ( 1678 ),0,0,0,-0.09,-0.2,0.08,0.4,0.0,0.0,0.0,0.0
+Bacteria,Neisseria cinerea ( 483 ),Neisseria ( 482 ),0,0,6,-0.11,0.18,0.08,11.5,0.0,0.35,0.0,8.96
+Bacteria,Haemophilus influenzae ( 727 ),Haemophilus ( 724 ),0,0,0,-0.14,-0.07,0.16,3.33,0.0,-0.14,0.0,1.35
+Bacteria,Elizabethkingia sp. BM10 ( 722877 ),Elizabethkingia ( 308865 ),0,0,0,-0.16,-0.13,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus macedonicus ( 59310 ),Streptococcus ( 1301 ),0,0,-4,-0.13,-0.17,0.08,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Mycobacterium vanbaalenii ( 110539 ),Mycobacterium ( 1763 ),0,0,0,-0.12,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Mammalia,Papio anubis ( 9555 ),Papio ( 9554 ),0,0,0,-0.16,-0.16,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus equi ( 1336 ),Streptococcus ( 1301 ),0,0,-4,-0.15,-0.17,0.08,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Selenomonas ruminantium ( 971 ),Selenomonas ( 970 ),0,0,0,-0.16,-0.16,0.08,0.16,0.0,0.71,0.0,0.63
+Bacteria,Riemerella anatipestifer ( 34085 ),Riemerella ( 34084 ),0,0,0,-0.16,-0.16,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Bifidobacterium scardovii ( 158787 ),Bifidobacterium ( 1678 ),0,0,0,-0.14,-0.2,0.08,0.4,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus mundtii ( 53346 ),Enterococcus ( 1350 ),0,0,0,-0.12,-0.23,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Fusobacterium nucleatum ( 851 ),Fusobacterium ( 848 ),0,0,0,-0.17,-0.17,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Bifidobacterium thermophilum ( 33905 ),Bifidobacterium ( 1678 ),0,0,0,-0.15,-0.2,0.08,0.4,0.0,0.0,0.0,0.0
+Bacteria,Cellulophaga lytica ( 979 ),Cellulophaga ( 104264 ),0,0,0,-0.14,-0.21,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus constellatus ( 76860 ),Streptococcus ( 1301 ),0,0,-4,-0.17,-0.17,0.08,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Listeria monocytogenes ( 1639 ),Listeria ( 1637 ),0,0,0,-0.14,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus oligofermentans ( 195041 ),Streptococcus ( 1301 ),0,0,-4,-0.17,-0.17,0.08,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Bifidobacterium longum ( 216816 ),Bifidobacterium ( 1678 ),0,0,0,-0.16,-0.2,0.08,0.4,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides salanitronis ( 376805 ),Bacteroides ( 816 ),0,0,0,-0.2,-0.17,0.08,0.56,0.0,-0.27,0.0,0.32
+Bacteria,Micrococcus luteus ( 1270 ),Micrococcus ( 1269 ),0,0,0,-0.18,-0.19,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Selenomonas sputigena ( 69823 ),Selenomonas ( 970 ),0,0,0,-0.21,-0.16,0.08,0.16,0.0,0.71,0.0,0.63
+Bacteria,Prevotella denticola ( 28129 ),Prevotella ( 838 ),0,0,12,-0.01,0.39,0.63,29.91,0.07,0.02,0.16,19.59
+Bacteria,Streptococcus sp. I-G2 ( 1156431 ),Streptococcus ( 1301 ),0,0,-4,-0.08,-0.17,0.24,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Peptoclostridium difficile ( 1496 ),Peptoclostridium ( 1481960 ),0,0,0,-0.2,-0.23,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Gallionella capsiferriformans ( 370405 ),Gallionella ( 96 ),0,0,0,-0.22,-0.22,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium humireducens ( 1223514 ),Corynebacterium ( 1716 ),0,0,0,-0.22,-0.24,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Roseburia hominis ( 301301 ),Roseburia ( 841 ),0,0,0,-0.22,-0.24,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus thermophilus ( 1308 ),Streptococcus ( 1301 ),0,0,-4,-0.15,-0.17,0.16,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Paenibacillus sp. JDR-2 ( 324057 ),Paenibacillus ( 44249 ),0,0,0,0.12,-0.44,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas pseudoalcaligenes ( 330 ),Pseudomonas ( 286 ),0,0,0,-0.19,-0.3,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Yersinia enterocolitica ( 630 ),Yersinia ( 629 ),0,0,0,-0.25,-0.23,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Pimelobacter simplex ( 2045 ),Pimelobacter ( 2044 ),0,0,0,-0.24,-0.24,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium avium ( 1764 ),Mycobacterium ( 1763 ),0,0,0,-0.29,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides dorei ( 357276 ),Bacteroides ( 816 ),0,0,0,-0.19,-0.17,0.16,0.56,0.0,-0.27,0.0,0.32
+Bacteria,Prevotella dentalis ( 52227 ),Prevotella ( 838 ),0,0,12,-0.17,0.39,0.08,29.91,0.0,0.02,0.0,19.59
+Bacteria,Jonesia denitrificans ( 43674 ),Jonesia ( 43673 ),0,0,0,-0.26,-0.26,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Sulfuricella denitrificans ( 649841 ),Sulfuricella ( 935200 ),0,0,0,-0.26,-0.26,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Megasphaera elsdenii ( 907 ),Megasphaera ( 906 ),0,0,0,-0.18,-0.18,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium intracellulare ( 1767 ),Mycobacterium ( 1763 ),0,0,0,-0.32,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Bacteria,Roseburia intestinalis ( 166486 ),Roseburia ( 841 ),0,0,0,-0.28,-0.24,0.08,0.16,0.0,0.0,0.0,0.0
+Eukaryotes,Caenorhabditis remanei ( 31234 ),Caenorhabditis ( 6237 ),0,0,0,-0.25,-0.28,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium halotolerans ( 225326 ),Corynebacterium ( 1716 ),0,0,0,-0.3,-0.24,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium urealyticum ( 43771 ),Corynebacterium ( 1716 ),0,0,0,-0.3,-0.24,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Leptotrichia buccalis ( 40542 ),Leptotrichia ( 32067 ),0,0,0,-0.05,-0.07,1.03,1.03,-0.09,0.3,0.08,1.27
+Bacteria,Nakamurella multipartita ( 53461 ),Nakamurella ( 53460 ),0,0,0,-0.28,-0.28,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Porphyromonas gingivalis ( 837 ),Porphyromonas ( 836 ),0,0,0,-0.16,-0.17,0.24,0.24,0.0,-0.23,0.0,1.03
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.24,-0.17,0.16,0.32,0.0,0.0,0.0,0.0
+Bacteria,Arthrobacter sp. 11W110_air ( 1461584 ),Arthrobacter ( 1663 ),0,0,0,-0.25,-0.37,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides fragilis ( 817 ),Bacteroides ( 816 ),0,0,0,-0.11,-0.17,0.24,0.56,-0.13,-0.27,0.08,0.32
+Bacteria,Thiomonas intermedia ( 926 ),Thiomonas ( 32012 ),0,0,0,-0.29,-0.33,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Salmonella enterica ( 28901 ),Salmonella ( 590 ),0,0,0,-0.31,-0.31,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Thiomonas sp. CB2 ( 554131 ),Thiomonas ( 32012 ),0,0,0,-0.29,-0.33,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus xylosus ( 1288 ),Staphylococcus ( 1279 ),0,0,0,-0.36,-0.27,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Gordonia sp. KTR9 ( 337191 ),Gordonia ( 2053 ),0,0,0,-0.29,-0.33,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Bradyrhizobium diazoefficiens ( 1355477 ),Bradyrhizobium ( 374 ),0,0,0,-0.31,-0.31,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Flavobacterium branchiophilum ( 55197 ),Flavobacterium ( 237 ),0,0,0,-0.3,-0.35,0.08,0.32,0.0,0.0,0.0,0.0
+Bacteria,Azoarcus sp. BH72 ( 62928 ),Azoarcus ( 12960 ),0,0,0,-0.32,-0.33,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Paenibacillus sabinae ( 365617 ),Paenibacillus ( 44249 ),0,0,0,0.24,-0.44,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Anaeromyxobacter dehalogenans ( 161493 ),Anaeromyxobacter ( 161492 ),0,0,0,-0.31,-0.37,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Thermomonospora curvata ( 2020 ),Thermomonospora ( 2019 ),0,0,0,-0.33,-0.35,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Lactobacillus mucosae ( 97478 ),Lactobacillus ( 1578 ),0,0,0,0.36,-0.32,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,-4,-0.13,-0.17,0.4,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Dyella japonica ( 231455 ),Dyella ( 231454 ),0,0,0,-0.33,-0.36,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Arthrobacter aurescens ( 43663 ),Arthrobacter ( 1663 ),0,0,0,-0.33,-0.37,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Gordonia polyisoprenivorans ( 84595 ),Gordonia ( 2053 ),0,0,0,-0.37,-0.33,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Cellulomonas flavigena ( 1711 ),Cellulomonas ( 1707 ),0,0,0,-0.32,-0.39,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Tannerella forsythia ( 28112 ),Tannerella ( 195950 ),0,0,0,-0.13,-0.13,0.48,0.48,-0.12,-0.12,0.16,0.63
+Bacteria,Rhizobium sp. ( 391 ),Rhizobium ( 379 ),0,0,0,-0.4,-0.32,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Cellulomonas fimi ( 1708 ),Cellulomonas ( 1707 ),0,0,0,-0.34,-0.39,0.08,0.16,0.0,0.0,0.0,0.0
+Bacteria,Candidatus Solibacter usitatus ( 332163 ),Candidatus Solibacter ( 332162 ),0,0,0,-0.37,-0.37,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,6,-0.02,0.18,1.82,11.5,-0.11,0.35,0.08,8.96
+Bacteria,Amycolatopsis mediterranei ( 33910 ),Amycolatopsis ( 1813 ),0,0,0,-0.42,-0.34,0.08,0.08,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.16,0.0,0.0,-0.3,0.0,0.08
+Bacteria,Streptococcus anginosus ( 1328 ),Streptococcus ( 1301 ),0,0,-4,-0.21,-0.17,0.16,11.74,-0.17,-0.22,0.16,3.81
+Bacteria,Pseudomonas fluorescens ( 294 ),Pseudomonas ( 286 ),0,0,0,-0.25,-0.3,0.16,0.0,0.0,0.0,0.0,0.0
+Bacteria,Modestobacter marinus ( 477641 ),Modestobacter ( 88138 ),0,0,0,-0.39,-0.39,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Stackebrandtia nassauensis ( 283811 ),Stackebrandtia ( 283810 ),0,0,0,-0.4,-0.4,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Sanguibacter keddieii ( 60920 ),Sanguibacter ( 60919 ),0,0,0,-0.42,-0.39,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Kutzneria albida ( 43357 ),Kutzneria ( 43356 ),0,0,0,-0.4,-0.41,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,-4,-0.03,-0.17,1.82,11.74,0.03,-0.22,0.4,3.81
+Bacteria,Streptococcus sp. I-P16 ( 1156433 ),Streptococcus ( 1301 ),0,0,-4,-0.14,-0.17,0.56,11.74,-0.06,-0.22,0.08,3.81
+Bacteria,Streptomyces collinus ( 42684 ),Streptomyces ( 1883 ),0,0,0,-0.36,-0.53,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Listeria innocua ( 1642 ),Listeria ( 1637 ),0,0,0,0.91,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Bacteria,Streptomyces hygroscopicus ( 1912 ),Streptomyces ( 1883 ),0,0,0,-0.39,-0.53,0.08,0.0,0.0,0.0,0.0,0.0
+Bacteria,Desulfotomaculum acetoxidans ( 58138 ),Desulfotomaculum ( 1562 ),0,0,0,1.51,-0.15,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,12,-0.02,0.39,2.46,29.91,0.42,0.02,0.16,19.59
+Bacteria,Beutenbergia cavernae ( 84757 ),Beutenbergia ( 84756 ),0,0,0,-0.36,-0.36,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Treponema succinifaciens ( 167 ),Treponema ( 157 ),0,0,0,0.63,-0.21,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Brachybacterium faecium ( 43669 ),Brachybacterium ( 43668 ),0,0,0,-0.36,-0.38,0.16,0.0,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus oralis ( 1303 ),Streptococcus ( 1301 ),0,0,-4,-0.2,-0.17,0.56,11.74,-0.25,-0.22,0.08,3.81
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,-4,-0.11,-0.17,1.03,11.74,-0.17,-0.22,0.08,3.81
+Bacteria,Bacillus megaterium ( 1404 ),Bacillus ( 1386 ),0,0,0,-0.29,-0.52,0.16,0.24,0.0,0.0,0.0,0.0
+Bacteria,Flavobacterium johnsoniae ( 986 ),Flavobacterium ( 237 ),0,0,0,-0.33,-0.35,0.24,0.32,0.0,0.0,0.0,0.0
+Bacteria,Xylanimonas cellulosilytica ( 186189 ),Xylanimonas ( 186188 ),0,0,0,-0.42,-0.42,0.16,0.16,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pseudopneumoniae ( 257758 ),Streptococcus ( 1301 ),0,0,-4,-0.14,-0.17,1.51,11.74,0.0,-0.22,0.0,3.81
+Bacteria,Prevotella intermedia ( 28131 ),Prevotella ( 838 ),0,0,12,-0.23,0.39,0.48,29.91,0.0,0.02,0.0,19.59
+Bacteria,Listeria seeligeri ( 1640 ),Listeria ( 1637 ),0,0,0,3.36,-0.21,0.08,0.24,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,2.11,-0.17,0.16,0.32,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,-4,-0.18,-0.17,1.98,11.74,-0.17,-0.22,0.79,3.81
+Bacteria,Streptococcus mitis ( 28037 ),Streptococcus ( 1301 ),0,0,-4,-0.15,-0.17,2.94,11.74,-0.16,-0.22,1.03,3.81
+Bacteria,Haemophilus parainfluenzae ( 729 ),Haemophilus ( 724 ),0,0,0,0.12,-0.07,3.17,3.33,0.48,-0.14,1.27,1.35
+Bacteria,Vibrio sp. RV-16 ( 400970 ),Vibrio ( 662 ),0,0,0,10.68,-0.21,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Rothia sp. T40-1 ( 426589 ),Rothia ( 32207 ),-1,23,0,100.0,-0.06,0.24,12.3,0.0,0.11,0.0,4.68
+Bacteria,Enterococcus moraviensis ( 155617 ),Enterococcus ( 1350 ),-1,7,0,100.0,-0.23,0.08,0.16,0.0,0.0,0.0,0.0

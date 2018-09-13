@@ -1,0 +1,23 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Fungi,Candida glabrata ( 5478 ),Nakaseomyces ( 374468 ),4,1,0,0.05,0.04,0.22,0.22,5.07,4.29,0.22,0.22
+Mammalia,Callithrix jacchus ( 9483 ),Callithrix ( 9481 ),3,0,0,4.06,4.06,0.22,0.22,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.75,0.75,0.67,0.67,0.0,0.0,0.0,0.0
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,10,0,0.01,0.0,13.27,13.27,2.38,0.0,4.5,8.1
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.27,0.24,0.22,0.22,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.45,0.0,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,-0.11,-0.11,0.22,0.22,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus suis ( 1307 ),Streptococcus ( 1301 ),0,0,-18,-0.12,-0.13,0.22,82.57,0.0,-0.1,0.0,34.2
+Bacteria,Streptococcus infantarius ( 102684 ),Streptococcus ( 1301 ),0,0,-18,0.14,-0.13,0.22,82.57,0.0,-0.1,0.0,34.2
+Bacteria,Streptococcus sanguinis ( 1305 ),Streptococcus ( 1301 ),0,0,-18,-0.16,-0.13,0.22,82.57,0.0,-0.1,0.0,34.2
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.2,-0.11,0.22,0.45,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pseudopneumoniae ( 257758 ),Streptococcus ( 1301 ),0,0,-18,-0.15,-0.13,0.45,82.57,0.0,-0.1,0.0,34.2
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,-18,-0.11,-0.13,1.12,82.57,-0.18,-0.1,0.22,34.2
+Bacteria,Streptococcus mitis ( 28037 ),Streptococcus ( 1301 ),0,0,-18,-0.15,-0.13,1.57,82.57,-0.18,-0.1,0.45,34.2
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.13,-0.14,0.9,0.9,-0.23,-0.22,0.45,0.45
+Bacteria,Streptococcus sp. I-P16 ( 1156433 ),Streptococcus ( 1301 ),0,0,-18,0.15,-0.13,2.02,82.57,0.04,-0.1,0.22,34.2
+Bacteria,Streptococcus sp. I-G2 ( 1156431 ),Streptococcus ( 1301 ),0,0,-18,0.41,-0.13,0.9,82.57,0.0,-0.1,0.0,34.2
+Bacteria,Streptococcus anginosus ( 1328 ),Streptococcus ( 1301 ),0,0,-18,0.16,-0.13,2.7,82.57,-0.16,-0.1,1.35,34.2
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,1,0,7.13,-0.11,0.22,0.45,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus thermophilus ( 1308 ),Streptococcus ( 1301 ),-1,9,-18,0.29,-0.13,30.37,82.57,0.11,-0.1,2.02,34.2
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),-1,15,-18,0.2,-0.13,41.4,82.57,0.93,-0.1,7.42,34.2
+Bacteria,Streptococcus vestibularis ( 1343 ),Streptococcus ( 1301 ),-61,601,-18,99.0,-0.13,1.35,82.57,28.87,-0.1,16.2,34.2

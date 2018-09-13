@@ -1,0 +1,17 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Pongo pygmaeus ( 9600 ),Pongo ( 9599 ),5,2,0,35.44,1.96,0.07,0.5,0.0,0.0,0.0,0.0
+Mammalia,Colobus angolensis ( 54131 ),Colobus ( 9570 ),2,0,0,5.43,5.43,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),1,0,0,1.66,1.96,0.43,0.5,0.0,0.0,0.0,0.0
+Mammalia,Rhinopithecus roxellana ( 61622 ),Rhinopithecus ( 542827 ),1,0,0,3.75,3.75,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.54,0.54,0.72,0.72,0.0,0.0,0.0,0.0
+Mammalia,Saimiri boliviensis ( 27679 ),Saimiri ( 9520 ),0,0,0,0.92,0.92,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.49,0.49,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.14,0.14,0.22,0.22,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,-0.07,-0.07,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,-0.14,-0.15,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Bos taurus ( 9913 ),Bos ( 9903 ),0,0,0,-0.2,-0.2,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.28,-0.19,0.07,0.29,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,0,-0.12,-0.18,0.07,0.07,-0.18,-0.24,0.07,0.07
+Bacteria,Methylobacterium populi ( 223967 ),Methylobacterium ( 407 ),0,0,0,-0.28,-0.33,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,0,0,-0.34,-0.27,0.14,0.14,-0.34,-0.32,0.07,0.07
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,3.0,-0.19,0.22,0.29,0.0,0.0,0.0,0.0

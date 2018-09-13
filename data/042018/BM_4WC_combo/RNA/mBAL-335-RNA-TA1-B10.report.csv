@@ -1,0 +1,204 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Viruses,Human herpesvirus 1 ( 10298 ),Simplexvirus ( 10294 ),5397500,54520,73099,100.0,99.0,369.1,369.19,99.0,99.0,177.88,182.88
+Fungi,Candida albicans ( 5476 ),Candida ( 1535326 ),1957270,32352,33026,99.0,67.85,234.49,301.13,99.0,41.83,92.31,97.99
+Fungi,Candida dubliniensis ( 42374 ),Candida ( 1535326 ),393585,5889,33026,99.0,67.85,57.15,301.13,99.0,41.83,2.34,97.99
+Fungi,Histoplasma capsulatum ( 5037 ),Histoplasma ( 5036 ),377342,3811,4410,99.0,99.0,22.28,22.28,99.0,99.0,16.23,16.23
+Fungi,Candida sp. YS44 ( 368399 ),Candida ( 5475 ),56839,748,615,99.0,75.92,7.56,8.11,0.0,0.0,0.0,0.0
+Viruses,Human herpesvirus 2 ( 10310 ),Simplexvirus ( 10294 ),38115,385,73099,100.0,99.0,0.09,369.19,100.0,99.0,3.76,182.88
+Fungi,Emmonsia sp. AB-2012-1 ( 1268156 ),Emmonsia ( 73229 ),32216,325,326,100.0,99.0,3.25,3.25,0.0,1.47,0.0,0.18
+Fungi,Candida orthopsilosis ( 273371 ),Candida ( 1535326 ),24121,355,33026,56.21,67.85,6.33,301.13,-0.02,41.83,0.05,97.99
+Fungi,Blastomyces dermatitidis ( 5039 ),Blastomyces ( 229219 ),20233,323,379,69.22,69.22,3.25,3.25,47.45,47.45,2.06,2.06
+Fungi,Candida buenavistaensis ( 434039 ),Candida ( 1535326 ),7463,110,33026,100.0,67.85,1.1,301.13,0.0,41.83,0.0,97.99
+Fungi,Chrysosporium sp. 18VA20 ( 1253931 ),Chrysosporium ( 40411 ),4083,41,45,100.0,99.0,0.41,0.46,0.0,0.0,0.0,0.0
+Fungi,Ophidiomyces ophiodiicola ( 1387563 ),Ophidiomyces ( 1387562 ),3666,36,36,100.0,100.0,0.37,0.37,0.0,0.0,0.0,0.0
+Fungi,Candida sojae ( 52253 ),Candida ( 1535326 ),3420,50,33026,100.0,67.85,0.5,301.13,0.0,41.83,0.0,97.99
+Fungi,Auxarthron sp. 07MA16 ( 1253896 ),Auxarthron ( 33185 ),3208,32,32,100.0,100.0,0.32,0.32,0.0,0.0,0.0,0.0
+Fungi,Physcia aipolia ( 50936 ),Physcia ( 50935 ),3176,32,31,100.0,99.0,0.32,0.32,0.0,0.0,0.0,0.0
+Fungi,Gymnoascus sp. 797_2_N01 ( 576018 ),Gymnoascus ( 69889 ),2722,27,27,100.0,99.0,0.28,0.28,0.0,0.0,0.0,0.0
+Fungi,Candida tropicalis ( 5482 ),Candida ( 1535326 ),2195,50,33026,7.77,67.85,0.5,301.13,29.61,41.83,1.56,97.99
+Fungi,Candida africana ( 241526 ),Candida ( 5475 ),1043,13,615,100.0,75.92,0.14,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida sp. VVT-2012 ( 1214789 ),Candida ( 5475 ),1043,13,615,100.0,75.92,0.14,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida labiduridarum ( 434042 ),Candida ( 1535326 ),932,13,33026,100.0,67.85,0.14,301.13,0.0,41.83,0.0,97.99
+Fungi,Candida tetrigidarum ( 434046 ),Candida ( 1535326 ),932,13,33026,100.0,67.85,0.14,301.13,0.0,41.83,0.0,97.99
+Fungi,Candida blackwelliae ( 497110 ),Candida ( 1535326 ),621,9,33026,100.0,67.85,0.09,301.13,0.0,41.83,0.0,97.99
+Fungi,Candida chauliodis ( 391825 ),Candida ( 1535326 ),621,9,33026,100.0,67.85,0.09,301.13,0.0,41.83,0.0,97.99
+Fungi,Candida viswanathii ( 5486 ),Candida ( 1535326 ),621,10,33026,69.12,67.85,0.09,301.13,100.0,41.83,0.05,97.99
+Fungi,Preussia sp. CAL2.1 ( 1081005 ),Preussia ( 265084 ),541,32,5,100.0,16.89,0.32,0.32,0.0,0.0,0.0,0.0
+Fungi,Arachnomyces minimus ( 166108 ),Arachnomyces ( 130040 ),476,9,9,100.0,51.99,0.09,0.18,0.0,0.0,0.0,0.0
+Panarthropoda,Anthocoris limbatus ( 642068 ),Anthocoris ( 191223 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Variospora velana ( 1301595 ),Variospora ( 1301588 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Strasseria geniculata ( 1395782 ),Strasseria ( 1395781 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Paranannizziopsis australasiensis ( 1387565 ),Paranannizziopsis ( 1387564 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Spiromastix warcupii ( 37235 ),Spiromastix ( 37234 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Hymenelia lacustris ( 196135 ),Hymenelia ( 146299 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Verrucaria sp. AFTOL 2268 ( 469205 ),Verrucaria ( 168925 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Polysporina simplex ( 286400 ),Polysporina ( 286399 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Viridiplantae (green plants),Axonopus grandifolius ( 1213440 ),Axonopus ( 158091 ),458,4,4,100.0,100.0,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Chrysosporium vallenarense ( 108926 ),Chrysosporium ( 40411 ),453,4,45,100.0,99.0,0.05,0.46,0.0,0.0,0.0,0.0
+Fungi,Candida sp. NR20-09-22 ( 1125629 ),Candida ( 5475 ),347,4,615,100.0,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida sp. YS43 ( 358409 ),Candida ( 5475 ),347,4,615,100.0,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida sp. W3 ( 491913 ),Candida ( 5475 ),347,4,615,100.0,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida sp. YSF2 ( 485228 ),Candida ( 5475 ),347,4,615,100.0,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Lodderomyces elongisporus ( 36914 ),Lodderomyces ( 36913 ),344,14,1,-0.07,-0.07,0.05,0.05,24.05,24.05,0.6,0.6
+Fungi,Candida sp. RCL3 ( 295095 ),Candida ( 5475 ),318,4,615,91.6,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Candida gigantensis ( 271359 ),Candida ( 1535326 ),310,4,33026,100.0,67.85,0.05,301.13,0.0,41.83,0.0,97.99
+Fungi,Candida jiufengensis ( 497108 ),Candida ( 1535326 ),310,4,33026,100.0,67.85,0.05,301.13,0.0,41.83,0.0,97.99
+Fungi,Scheffersomyces stipitis ( 4924 ),Scheffersomyces ( 766733 ),249,15,5,2.56,2.56,0.28,0.28,17.34,17.34,0.83,0.83
+Fungi,Circinaria hispida ( 1006477 ),Circinaria ( 1006473 ),123,4,1,100.0,26.99,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Arachnomyces nodosetosus ( 130043 ),Arachnomyces ( 130040 ),123,2,9,25.84,51.99,0.09,0.18,0.0,0.0,0.0,0.0
+Fungi,Spathaspora passalidarum ( 340170 ),Spathaspora ( 412764 ),122,8,12,14.87,14.87,0.46,0.46,12.41,12.41,0.14,0.14
+Fungi,Phialophora verrucosa ( 39412 ),Phialophora ( 5600 ),56,12,12,4.57,4.54,2.7,2.7,0.0,0.0,0.0,0.0
+Fungi,Botryosphaeria sp. 96-120 ( 85959 ),Botryosphaeria ( 45132 ),39,9,0,100.0,4.29,0.09,0.09,0.0,0.0,0.0,0.0
+Fungi,Hysteropatella clavispora ( 100029 ),Hysteropatella ( 100028 ),32,1,1,26.53,26.53,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Candida glabrata ( 5478 ),Nakaseomyces ( 374468 ),32,4,5,0.35,0.34,0.6,0.6,9.58,8.14,0.41,0.41
+Fungi,Melanconiella carpinicola ( 1247911 ),Melanconiella ( 187258 ),29,12,0,55.51,2.28,0.23,0.23,0.0,0.0,0.0,0.0
+Fungi,Chapsa leprocarpa ( 463627 ),Chapsa ( 372014 ),26,1,0,39.61,14.74,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Paracoccidioides brasiliensis ( 121759 ),Paracoccidioides ( 38946 ),25,6,25,2.92,3.63,2.34,3.03,1.55,4.74,0.05,0.23
+Fungi,Trematosphaeria heterospora ( 147495 ),Trematosphaeria ( 100048 ),19,4,0,98.55,4.21,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Paracoccidioides sp. 'lutzii' ( 1048829 ),Paracoccidioides ( 38946 ),16,4,25,4.26,3.63,0.69,3.03,6.2,4.74,0.18,0.23
+Fungi,Neosartorya fischeri ( 36630 ),Neosartorya ( 36629 ),13,5,4,2.53,2.53,2.06,2.06,-0.16,-0.16,0.18,0.18
+Fungi,Rasamsonia emersonii ( 68825 ),Rasamsonia ( 1132856 ),11,2,0,53.89,4.82,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Debaryomyces hansenii ( 4959 ),Debaryomyces ( 4958 ),10,2,0,-0.12,-0.12,0.05,0.05,3.71,3.71,0.73,0.73
+Fungi,Arthroderma obtusum ( 119676 ),Arthroderma ( 63399 ),2,2,0,11.18,1.42,0.18,0.6,0.0,0.0,0.0,0.0
+Fungi,Kluyveromyces marxianus ( 4911 ),Kluyveromyces ( 4910 ),2,2,0,0.17,0.17,0.05,0.14,56.74,1.09,0.05,0.09
+Fungi,Byssochlamys nivea ( 5093 ),Byssochlamys ( 5092 ),2,0,0,4.72,4.19,0.14,0.14,0.0,0.0,0.0,0.0
+Fungi,Arthroderma uncinatum ( 74035 ),Arthroderma ( 63399 ),2,1,0,4.99,1.42,0.37,0.6,0.0,0.0,0.0,0.0
+Fungi,Candida sake ( 39397 ),Candida ( 5475 ),2,0,615,0.64,75.92,0.05,8.11,0.0,0.0,0.0,0.0
+Fungi,Sphaerulina musiva ( 85929 ),Sphaerulina ( 237179 ),1,0,0,5.89,5.31,0.05,0.05,-0.18,-0.19,0.09,0.09
+Fungi,Trichophyton rubrum ( 5551 ),Trichophyton ( 5550 ),1,0,1,1.79,1.48,0.5,0.6,0.0,0.58,0.0,0.05
+Fungi,Aspergillus clavatoflavus ( 41064 ),Aspergillus ( 5052 ),1,9,0,99.0,0.15,0.09,5.23,0.0,-0.13,0.0,1.65
+Fungi,Pyrenula cruenta ( 146309 ),Pyrenula ( 146308 ),0,4,0,100.0,0.22,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Tolypocladium capitatum ( 45235 ),Tolypocladium ( 29909 ),0,0,0,4.72,4.19,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Cyphellophora guyanensis ( 856653 ),Cyphellophora ( 226991 ),0,4,0,100.0,0.15,0.05,0.09,0.0,0.0,0.0,0.0
+Fungi,Schizosaccharomyces japonicus ( 4897 ),Schizosaccharomyces ( 4895 ),0,0,1,0.66,0.61,0.83,0.83,5.9,0.7,0.05,0.05
+Fungi,Aspergillus oryzae ( 5062 ),Aspergillus ( 5052 ),0,2,0,0.95,0.15,2.98,5.23,-0.34,-0.13,0.05,1.65
+Fungi,Talaromyces stipitatus ( 28564 ),Talaromyces ( 5094 ),0,1,0,-0.08,-0.06,0.23,1.56,0.44,0.24,3.62,3.62
+Fungi,Aspergillus japonicus ( 34381 ),Aspergillus ( 5052 ),0,1,0,41.58,0.15,0.05,5.23,0.0,-0.13,0.0,1.65
+Fungi,Venturia inaequalis ( 5025 ),Venturia ( 5024 ),0,0,0,1.92,1.92,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Trichophyton mentagrophytes ( 523103 ),Trichophyton ( 5550 ),0,0,1,1.2,1.48,0.09,0.6,0.0,0.58,0.0,0.05
+Fungi,Aspergillus nidulans ( 162425 ),Aspergillus ( 5052 ),0,0,0,0.23,0.15,1.15,5.23,0.0,-0.13,0.0,1.65
+Fungi,Kluyveromyces lactis ( 28985 ),Kluyveromyces ( 4910 ),0,0,0,0.18,0.17,0.09,0.14,0.46,1.09,0.05,0.09
+Fungi,Aspergillus versicolor ( 46472 ),Aspergillus ( 5052 ),0,0,0,1.5,0.15,0.09,5.23,0.0,-0.13,0.0,1.65
+Fungi,Aspergillus terricola ( 36642 ),Aspergillus ( 5052 ),0,0,0,0.93,0.15,0.14,5.23,0.0,-0.13,0.0,1.65
+Fungi,Aspergillus fumigatus ( 746128 ),Aspergillus ( 5052 ),0,0,0,0.33,0.15,0.37,5.23,0.14,-0.13,0.14,1.65
+Fungi,Aspergillus ustus ( 40382 ),Aspergillus ( 5052 ),0,0,0,0.69,0.15,0.14,5.23,0.0,-0.13,0.0,1.65
+Fungi,Acremonium chrysogenum ( 5044 ),Acremonium ( 159075 ),0,0,0,0.97,0.22,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Lecanicillium muscarium ( 291364 ),Lecanicillium ( 291363 ),0,0,0,0.69,0.19,0.05,0.05,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.13,0.13,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Aspergillus penicillioides ( 41959 ),Aspergillus ( 5052 ),0,0,0,0.0,0.15,0.05,5.23,0.0,-0.13,0.0,1.65
+Artificial Sequences,Cloning vector pCST5-del-URA3 ( 978312 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Fungi,soil fungal sp. DM002 ( 532252 ),No genus ( -1 ),0,31,0,99.0,0.0,0.32,0.0,0.0,0.0,0.0,0.0
+Fungi,Saccharomycetales sp. LM265 ( 422774 ),No genus ( -1 ),0,9,0,100.0,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Fungi,soil fungal sp. DM2-083 ( 532405 ),No genus ( -1 ),0,0,0,0.89,0.0,0.18,0.0,0.0,0.0,0.0,0.0
+Fungi,soil fungal sp. DM2-152 ( 532441 ),No genus ( -1 ),0,0,0,0.58,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Tol2 transposon-based gene trap vector pT2F2-SAhygpA-NP21-Rev ( 947498 ),No genus ( -1 ),0,32,0,100.0,0.0,0.32,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,YAC construction vector pRML1 ( 410732 ),No genus ( -1 ),0,108,0,99.0,0.0,1.1,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Expression vector pYM70 ( 754152 ),No genus ( -1 ),0,36,0,100.0,0.0,0.37,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Expression vector pPZ3TA ( 463568 ),No genus ( -1 ),0,32,0,100.0,0.0,0.32,0.0,0.0,0.0,0.0,0.0
+Fungi,Candida kruisii ( 45561 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.23,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Candida integrating/Saccharomyces episomal vector CIp20-2my ( 742134 ),No genus ( -1 ),0,13,0,100.0,0.0,0.14,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Candida integrating/Saccharomyces episomal vector CIp10-2my ( 742133 ),No genus ( -1 ),0,9,0,100.0,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured gamma proteobacterium ( 86473 ),No genus ( -1 ),0,0,0,-0.23,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pBAC-FB ( 946237 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pNZ4 ( 691219 ),No genus ( -1 ),0,0,0,4.04,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pWSTK2 ( 512281 ),No genus ( -1 ),0,41,0,100.0,0.0,0.41,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Shuttle vector phcAd.DYS-FL ( 476186 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium B11 ( 353582 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured low G+C Gram-positive bacterium ( 152508 ),No genus ( -1 ),0,0,0,-0.08,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium mpn-isolate group 13 ( 157944 ),No genus ( -1 ),0,22,0,38.15,0.0,0.6,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Co-reporter vector pHRL-TK ( 159303 ),No genus ( -1 ),0,36,0,100.0,0.0,0.37,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),unidentified ( 32644 ),No genus ( -1 ),0,0,0,-0.25,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,synthetic construct ( 32630 ),No genus ( -1 ),0,0,0,-0.2,0.0,0.23,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured Ascomycota ( 175243 ),No genus ( -1 ),0,0,0,-0.14,0.0,0.14,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured soil fungus ( 167647 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.14,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured fungus ( 175245 ),No genus ( -1 ),0,0,0,-0.22,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured Zopfiella ( 1395129 ),No genus ( -1 ),0,2,0,8.88,0.0,0.28,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured Saccharomycetales ( 362224 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium (human infant) N13C ( 124180 ),No genus ( -1 ),0,3,0,33.39,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Fungi,uncultured Sphaerosporium ( 1235310 ),No genus ( -1 ),0,27,0,100.0,0.0,0.28,0.0,0.0,0.0,0.0,0.0
+Fungi,Pleosporales sp. TK36 ( 1194867 ),No genus ( -1 ),0,0,0,0.55,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Mammalian expression vector pHyg-EF-2 ( 186816 ),No genus ( -1 ),0,4,0,100.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Fungi,Agaricus bisporus ( 5341 ),Agaricus ( 5340 ),0,0,0,-0.0,-0.01,0.05,0.05,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,-0.0,-0.0,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus asini ( 57732 ),Enterococcus ( 1350 ),0,0,-1,0.0,-0.16,0.05,3.99,0.0,-0.2,0.0,0.83
+Fungi,Coccidioides posadasii ( 199306 ),Coccidioides ( 5500 ),0,0,0,0.17,-0.01,0.05,0.05,0.0,0.08,0.0,0.05
+Fungi,Rhodosporidium sphaerocarpum ( 86839 ),Rhodosporidium ( 5285 ),0,0,0,-0.0,-0.24,0.09,0.09,0.0,0.0,0.0,0.0
+Fungi,Talaromyces purpureogenus ( 1266744 ),Talaromyces ( 5094 ),0,0,0,-0.06,-0.06,0.05,1.56,0.0,0.24,0.0,3.62
+Fungi,Annulohypoxylon stygium ( 326628 ),Annulohypoxylon ( 326606 ),0,0,0,-0.05,-0.06,0.09,0.09,0.0,0.0,0.0,0.0
+Fungi,Naumovozyma castellii ( 27288 ),Naumovozyma ( 278028 ),0,0,0,0.08,-0.1,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Cyphellophora europaea ( 293227 ),Cyphellophora ( 226991 ),0,0,0,-0.06,0.15,0.05,0.09,0.0,0.0,0.0,0.0
+Fungi,Botrytis cinerea ( 40559 ),Botrytis ( 33196 ),0,0,0,-0.11,-0.11,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Delftia acidovorans ( 80866 ),Delftia ( 80865 ),0,0,0,-0.11,-0.11,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Phialocephala subalpina ( 576137 ),Phialocephala ( 150173 ),0,0,0,-0.11,-0.11,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Kazachstania africana ( 432096 ),Kazachstania ( 71245 ),0,0,0,0.14,-0.1,0.05,0.05,0.0,1.6,0.0,0.05
+Bacteria,Campylobacter coli ( 195 ),Campylobacter ( 194 ),0,0,0,-0.08,-0.2,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Sphingomonas taxi ( 1549858 ),Sphingomonas ( 13687 ),0,0,0,-0.12,-0.14,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Epidermophyton floccosum ( 34391 ),Epidermophyton ( 34390 ),0,0,0,-0.07,-0.07,0.18,0.18,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus hirae ( 1354 ),Enterococcus ( 1350 ),0,0,-1,0.02,-0.16,0.28,3.99,0.0,-0.2,0.0,0.83
+Bacteria,Acinetobacter oleivorans ( 1148157 ),Acinetobacter ( 469 ),0,0,0,-0.15,-0.13,0.05,0.05,0.0,-0.13,0.0,0.05
+Fungi,Cercospora sojina ( 438356 ),Cercospora ( 29002 ),0,0,0,-0.14,-0.15,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Planococcus sp. M184 ( 410050 ),Planococcus ( 1372 ),0,0,0,0.08,-0.26,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Penicillium digitatum ( 36651 ),Penicillium ( 5073 ),0,0,0,-0.11,-0.08,0.14,1.88,0.0,0.0,0.0,0.0
+Fungi,Marssonina brunnea ( 698440 ),Marssonina ( 324777 ),0,0,0,-0.06,-0.06,0.41,0.41,0.0,0.0,0.0,0.0
+Bacteria,uncultured Enterococcus sp. ( 167972 ),Enterococcus ( 1350 ),0,0,-1,-0.21,-0.16,0.05,3.99,0.0,-0.2,0.0,0.83
+Fungi,Talaromyces rugulosus ( 121627 ),Talaromyces ( 5094 ),0,0,0,0.56,-0.06,0.05,1.56,0.0,0.24,0.0,3.62
+Bacteria,Micrococcus luteus ( 1270 ),Micrococcus ( 1269 ),0,0,0,-0.18,-0.19,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium lentiflavum ( 141349 ),Mycobacterium ( 1763 ),0,0,0,-0.18,-0.21,0.05,0.09,0.0,0.0,0.0,0.0
+Bacteria,Mycobacterium indicus pranii ( 35617 ),Mycobacterium ( 1763 ),0,0,0,-0.18,-0.21,0.05,0.09,0.0,0.0,0.0,0.0
+Fungi,Verticillium alfalfae ( 1051613 ),Verticillium ( 1036719 ),0,0,0,-0.16,-0.24,0.05,0.09,0.0,0.0,0.0,0.0
+Fungi,Aspergillus terreus ( 33178 ),Aspergillus ( 5052 ),0,0,0,-0.27,0.15,0.05,5.23,0.0,-0.13,0.0,1.65
+Fungi,Sporisorium reilianum ( 72558 ),Sporisorium ( 63265 ),0,0,0,-0.2,-0.2,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Sporosarcina koreensis ( 334735 ),Sporosarcina ( 1569 ),0,0,0,0.35,-0.12,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Penicillium oxalicum ( 69781 ),Penicillium ( 5073 ),0,0,0,0.28,-0.08,0.09,1.88,0.0,0.0,0.0,0.0
+Bacteria,Thermoanaerobacter sp. X514 ( 399726 ),Thermoanaerobacter ( 1754 ),0,0,0,0.2,-0.25,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus capitis ( 29388 ),Staphylococcus ( 1279 ),0,0,0,-0.19,-0.27,0.05,0.09,0.0,-0.32,0.0,0.09
+Fungi,Arthroderma otae ( 63405 ),Arthroderma ( 63399 ),0,0,0,-0.04,1.42,0.05,0.6,0.0,0.0,0.0,0.0
+Bacteria,Ochrobactrum anthropi ( 529 ),Ochrobactrum ( 528 ),0,0,0,-0.1,-0.1,0.14,0.14,-0.12,-0.12,0.09,0.09
+Bacteria,Deinococcus swuensis ( 1182571 ),Deinococcus ( 1298 ),0,0,0,-0.21,-0.29,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Verticillium dahliae ( 27337 ),Verticillium ( 1036719 ),0,0,0,-0.26,-0.24,0.05,0.09,0.0,0.0,0.0,0.0
+Saccharomyces,Saccharomyces cerevisiae ( 4932 ),Saccharomyces ( 4930 ),0,0,0,-0.14,-0.14,0.14,0.14,-0.02,-0.02,1.24,1.24
+Bacteria,Enterococcus casseliflavus ( 37734 ),Enterococcus ( 1350 ),0,0,-1,-0.22,-0.16,0.09,3.99,0.0,-0.2,0.0,0.83
+Fungi,Neurospora crassa ( 5141 ),Neurospora ( 5140 ),0,0,0,-0.26,-0.28,0.05,0.05,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.05,0.0,0.0,0.0,0.0,0.0
+Fungi,Penicillium sp. 11MA11 ( 1253906 ),Penicillium ( 5073 ),0,0,0,0.9,-0.08,0.05,1.88,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas fluorescens ( 294 ),Pseudomonas ( 286 ),0,0,0,-0.25,-0.29,0.05,0.0,0.0,-0.39,0.0,0.05
+Bacteria,Moraxella catarrhalis ( 480 ),Moraxella ( 475 ),0,0,0,-0.31,-0.29,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Talaromyces marneffei ( 37727 ),Talaromyces ( 5094 ),0,0,0,-0.11,-0.06,0.69,1.56,0.0,0.24,0.0,3.62
+Fungi,Penicillium rubens ( 1108849 ),Penicillium ( 5073 ),0,0,0,-0.04,-0.08,1.28,1.88,0.0,0.0,0.0,0.0
+Fungi,Shiraia bambusicola ( 224420 ),Shiraia ( 224419 ),0,0,0,-0.18,-0.18,0.14,0.14,0.0,0.0,0.0,0.0
+Bacteria,Bradyrhizobium japonicum ( 375 ),Bradyrhizobium ( 374 ),0,0,0,-0.31,-0.31,0.05,0.14,0.0,-0.35,0.0,0.18
+Bacteria,Bradyrhizobium sp. S23321 ( 335659 ),Bradyrhizobium ( 374 ),0,0,0,-0.32,-0.31,0.05,0.14,0.0,-0.35,0.0,0.18
+Bacteria,Bradyrhizobium sp. ORS 278 ( 114615 ),Bradyrhizobium ( 374 ),0,0,0,-0.33,-0.31,0.05,0.14,0.0,-0.35,0.0,0.18
+Bacteria,Enterococcus durans ( 53345 ),Enterococcus ( 1350 ),0,0,-1,-0.1,-0.16,0.18,3.99,-0.15,-0.2,0.09,0.83
+Bacteria,Oligotropha carboxidovorans ( 40137 ),Oligotropha ( 40136 ),0,0,0,-0.35,-0.35,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Pantoea rwandensis ( 1076550 ),Pantoea ( 53335 ),0,0,0,-0.25,-0.5,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Myceliophthora thermophila ( 78579 ),Myceliophthora ( 49009 ),0,0,0,-0.36,-0.36,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Aromatoleum aromaticum ( 551760 ),Aromatoleum ( 551759 ),0,0,0,-0.37,-0.37,0.05,0.05,0.0,0.0,0.0,0.0
+Fungi,Leptosphaeria biglobosa ( 220672 ),Leptosphaeria ( 5021 ),0,0,0,-0.28,-0.26,0.09,0.28,0.0,0.0,0.0,0.0
+Fungi,Penicillium sp. 11MA10 ( 1253905 ),Penicillium ( 5073 ),0,0,0,1.89,-0.08,0.05,1.88,0.0,0.0,0.0,0.0
+Fungi,Leptosphaeria maculans ( 5022 ),Leptosphaeria ( 5021 ),0,0,0,-0.2,-0.26,0.14,0.28,0.0,0.0,0.0,0.0
+Bacteria,Corallococcus coralloides ( 184914 ),Corallococcus ( 83461 ),0,0,0,-0.43,-0.43,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus faecalis ( 1351 ),Enterococcus ( 1350 ),0,0,-1,-0.19,-0.16,0.14,3.99,-0.29,-0.2,0.09,0.83
+Bacteria,Streptomyces glaucescens ( 1907 ),Streptomyces ( 1883 ),0,0,0,-0.41,-0.54,0.05,0.0,0.0,0.0,0.0,0.0
+Bacteria,Sorangium cellulosum ( 56 ),Sorangium ( 39643 ),0,0,0,-0.32,-0.32,0.05,0.05,-0.38,-0.38,0.05,0.05
+Bacteria,Ralstonia pickettii ( 329 ),Ralstonia ( 48736 ),0,0,0,-0.36,-0.35,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,0,0,-0.34,-0.27,0.05,0.09,-0.34,-0.32,0.09,0.09
+Bacteria,Rickettsia prowazekii ( 782 ),Rickettsia ( 780 ),0,0,0,2.17,-0.15,0.05,0.05,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus faecium ( 1352 ),Enterococcus ( 1350 ),0,0,-1,-0.01,-0.16,3.16,3.99,0.12,-0.2,0.41,0.83
+Fungi,Zymoseptoria tritici ( 1047171 ),Zymoseptoria ( 1047167 ),0,0,0,-0.35,-0.35,0.09,0.09,-0.39,-0.42,0.05,0.05
+Bacteria,Pseudomonas pseudoalcaligenes ( 330 ),Pseudomonas ( 286 ),0,0,0,-0.18,-0.29,0.23,0.0,-0.39,-0.39,0.05,0.05
+Fungi,Fusarium graminearum ( 5518 ),Fusarium ( 5506 ),0,0,0,0.14,-0.17,1.38,1.38,0.0,0.0,0.0,0.0
+Fungi,Aspergillus niger ( 5061 ),Aspergillus ( 5052 ),0,0,0,-0.31,0.15,0.14,5.23,0.19,-0.13,1.47,1.65
+Bacteria,Stenotrophomonas maltophilia ( 40324 ),Stenotrophomonas ( 40323 ),0,0,0,-0.31,-0.32,0.5,0.5,-0.37,-0.37,0.18,0.18
+Fungi,Penicillium sp. 06VT06 ( 1253890 ),Penicillium ( 5073 ),0,1,0,10.22,-0.08,0.14,1.88,0.0,0.0,0.0,0.0
+Viruses,Papaya ringspot virus ( 12205 ),Potyvirus ( 12195 ),0,3,0,31.91,-0.05,0.09,0.09,15.82,-0.04,0.05,0.05
+Fungi,Talaromyces pinophilus ( 128442 ),Talaromyces ( 5094 ),0,3,0,8.38,-0.06,0.46,1.56,0.0,0.24,0.0,3.62
+Fungi,Penicillium sclerotiorum ( 69788 ),Penicillium ( 5073 ),0,3,0,75.22,-0.08,0.05,1.88,0.0,0.0,0.0,0.0
+Fungi,Penicillium griseofulvum ( 5078 ),Penicillium ( 5073 ),0,4,0,99.0,-0.08,0.05,1.88,0.0,0.0,0.0,0.0
+Fungi,Penicillium capsulatum ( 69766 ),Penicillium ( 5073 ),0,4,0,100.0,-0.08,0.05,1.88,0.0,0.0,0.0,0.0
+Fungi,Leptosphaeria sclerotioides ( 1077376 ),Leptosphaeria ( 5021 ),0,1,0,38.07,-0.26,0.05,0.28,0.0,0.0,0.0,0.0
+Fungi,Talaromyces pittii ( 128440 ),Talaromyces ( 5094 ),0,9,0,99.0,-0.06,0.09,1.56,0.0,0.24,0.0,3.62
+Bacteria,Enterococcus sp. YL3 ( 622484 ),Enterococcus ( 1350 ),0,4,-1,100.0,-0.16,0.05,3.99,0.0,-0.2,0.0,0.83
+Fungi,Candida parapsilosis ( 5480 ),Candida ( 1535326 ),-2,0,33026,-0.12,67.85,0.41,301.13,0.05,41.83,0.5,97.99
+Fungi,Neofusicoccum luteum ( 120395 ),Neofusicoccum ( 407951 ),-2,9,0,99.0,-0.27,0.09,0.09,0.0,0.0,0.0,0.0

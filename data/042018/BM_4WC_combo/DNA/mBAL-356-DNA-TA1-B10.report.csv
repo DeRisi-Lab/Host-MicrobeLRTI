@@ -1,0 +1,19 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Tropheryma whipplei ( 2039 ),Tropheryma ( 2038 ),30768,406,682,21.53,21.53,5.66,5.66,99.0,99.0,2.87,2.87
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.62,0.62,0.57,0.57,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.63,0.63,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.13,0.13,0.41,0.41,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.04,0.03,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,bacterium DR-2001 ( 158882 ),No genus ( -1 ),0,16,0,100.0,0.0,0.08,0.0,100.0,0.0,0.08,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,-0.03,-0.03,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,-0.12,-0.12,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,0,-0.12,-0.18,0.08,0.66,0.0,-0.23,0.0,0.41
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,0,-0.14,-0.18,0.08,0.66,0.0,-0.23,0.0,0.41
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,0,-0.18,-0.18,0.08,0.66,0.0,-0.23,0.0,0.41
+Mammalia,Bos taurus ( 9913 ),Bos ( 9903 ),0,0,0,-0.18,-0.19,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.27,-0.21,0.08,0.25,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus agalactiae ( 1311 ),Streptococcus ( 1301 ),0,0,0,-0.16,-0.18,0.08,0.66,-0.2,-0.23,0.08,0.41
+Bacteria,Streptococcus mitis ( 28037 ),Streptococcus ( 1301 ),0,0,0,-0.16,-0.18,0.16,0.66,-0.19,-0.23,0.08,0.41
+Bacteria,Neisseria gonorrhoeae ( 485 ),Neisseria ( 482 ),0,0,0,-0.39,-0.26,0.08,0.08,0.0,-0.34,0.0,0.08
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,0,-0.22,-0.18,0.16,0.66,-0.15,-0.23,0.25,0.41
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,5.08,-0.21,0.16,0.25,0.0,0.0,0.0,0.0

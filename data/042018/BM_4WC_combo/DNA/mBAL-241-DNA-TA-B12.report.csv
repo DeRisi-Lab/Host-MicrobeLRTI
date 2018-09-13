@@ -1,0 +1,26 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Caudovirales (dsDNA phages),Streptococcus phage DT1 ( 90410 ),Sfi21dtunalikevirus ( 1623304 ),10,4,0,47.13,1.96,0.06,0.06,31.09,2.26,0.06,0.06
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.84,0.82,0.25,0.25,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,0,0,2.19,0.32,0.06,0.25,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.28,0.28,0.32,0.32,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.18,0.32,0.19,0.25,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.38,0.38,0.06,0.06,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.01,0.01,0.32,0.32,0.0,0.0,0.0,0.0
+Bacteria,Neisseria macacae ( 496 ),Neisseria ( 482 ),0,0,0,-0.05,-0.24,0.06,0.57,0.0,-0.31,0.0,0.51
+Bacteria,Treponema sp. OMZ 838 ( 1539298 ),Treponema ( 157 ),0,0,0,-0.19,-0.23,0.06,0.06,0.0,-0.37,0.0,0.06
+Bacteria,Desulfovibrio alaskensis ( 58180 ),Desulfovibrio ( 872 ),0,0,0,-0.1,-0.46,0.06,0.06,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium aurimucosum ( 169292 ),Corynebacterium ( 1716 ),0,0,0,-0.28,-0.24,0.06,0.0,0.0,0.0,0.0,0.0
+Acidovorax,Acidovorax sp. KKS102 ( 358220 ),Acidovorax ( 12916 ),0,0,0,-0.27,-0.26,0.06,0.13,0.0,-0.36,0.0,0.06
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.06,0.0,0.0,-0.3,0.0,0.06
+Acidovorax,Acidovorax ebreus ( 721785 ),Acidovorax ( 12916 ),0,0,0,-0.28,-0.26,0.06,0.13,0.0,-0.36,0.0,0.06
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.28,-0.26,0.06,0.13,0.0,0.0,0.0,0.0
+Saccharomyces,Saccharomyces cerevisiae ( 4932 ),Saccharomyces ( 4930 ),0,0,0,-0.14,-0.14,0.19,0.19,-0.21,-0.21,0.06,0.06
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),0,0,0,-0.43,-0.24,0.06,0.57,0.0,-0.31,0.0,0.51
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,0,-0.12,-0.24,0.25,0.57,0.0,-0.31,0.0,0.51
+Bacteria,Dyella japonica ( 231455 ),Dyella ( 231454 ),0,0,0,-0.34,-0.36,0.06,0.0,0.0,0.0,0.0,0.0
+Bacteria,Verminephrobacter eiseniae ( 364317 ),Verminephrobacter ( 364316 ),0,0,0,-0.36,-0.36,0.06,0.06,0.0,0.0,0.0,0.0
+Bacteria,Taylorella asinigenitalis ( 84590 ),Taylorella ( 29574 ),0,0,0,-0.36,-0.39,0.06,0.06,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,0.63,-0.26,0.06,0.13,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,0,0,-0.34,-0.27,0.06,0.06,-0.34,-0.32,0.06,0.06
+Bacteria,Neisseria gonorrhoeae ( 485 ),Neisseria ( 482 ),0,0,0,-0.28,-0.24,0.19,0.57,0.0,-0.31,0.0,0.51
+Bacteria,Azospira oryzae ( 146939 ),Azospira ( 146937 ),0,0,0,-0.31,-0.31,0.19,0.19,-0.32,-0.32,0.13,0.13

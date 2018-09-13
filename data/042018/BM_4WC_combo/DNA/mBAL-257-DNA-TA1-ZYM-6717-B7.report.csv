@@ -1,0 +1,27 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Viruses,Human herpesvirus 1 ( 10298 ),Simplexvirus ( 10294 ),89,7,0,100.0,12.48,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),2,0,0,4.35,4.35,0.14,0.14,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),1,1,1,1.0,1.0,1.07,1.07,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.42,0.42,0.43,0.43,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.32,0.31,0.14,0.14,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Klebsiella phage phiKO2 ( 255431 ),No genus ( -1 ),0,7,0,100.0,0.0,0.07,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured organism ( 155900 ),No genus ( -1 ),0,0,0,-0.29,0.0,0.07,0.0,0.0,0.0,0.0,0.0
+Bacteria,Enterobacter cloacae ( 550 ),Enterobacter ( 547 ),0,0,0,-0.16,-0.01,0.43,16.86,-0.2,0.02,0.07,6.43
+Bacteria,Alistipes shahii ( 328814 ),Alistipes ( 239759 ),0,0,0,-0.1,-0.15,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.18,-0.18,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,0,-0.13,-0.25,0.07,0.43,0.0,-0.33,0.0,0.21
+Bacteria,Klebsiella oxytoca ( 571 ),Klebsiella ( 570 ),0,0,0,-0.22,-0.17,0.07,0.57,0.0,-0.12,0.0,1.5
+Bacteria,Klebsiella variicola ( 244366 ),Klebsiella ( 570 ),0,0,0,-0.13,-0.17,0.14,0.57,0.0,-0.12,0.0,1.5
+Acidovorax,Acidovorax sp. JS42 ( 232721 ),Acidovorax ( 12916 ),0,0,0,-0.19,-0.26,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides thetaiotaomicron ( 818 ),Bacteroides ( 816 ),0,0,0,-0.0,-0.15,1.29,1.36,0.19,-0.26,0.07,1.0
+Bacteria,Yersinia pestis ( 632 ),Yersinia ( 629 ),0,0,0,-0.12,-0.23,0.07,0.07,0.19,-0.33,0.07,0.07
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.24,-0.19,0.14,0.29,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides uniformis ( 820 ),Bacteroides ( 816 ),0,0,0,0.83,-0.15,0.07,1.36,0.0,-0.26,0.0,1.0
+Bacteria,Neisseria lactamica ( 486 ),Neisseria ( 482 ),0,0,0,-0.27,-0.25,0.14,0.43,0.0,-0.33,0.0,0.21
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,0.75,-0.19,0.07,0.29,0.0,0.0,0.0,0.0
+Bacteria,Klebsiella pneumoniae ( 573 ),Klebsiella ( 570 ),0,0,0,-0.13,-0.17,0.36,0.57,-0.1,-0.12,0.5,1.5
+Bacteria,Haemophilus parainfluenzae ( 729 ),Haemophilus ( 724 ),0,0,0,-0.19,-0.18,0.36,0.36,-0.37,-0.24,0.14,0.14
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,1.97,-0.19,0.07,0.29,0.0,0.0,0.0,0.0
+Bacteria,Cronobacter sakazakii ( 28141 ),Cronobacter ( 413496 ),0,0,0,-0.31,-0.31,0.29,0.29,0.0,0.0,0.0,0.0
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),0,0,0,-0.39,-0.25,0.21,0.43,-0.38,-0.33,0.07,0.21
+Bacteria,Enterobacter aerogenes ( 548 ),Enterobacter ( 547 ),-1,278,0,13.96,-0.01,16.43,16.86,8.05,0.02,6.07,6.43

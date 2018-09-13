@@ -1,0 +1,41 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),248,183,88,0.42,0.22,51.38,51.38,7.27,1.51,22.26,22.26
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.93,0.91,0.27,0.27,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.58,0.58,0.55,0.55,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured organism ( 155900 ),No genus ( -1 ),0,0,0,-0.27,0.0,0.55,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,TnphoZ mutagenesis vector pMHL120 ( 156762 ),No genus ( -1 ),0,0,0,2.02,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Streptococcus phage SM1 ( 157924 ),No genus ( -1 ),0,8,0,29.15,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Unclassified Phage,Streptococcus phage 2167 ( 870475 ),No genus ( -1 ),0,27,0,99.0,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Bacteria,Bifidobacterium adolescentis ( 1680 ),Bifidobacterium ( 1678 ),0,0,0,-0.01,-0.21,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Tannerella forsythia ( 28112 ),Tannerella ( 195950 ),0,0,0,-0.14,-0.15,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus dysgalactiae ( 1334 ),Streptococcus ( 1301 ),0,0,-12,-0.15,-0.16,0.27,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Streptococcus oligofermentans ( 195041 ),Streptococcus ( 1301 ),0,0,-12,-0.16,-0.16,0.27,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Porphyromonas gingivalis ( 837 ),Porphyromonas ( 836 ),0,0,0,-0.16,-0.17,0.27,0.27,0.0,-0.0,0.0,3.3
+Bacteria,Streptococcus gordonii ( 1302 ),Streptococcus ( 1301 ),0,0,-12,-0.12,-0.16,0.55,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,-12,-0.12,-0.16,0.55,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Prevotella denticola ( 28129 ),Prevotella ( 838 ),0,0,0,-0.19,-0.2,0.27,1.1,0.0,-0.15,0.0,0.82
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,0,-0.1,-0.2,0.55,1.1,0.0,-0.15,0.0,0.82
+Bacteria,Campylobacter concisus ( 199 ),Campylobacter ( 194 ),0,0,0,-0.09,-0.19,0.27,0.27,0.23,-0.13,0.27,0.27
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),0,0,0,-0.24,-0.2,0.27,1.1,0.0,-0.15,0.0,0.82
+Bacteria,Nocardia cyriacigeorgica ( 135487 ),Nocardia ( 1817 ),0,0,0,-0.13,-0.36,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,-12,-0.13,-0.16,0.82,40.12,0.0,-0.15,0.0,20.33
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.27,0.0,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus thermophilus ( 1308 ),Streptococcus ( 1301 ),0,0,-12,-0.15,-0.16,0.55,40.12,-0.19,-0.15,0.27,20.33
+Bacteria,Streptococcus oralis ( 1303 ),Streptococcus ( 1301 ),0,0,-12,-0.2,-0.16,0.55,40.12,-0.12,-0.15,0.27,20.33
+Bacteria,Leptotrichia buccalis ( 40542 ),Leptotrichia ( 32067 ),0,0,0,-0.28,-0.29,0.27,0.27,0.0,-0.11,0.0,0.55
+Bacteria,Streptomyces scabiei ( 1930 ),Streptomyces ( 1883 ),0,0,0,-0.16,-0.53,0.27,0.0,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus sanguinis ( 1305 ),Streptococcus ( 1301 ),0,0,-12,-0.15,-0.16,0.55,40.12,-0.07,-0.15,1.1,20.33
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,0,0,-0.33,-0.27,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Starkeya novella ( 921 ),Starkeya ( 152053 ),0,0,0,-0.32,-0.33,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Sanguibacter keddieii ( 60920 ),Sanguibacter ( 60919 ),0,0,0,-0.37,-0.35,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Modestobacter marinus ( 477641 ),Modestobacter ( 88138 ),0,0,0,-0.37,-0.37,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pseudopneumoniae ( 257758 ),Streptococcus ( 1301 ),0,0,-12,-0.1,-0.16,3.57,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Mycoplasma mycoides ( 2102 ),Mycoplasma ( 2093 ),0,0,0,1.57,-0.18,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,-1,-0.12,-0.12,4.12,4.12,0.15,-0.14,0.82,3.3
+Bacteria,Streptococcus infantis ( 68892 ),Streptococcus ( 1301 ),0,1,-12,4.15,-0.16,0.27,40.12,0.0,-0.15,0.0,20.33
+Bacteria,Streptococcus mitis ( 28037 ),Streptococcus ( 1301 ),0,-1,-12,-0.13,-0.16,7.69,40.12,-0.1,-0.15,3.3,20.33
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,-1,-12,-0.17,-0.16,5.77,40.12,-0.1,-0.15,4.67,20.33
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),-1,7,-12,0.07,-0.16,2.75,40.12,2.82,-0.15,2.75,20.33
+Bacteria,Streptococcus sp. I-G2 ( 1156431 ),Streptococcus ( 1301 ),-2,18,-12,3.56,-0.16,5.22,40.12,1.37,-0.15,0.27,20.33
+Bacteria,Streptococcus sp. I-P16 ( 1156433 ),Streptococcus ( 1301 ),-3,20,-12,1.88,-0.16,10.72,40.12,0.26,-0.15,0.55,20.33

@@ -1,0 +1,19 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),1,0,0,3.18,3.18,0.11,0.11,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,1.11,1.04,0.54,0.54,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.97,0.97,0.11,0.11,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.3,0.3,0.54,0.54,0.0,0.0,0.0,0.0
+Bacteria,Filifactor alocis ( 143361 ),Filifactor ( 44259 ),0,0,0,-0.11,-0.11,0.21,0.21,0.48,0.48,0.21,0.21
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.28,0.28,0.32,0.32,0.0,0.0,0.0,0.0
+Bacteria,Aggregatibacter aphrophilus ( 732 ),Aggregatibacter ( 416916 ),0,0,0,-0.12,-0.15,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Haemophilus influenzae ( 727 ),Haemophilus ( 724 ),0,0,0,-0.14,-0.16,0.21,0.86,0.0,-0.22,0.0,0.32
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,0,-0.13,-0.18,0.21,0.21,0.0,-0.24,0.0,0.11
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.18,-0.18,0.21,0.21,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.11,0.0,0.0,0.0,0.0,0.0
+Bacteria,Intrasporangium calvum ( 53358 ),Intrasporangium ( 53357 ),0,0,0,-0.27,-0.27,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Lactobacillus johnsonii ( 33959 ),Lactobacillus ( 1578 ),0,0,0,-0.25,-0.32,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Arthrobacter phenanthrenivorans ( 361575 ),Arthrobacter ( 1663 ),0,0,0,-0.25,-0.37,0.11,0.11,0.0,0.0,0.0,0.0
+Bacteria,Rothia dentocariosa ( 2047 ),Rothia ( 32207 ),0,0,0,-0.13,-0.14,0.43,1.07,-0.17,-0.21,0.21,0.64
+Bacteria,Haemophilus parainfluenzae ( 729 ),Haemophilus ( 724 ),0,0,0,-0.15,-0.16,0.64,0.86,-0.24,-0.22,0.32,0.32
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.64,1.07,-0.24,-0.21,0.43,0.64
+Bacteria,Bifidobacterium dentium ( 1689 ),Bifidobacterium ( 1678 ),0,0,0,-0.02,-0.21,0.11,0.11,1.52,-0.41,0.11,0.11

@@ -1,0 +1,59 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Escherichia coli,Escherichia coli ( 562 ),Escherichia ( 561 ),2,5,27,-0.06,-0.06,118.21,120.63215726418181,0.27,0.28,43.84,57.42
+Mammalia,Callithrix jacchus ( 9483 ),Callithrix ( 9481 ),0,0,0,2.33,2.33,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Escherichia albertii ( 208962 ),Escherichia ( 561 ),0,2,27,0.43,-0.06,0.54,120.63215726418181,2.98,0.28,0.81,57.42
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,-0.05,-0.05,0.27,0.27,1.49,1.49,0.13,0.13
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.9,0.88,0.27,0.27,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.39,0.35,0.27,0.27,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,0.13,0.13,0.13,0.13,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.03,0.03,0.13,0.13,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured prokaryote ( 198431 ),No genus ( -1 ),0,0,0,-0.16,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pD-Nus1 ( 429339 ),No genus ( -1 ),0,0,0,2.93,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Bacteria,mixed culture bacterium AX_gF3SD01_26 ( 663115 ),No genus ( -1 ),0,26,0,100.0,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Unclassified Sequence (synthetic),uncultured organism ( 155900 ),No genus ( -1 ),0,0,0,-0.28,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Bacteria,bacterium EM-2014-13 ( 1499743 ),No genus ( -1 ),0,13,0,100.0,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured Bacilli bacterium ( 224209 ),No genus ( -1 ),0,0,0,-0.16,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector lambda TXF97 ( 43300 ),No genus ( -1 ),0,0,0,-0.1,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,2.96,0.0,0.0,0.0,0.0,0.0
+Environmental samples,uncultured rumen bacterium ( 136703 ),No genus ( -1 ),0,0,0,-0.18,0.0,0.27,0.0,0.0,0.0,0.0,0.0
+Artificial Sequences,Cloning vector pRNA8 ( 54395 ),No genus ( -1 ),0,0,0,-0.16,0.0,0.4,0.0,0.0,0.0,0.0,0.0
+Bacteria,uncultured gamma proteobacterium ( 86473 ),No genus ( -1 ),0,0,0,-0.23,0.0,0.4,0.0,0.0,0.0,0.0,0.0
+Bacteria,Enterobacteriaceae bacterium strain FGI 57 ( 693444 ),No genus ( -1 ),0,0,0,-0.11,0.0,0.13,0.0,0.0,0.0,0.0,0.0
+Bacteria,Dickeya dadantii ( 204038 ),Dickeya ( 204037 ),0,0,0,0.03,-0.05,0.27,0.27,0.0,0.0,0.0,0.0
+Bacteria,uncultured Escherichia sp. ( 237777 ),Escherichia ( 561 ),0,0,27,-0.12,-0.06,0.13,120.63215726418181,0.0,0.28,0.0,57.42
+Bacteria,uncultured Prevotella sp. ( 159272 ),Prevotella ( 838 ),0,0,0,-0.06,-0.21,0.13,0.67,0.0,-0.15,0.0,1.21
+Bacteria,Proteus mirabilis ( 584 ),Proteus ( 583 ),0,0,0,-0.13,-0.14,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Salmonella bongori ( 54736 ),Salmonella ( 590 ),0,0,0,-0.09,-0.24,0.13,0.81,0.0,-0.18,0.0,0.54
+Bacteria,Streptococcus mutans ( 1309 ),Streptococcus ( 1301 ),0,0,-6,-0.14,-0.17,0.13,15.73,0.0,-0.21,0.0,6.32
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,0,-0.11,-0.21,0.13,0.67,0.0,-0.15,0.0,1.21
+Bacteria,Escherichia fergusonii ( 564 ),Escherichia ( 561 ),0,0,27,0.03,-0.06,2.29,120.63215726418181,0.0,0.28,0.0,57.42
+Bacteria,Streptococcus oligofermentans ( 195041 ),Streptococcus ( 1301 ),0,0,-6,-0.17,-0.17,0.13,15.73,0.0,-0.21,0.0,6.32
+Bacteria,Prevotella dentalis ( 52227 ),Prevotella ( 838 ),0,0,0,-0.15,-0.21,0.13,0.67,0.0,-0.15,0.0,1.21
+Bacteria,Enterobacter cloacae ( 550 ),Enterobacter ( 547 ),0,0,0,-0.17,-0.19,0.13,0.13,0.0,-0.22,0.0,0.67
+Bacteria,Citrobacter koseri ( 545 ),Citrobacter ( 544 ),0,0,0,0.02,-0.16,1.21,1.34,0.0,-0.14,0.0,0.54
+Bacteria,Streptococcus constellatus ( 76860 ),Streptococcus ( 1301 ),0,0,-6,-0.1,-0.17,0.27,15.73,0.0,-0.21,0.0,6.32
+Bacteria,Citrobacter amalonaticus ( 35703 ),Citrobacter ( 544 ),0,0,0,-0.29,-0.16,0.13,1.34,0.0,-0.14,0.0,0.54
+Bacteria,Macrococcus caseolyticus ( 69966 ),Macrococcus ( 69965 ),0,0,0,-0.21,-0.21,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),0,0,0,-0.25,-0.21,0.13,0.67,0.0,-0.15,0.0,1.21
+Bacteria,Enterococcus faecium ( 1352 ),Enterococcus ( 1350 ),0,0,0,-0.24,-0.23,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Shigella dysenteriae ( 622 ),Shigella ( 620 ),0,0,-1,-0.1,-0.12,0.67,18.96,0.0,0.04,0.4,4.17
+Bacteria,Prevotella denticola ( 28129 ),Prevotella ( 838 ),0,0,0,-0.26,-0.21,0.13,0.67,0.03,-0.15,0.13,1.21
+Bacteria,Streptococcus intermedius ( 1338 ),Streptococcus ( 1301 ),0,0,-6,-0.08,-0.17,0.54,15.73,-0.01,-0.21,0.67,6.32
+Bacteria,Klebsiella pneumoniae ( 573 ),Klebsiella ( 570 ),0,0,0,-0.14,-0.17,0.13,0.13,-0.1,-0.12,0.4,0.4
+Bacteria,Peptoclostridium difficile ( 1496 ),Peptoclostridium ( 1481960 ),0,0,0,-0.18,-0.23,0.13,0.13,0.06,-0.37,0.13,0.13
+Bacteria,Bacillus pumilus ( 1408 ),Bacillus ( 1386 ),0,0,0,-0.14,-0.53,0.13,0.13,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,-6,-0.12,-0.17,0.27,15.73,-0.17,-0.21,0.13,6.32
+Bacteria,Yersinia pestis ( 632 ),Yersinia ( 629 ),0,0,0,0.27,-0.19,0.4,0.4,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,-6,-0.18,-0.17,0.4,15.73,-0.18,-0.21,0.4,6.32
+Bacteria,Shigella sonnei ( 624 ),Shigella ( 620 ),0,0,-1,-0.1,-0.12,2.56,18.96,0.0,0.04,0.0,4.17
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,-6,-0.12,-0.17,1.75,15.73,0.0,-0.21,0.0,6.32
+Bacteria,Streptococcus oralis ( 1303 ),Streptococcus ( 1301 ),0,0,-6,-0.19,-0.17,1.48,15.73,-0.22,-0.21,0.13,6.32
+Bacteria,Salmonella enterica ( 28901 ),Salmonella ( 590 ),0,0,0,-0.25,-0.24,0.67,0.81,-0.18,-0.18,0.54,0.54
+Bacteria,Shigella boydii ( 621 ),Shigella ( 620 ),0,0,-1,-0.1,-0.12,5.11,18.96,-0.0,0.04,0.4,4.17
+Bacteria,Staphylococcus aureus ( 1280 ),Staphylococcus ( 1279 ),0,0,0,-0.31,-0.26,0.94,0.94,-0.32,-0.32,0.54,0.54
+Bacteria,Shigella flexneri ( 623 ),Shigella ( 620 ),0,-1,-1,-0.14,-0.12,10.62,18.96,0.07,0.04,3.36,4.17
+Caudovirales (dsDNA phages),Stx2-converting phage 1717 ( 563769 ),Lambdalikevirus ( 186765 ),0,4,0,30.18,-0.08,0.13,0.4,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Enterobacteria phage cdtI ( 414970 ),Lambdalikevirus ( 186765 ),-1,13,0,99.0,-0.08,0.13,0.4,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Enterobacteria phage BP-4795 ( 196242 ),Lambdalikevirus ( 186765 ),-1,13,0,100.0,-0.08,0.13,0.4,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus anginosus ( 1328 ),Streptococcus ( 1301 ),-2,13,-6,1.31,-0.17,10.76,15.73,-0.14,-0.21,2.96,6.32

@@ -1,0 +1,25 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Aeriscardovia aeriphila ( 218139 ),Aeriscardovia ( 240233 ),729,7,7,100.0,100.0,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.5,0.5,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.24,0.24,0.29,0.29,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.05,0.04,0.15,0.15,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,-0.02,-0.02,0.29,0.29,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus macedonicus ( 59310 ),Streptococcus ( 1301 ),0,0,0,-0.14,-0.18,0.07,0.15,0.0,0.0,0.0,0.0
+Bacteria,Bacillus clausii ( 79880 ),Bacillus ( 1386 ),0,0,0,-0.06,-0.54,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Carnobacterium sp. WN1359 ( 1266845 ),Carnobacterium ( 2747 ),0,0,0,-0.21,-0.17,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus parauberis ( 1348 ),Streptococcus ( 1301 ),0,0,0,-0.22,-0.18,0.07,0.15,0.0,0.0,0.0,0.0
+Fungi,Candida dubliniensis ( 42374 ),Candida ( 1535326 ),0,0,0,0.29,-0.19,0.07,0.22,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus faecium ( 1352 ),Enterococcus ( 1350 ),0,0,0,-0.24,-0.23,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Staphylococcus epidermidis ( 1282 ),Staphylococcus ( 1279 ),0,0,0,-0.24,-0.27,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Leptothrix cholodnii ( 34029 ),Leptothrix ( 88 ),0,0,0,-0.25,-0.26,0.07,0.07,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.28,-0.26,0.07,0.15,0.0,0.0,0.0,0.0
+Bacteria,Neisseria elongata ( 495 ),Neisseria ( 482 ),0,0,0,-0.13,-0.26,0.15,0.22,-0.12,-0.33,0.07,0.29
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),0,0,0,-0.43,-0.26,0.07,0.22,0.0,-0.33,0.0,0.29
+Bacteria,Bordetella petrii ( 94624 ),Bordetella ( 517 ),0,0,0,-0.38,-0.35,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Janthinobacterium agaricidamnosum ( 55508 ),Janthinobacterium ( 29580 ),0,0,0,-0.34,-0.4,0.07,0.07,0.0,0.0,0.0,0.0
+Bacteria,Rhodospirillum centenum ( 34018 ),Rhodospirillum ( 1081 ),0,0,0,-0.34,-0.39,0.07,0.07,0.0,0.0,0.0,0.0
+Fungi,Candida albicans ( 5476 ),Candida ( 1535326 ),0,0,0,0.38,-0.19,0.15,0.22,0.0,0.0,0.0,0.0
+Bacteria,Granulicatella adiacens ( 46124 ),Granulicatella ( 117563 ),0,1,0,12.44,0.03,0.07,0.07,0.63,-0.08,1.17,1.24
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,2.02,-0.26,0.07,0.15,0.0,0.0,0.0,0.0
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.15,-0.15,2.41,2.55,-0.08,-0.15,0.44,3.14
+Bacteria,Veillonella atypica ( 39777 ),Veillonella ( 29465 ),-2,17,0,99.0,-0.15,0.15,2.55,2.5,-0.15,1.17,3.14

@@ -1,0 +1,15 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),67,129,21,5.0,0.54,19.83,20.87,3.21,0.48,9.39,10.7
+Bacteria,Neisseria gonorrhoeae ( 485 ),Neisseria ( 482 ),0,1,21,0.07,0.54,0.52,20.87,1.83,0.48,1.04,10.7
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,2,0,9.63,0.33,0.26,0.26,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.62,0.62,0.78,0.78,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.86,0.85,0.26,0.26,0.0,0.0,0.0,0.0
+Bacteria,Neisseria lactamica ( 486 ),Neisseria ( 482 ),0,0,21,0.43,0.54,0.52,20.87,0.0,0.48,0.0,10.7
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.2,0.2,0.26,0.26,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.19,-0.08,0.26,0.52,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pseudopneumoniae ( 257758 ),Streptococcus ( 1301 ),0,0,-1,-0.16,-0.18,0.26,4.17,0.0,-0.23,0.0,1.04
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,-1,-0.21,-0.18,0.26,4.17,0.0,-0.23,0.0,1.04
+Bacteria,Rothia mucilaginosa ( 43675 ),Rothia ( 32207 ),0,0,0,-0.14,-0.14,0.26,0.26,-0.3,-0.24,0.26,0.26
+Fungi,Aspergillus fumigatus ( 746128 ),Aspergillus ( 5052 ),0,0,0,0.15,-0.34,0.26,0.26,0.49,-0.31,0.26,0.26
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,3.7,-0.08,0.26,0.52,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,-1,-0.17,-0.18,3.65,4.17,-0.17,-0.23,1.04,1.04

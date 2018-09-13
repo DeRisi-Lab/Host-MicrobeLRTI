@@ -1,0 +1,41 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),1,0,0,1.64,1.61,0.43,0.43,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),0,0,0,2.47,2.47,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Atopobium parvulum ( 1382 ),Atopobium ( 1380 ),0,0,0,2.12,0.23,0.34,0.34,0.51,0.33,0.09,0.43
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.5,0.5,0.69,0.69,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,0,0,3.03,0.54,0.09,0.34,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.36,0.54,0.26,0.34,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.68,0.68,0.09,0.09,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,0.25,0.25,0.17,0.17,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.2,0.2,0.26,0.26,0.0,0.0,0.0,0.0
+Environmental samples,uncultured bacterium ( 77133 ),No genus ( -1 ),0,0,0,-0.32,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Bacteria,Prevotella sp. oral taxon 299 ( 652716 ),Prevotella ( 838 ),0,0,0,-0.1,-0.01,0.43,10.56,0.0,-0.08,0.0,8.93
+Bacteria,Prevotella denticola ( 28129 ),Prevotella ( 838 ),0,0,0,-0.24,-0.01,0.17,10.56,-0.05,-0.08,0.09,8.93
+Bacteria,Candidatus Saccharimonas aalborgensis ( 1332188 ),Candidatus Saccharimonas ( 1331051 ),0,0,0,-0.1,-0.1,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Prevotella intermedia ( 28131 ),Prevotella ( 838 ),0,0,0,-0.23,-0.01,0.51,10.56,0.0,-0.08,0.0,8.93
+Bacteria,Delftia acidovorans ( 80866 ),Delftia ( 80865 ),0,0,0,-0.11,-0.11,0.09,0.09,0.0,0.0,0.0,0.0
+Mammalia,Papio anubis ( 9555 ),Papio ( 9554 ),0,0,0,-0.16,-0.16,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Bacteroides fragilis ( 817 ),Bacteroides ( 816 ),0,0,0,-0.15,-0.18,0.09,0.09,0.0,-0.28,0.0,0.09
+Bacteria,Fusobacterium nucleatum ( 851 ),Fusobacterium ( 848 ),0,0,0,-0.17,-0.17,0.09,0.09,0.0,-0.37,0.0,0.09
+Bacteria,Bifidobacterium kashiwanohense ( 630129 ),Bifidobacterium ( 1678 ),0,0,0,0.14,-0.21,0.09,0.26,0.0,-0.41,0.0,0.09
+Bacteria,Bifidobacterium longum ( 216816 ),Bifidobacterium ( 1678 ),0,0,0,-0.16,-0.21,0.09,0.26,0.0,-0.41,0.0,0.09
+Bacteria,Micrococcus luteus ( 1270 ),Micrococcus ( 1269 ),0,0,0,-0.18,-0.19,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Gordonibacter pamelaeae ( 471189 ),Gordonibacter ( 644652 ),0,0,0,-0.21,-0.21,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Enterococcus faecalis ( 1351 ),Enterococcus ( 1350 ),0,0,0,-0.2,-0.23,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Lactobacillus fermentum ( 1613 ),Lactobacillus ( 1578 ),0,0,0,-0.18,-0.32,0.09,0.17,0.0,0.0,0.0,0.0
+Bacteria,Lactobacillus helveticus ( 1587 ),Lactobacillus ( 1578 ),0,0,0,-0.2,-0.32,0.09,0.17,0.0,0.0,0.0,0.0
+Bacteria,Campylobacter concisus ( 199 ),Campylobacter ( 194 ),0,0,0,-0.09,-0.19,0.26,0.26,-0.05,-0.22,0.09,0.09
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.27,-0.24,0.09,0.17,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.09,0.0,0.0,0.0,0.0,0.0
+Bacteria,Corynebacterium atypicum ( 191610 ),Corynebacterium ( 1716 ),0,0,0,-0.31,-0.24,0.09,0.0,0.0,0.0,0.0,0.0
+Bacteria,Amycolatopsis lurida ( 31959 ),Amycolatopsis ( 1813 ),0,0,0,-0.33,-0.34,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Cellulomonas flavigena ( 1711 ),Cellulomonas ( 1707 ),0,0,0,-0.32,-0.4,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus pneumoniae ( 1313 ),Streptococcus ( 1301 ),0,0,0,-0.18,-0.18,0.26,0.26,-0.18,-0.24,0.09,0.17
+Bacteria,Beutenbergia cavernae ( 84757 ),Beutenbergia ( 84756 ),0,0,0,-0.4,-0.4,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Leptotrichia buccalis ( 40542 ),Leptotrichia ( 32067 ),0,0,0,-0.31,-0.32,0.17,0.17,0.0,-0.33,0.0,0.17
+Bacteria,Haemophilus parainfluenzae ( 729 ),Haemophilus ( 724 ),0,0,0,-0.2,-0.18,0.26,0.26,-0.42,-0.24,0.09,0.09
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.18,-0.18,0.43,0.43,-0.29,-0.23,0.09,0.43
+Bacteria,Bifidobacterium dentium ( 1689 ),Bifidobacterium ( 1678 ),0,0,0,-0.08,-0.21,0.09,0.26,1.15,-0.41,0.09,0.09
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,2.45,-0.24,0.09,0.17,0.0,0.0,0.0,0.0
+Bacteria,Prevotella pallens ( 60133 ),Prevotella ( 838 ),0,9,0,100.0,-0.01,0.09,10.56,2.0,-0.08,0.6,8.93
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),0,11,0,0.57,-0.01,9.35,10.56,1.57,-0.08,3.86,8.93

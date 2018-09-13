@@ -1,0 +1,1630 @@
+---
+title: "MBAL_LRTIvNoLRTI_HostPathogenCombined.Rmd"
+output: html_document
+---
+
+### Compile and install the current version of mBALPkg
+
+This must be completed everytime the underlying data changes. 
+```{r}
+# library(devtools)
+# library(roxygen2)
+# setwd(".") # /Host-MicrobeLRTI/mBALPkg
+# document(".")
+# setwd("../")
+# install("./mBALPkg")
+```
+
+Clear workspace and re-start R.
+
+
+### Set up analysis workspace:
+
+1. Load required packages.
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(mBALPkg)
+library(DESeq2)
+library(Biobase)
+library(glmnet)
+library(gplots)
+library(ROCR)
+library(randomForest)
+library(scales)
+library(RColorBrewer)
+library(heatmap.plus)
+
+```
+
+2. Initialize color palettes that will be used for the remainder of the analysis.
+
+```{r , include=FALSE}
+# set colors for future plots
+barplot_colors <- c("blue","red")
+infxn_colors <-c("red3","orange","green","blue3")  
+myPalette=rgb(colorRamp(c("blue3", "blue2",  'blue', "white",  "red", "red3", "red4"), space="rgb", interpolate="linear")(0:255/255), maxColorValue=255)  
+class_weight = c(.5,.5)
+
+# set the output directory (where plots and tables will be saved for each analysis run)
+output <- "./output/091318/" 
+```
+
+
+### Main Analysis
+
+#### 1. Observe the distribution of samples in the dataset.
+
+```{r, fig.height=8, fig.width=12}
+par(mfrow=c(2,3))
+cohort_summary(filtered_eset)  #plot summary statistics (barplots of pre-specified metadata categories)
+```
+
+#### 2. Investigate basic sequencing statistics. 
+
+Note, TableS3 was compiled from assembler2 pipeline logfiles - this code only reads the pre-compiled table and outputs summary statistics on sequencing depth and read coverage.
+
+```{r}
+# Sequencing stats were compiled through access to DeRisilab server. This file is not included in the mBALPkg... 
+# and would be unavailable to users. However, the same statistics can be replicated by vieweing Table S3.
+
+# sequencing_stats <- read.csv("../output/033118/TableS3.csv",sep='\t')
+# print(dim(sequencing_stats))
+# summary(sequencing_stats$Total.Reads)
+# summary(sequencing_stats$Percent.Microbial)
+```
+
+####  3. View the basic clinical statistics
+
+Boxplots showing the values for clinical statistics commonly used to determine disease etiology.
+
+```{r}
+
+#
+# Function: plot_clinical_variable
+# Input: 
+#    variable: the name of the clinical variable of interest (column in the metadata table)
+#
+# Result: perform wilcox rank sum test to evaluate significance of that clinical variable in 
+#    group 1 v. group 4 patients; NOTE this does not distinguish between training or test set 
+# 
+
+plot_clinical_variable <- function(variable) {
+  group1 <-
+    pData(raw_eset[, raw_eset$effective_group == 1])[, c(variable)]
+  group4 <-
+    pData(raw_eset[, raw_eset$effective_group == 4])[, c(variable)]
+  
+  wilcox_result <- wilcox.test(group1, group4)$p.value
+  print(wilcox_result)
+  boxplot(
+    list(group1, group4),
+    main = variable,
+    names = c("effective_group 1", "effective_group 4"),
+    ylab = variable
+  )
+  text(2, 6, paste("p =", round(wilcox_result, 4)))
+  stripchart(
+    list(group1, group4),
+    col = c('red3', 'blue3'),
+    pch = 1,
+    cex = 1.4,
+    vertical = TRUE,
+    method = 'jitter',
+    jitter = .2,
+    add = TRUE
+  )
+}
+
+pdf(paste(output, 'SIRS.pdf', sep = ""),
+    height = 6,
+    width = 12)
+par(mfrow = c(1, 5))
+plot_clinical_variable("TempMinSAPS")
+plot_clinical_variable("TempMaxSAPS")
+plot_clinical_variable("WBCMinSAPS")
+plot_clinical_variable("WBCMaxSAPS")
+plot_clinical_variable("SIRS")
+dev.off()
+
+```
+
+
+#### 4. Evaluate the significance of other clinical covariates
+
+Specifically, the prevalence of:
+* bloodstream infection
+* immune suppression
+* antibiotics (given prior to sampling)
+* age
+* gender
+
+These values are computed across all Group 1 v. Group 4 patients:
+```{r, echo = FALSE}
+
+#
+# Function: evaluate_clinical_covariate
+# Input: 
+#    eset: the expressionSet containing the samples over which the compairson btwn G1 and G4 patients should be performed.
+#    covariate: the name of the clinical variable of interest (column in the metadata table)
+#    positive: the string indicating which class is "positive" (ie "Yes", or "Male")
+#
+# Result: perform chi square proportions test to evaluate the difference in proportion of 
+#    patients with each binary covariate of interest
+# 
+
+evaluate_clinical_covariate <- function(eset, covariate, positive) {
+  g1 <- sum(pData(eset[, eset$effective_group == 1])[, c(covariate)] == positive) 
+  g4 <- sum(pData(eset[, eset$effective_group == 4])[, c(covariate)] == positive)
+  
+  print(paste("Percent of Group 1's with covariate =", covariate, ":", g1/length(colnames(eset[, eset$effective_group == 1]))))
+  print(paste("Percent of Group 4's with covariate =", covariate, ":", g4/length(colnames(eset[, eset$effective_group == 4]))))
+  print(prop.test(c(g1, g4),
+                  c(ncol(eset[, eset$effective_group == 1]),
+                    ncol(eset[, eset$effective_group == 4])))$p.value)
+  
+}
+
+########### IN ALL GROUP 1 v. GROUP 4
+evaluate_clinical_covariate(filtered_eset, "bloodstreamInfection", "Yes")
+evaluate_clinical_covariate(filtered_eset, "anyImmunesup", "Yes")
+evaluate_clinical_covariate(filtered_eset, "abxPrior", "Yes")
+evaluate_clinical_covariate(filtered_eset, "Gender", "Male")
+
+#age
+summary(filtered_eset[, filtered_eset$effective_group == 1]$age)
+summary(filtered_eset[, filtered_eset$effective_group == 4]$age)
+print(paste(
+  "Wilcox Rank Sum p-value for Age: ",
+  wilcox.test(filtered_eset[, filtered_eset$effective_group == 1]$age, filtered_eset[, filtered_eset$effective_group ==
+                                                                                       4]$age)$p.value
+))
+
+```
+
+And subsequently divided by training and test set.
+
+The metrics evaluated in the training set only are as follows...
+```{r, echo = FALSE}
+############ IN GROUP 1 v. GROUP 4 ONLY IN THE TRAINING SET
+evaluate_clinical_covariate(TRAINING_eset, "bloodstreamInfection", "Yes")
+evaluate_clinical_covariate(TRAINING_eset, "anyImmunesup", "Yes")
+evaluate_clinical_covariate(TRAINING_eset, "abxPrior", "Yes")
+evaluate_clinical_covariate(TRAINING_eset, "Gender", "Male")
+
+#age
+summary(TRAINING_eset[, TRAINING_eset$effective_group == 1]$age)
+summary(TRAINING_eset[, TRAINING_eset$effective_group == 4]$age)
+print(paste(
+  "Wilcox Rank Sum p-value for Age: ",
+  wilcox.test(TRAINING_eset[, TRAINING_eset$effective_group == 1]$age, TRAINING_eset[, TRAINING_eset$effective_group ==
+                                                                                       4]$age)$p.value
+))
+```
+
+
+The metrics evaluated in the test set only are as follows:
+```{r}
+############ IN GROUP 1 v. GROUP 4 ONLY IN THE TEST SET
+evaluate_clinical_covariate(TEST_eset, "bloodstreamInfection", "Yes")
+evaluate_clinical_covariate(TEST_eset, "anyImmunesup", "Yes")
+evaluate_clinical_covariate(TEST_eset, "abxPrior", "Yes")
+evaluate_clinical_covariate(TEST_eset, "Gender", "Male")
+
+#age
+summary(TEST_eset[, TEST_eset$effective_group == 1]$age)
+summary(TEST_eset[, TEST_eset$effective_group == 4]$age)
+print(paste(
+  "Wilcox Rank Sum p-value for Age: ",
+  wilcox.test(TEST_eset[, TEST_eset$effective_group == 1]$age, TEST_eset[, TEST_eset$effective_group ==
+                                                                                       4]$age)$p.value
+))
+```
+
+
+#### 5. Analyze the estimated cell type proportions 
+
+To ensure that we are not sctrictly recaptiulating differences in WBC count that could have been obtained by less expensive cell count and differential, we estimated cell type proportions using the CIBERSORT algorithm (during the data preprocessing step in constructing the mBALPkg). Here we analyze differences in cell type proportion as a fucntion of LRTI infection group, specifically focussing on Group 1 v. Group 4.
+
+a. Load cell type proportion data from mBALAnalysisPkg variable "cell_proportions", pre-computed cell type proportions from CIBERSORT of gene counts data againt LM22 matrix.
+b. Write the csv of cell proportions for inclusion in the manuscript
+c. Separate the cell proportions for TRAINING set samples into Group 1 and Group 4
+d. Plot barplots of the cell proportions to visualize trends
+e. Loop through all the cell types and use wilcox rank sum test to determine p-value significance for the differences in proportion between group 1 and group 4 patients. 
+f. Plot a boxplot for cell types that have significant differences
+
+```{r, fig.height=5, fig.width=10, warning=FALSE}
+
+# A./B. Load matrix and write to file for manuscript
+write.csv(signif(cell_proportions, 2),
+          paste(output, 'TableS6C.csv', sep = ""),
+          quote = FALSE)
+
+# C. Separate the cell proportions by G1 and G4
+cp1 <- cell_proportions[colnames(TRAINING_eset[, TRAINING_eset$effective_group == 1]), ]
+cp4 <- cell_proportions[colnames(TRAINING_eset[, TRAINING_eset$effective_group == 4]), ]
+
+# D. Plot barplots of cell proportions
+par(mfrow=c(1,3),mar=c(2,2,2,10))
+# barplots of cell proportions
+barplot( t(cp1), las = 2, cex.names = .6, col = rainbow(25), horiz = FALSE,
+  main = 'Cell Type Frequencies: effective_group 1', cex.main = .9
+)
+barplot( t(cp4), las = 2, cex.names = .6, col = rainbow(25), horiz = FALSE,
+  main = 'Cell Type Frequencies: effective_group 4', cex.main = .9,
+  legend = TRUE, args.legend = list(x = 25, y = 1.05, bty = 'n')
+)
+
+# E. Loop through cell types to identify significan differences between G1 and G4
+rows.combined <- nrow(cp1)
+cols.combined <- ncol(cp1) + ncol(cp4)
+matrix.combined <-
+  matrix(NA, nrow = rows.combined, ncol = cols.combined)
+matrix.combined[, seq(1, cols.combined, 2)] <- cp1
+matrix.combined[1:nrow(cp4), seq(2, cols.combined, 2)] <- cp4
+names <- c()
+keep_names <- c()
+for (i in colnames(cp1)) {
+  names <- c(names, paste(i, '_g1'), paste(i, '_g4'))
+  if (sum(cp1[, c(i)]) + sum(cp4[, c(i)])  > 0) {
+    pval <- wilcox.test(cp1[, c(i)], cp4[, c(i)])$p.value
+    if (pval < .1) {
+      print(paste(i, pval))
+      keep_names <- c(keep_names, paste(i, '_g1'), paste(i, '_g4'))
+    }
+  }
+}
+colnames(matrix.combined) <- names
+
+# F. Plot the boxplot for significant values.
+subset <- matrix.combined[, keep_names]
+par(mar = c(2, 8, 2, 2))
+boxplot( as.data.frame(subset), horizontal = TRUE, las = TRUE, cex.axis = .8 )
+stripchart( as.data.frame(subset), vertical = FALSE, method = 'jitter', jitter = .1, las = 2, add = TRUE )
+```
+
+
+#### 6. Generate the Host Gene Expression classifier for distinguishing LRTI+C+M from no-LRTI patients (Group 1 v. Group 4)
+
+Note: This is where it becomes important to establish the training and test set...
+
+```{r}
+TRAINING_NAMES <-
+  c(
+    "TA.212", "TA.225", "TA.298", "TA.304", "TA.314", "TA.315", "TA.335", "TA.337",
+    "TA.343", "TA.350", "TA.349", "TA.273", "TA.331", "TA.221", "TA.220", "TA.215",
+    "TA.270", "TA.241", "TA.211", "TA.218"
+  )   # selected randomly in early phase of analysis
+TEST_NAMES <-
+  colnames(classification_eset[, !(colnames(classification_eset) %in% TRAINING_NAMES)]) 
+```
+
+Begin classification analysis; First, leave-one-out cross-validation on the training set.
+
+```{r, fig.width=5}
+IC <- c("red", "blue")
+
+# separate the training data into "folds", 
+# each "fold" contains n-1 subset of training data and a single test sample
+folds <- leave_one_out.split(pData(TRAINING_eset))  
+
+# track the performance during each iteration of the LOOCV analysis.
+names <- c()
+all_host_genes2 <- c()   # track classifier genes identified at every round of CV to look for enrichment
+host_predictions2 <- c()   # track host predictions made for each left-out sample
+combined_proportions_predictions <- c()   # combine models; track predicted probabilities for each left-out sample
+host_predictions2.auc <- c()              # compute AUC for each round of training (for the host method)
+combined_proportions_predictions.auc <- c()    # compute AUC for each round of training (for the combined method)
+
+pdf(paste(output, 'test.pdf', sep = ""),
+    height = 7,
+    width = 15)   # this will contain a large reference file of heatmaps for each round of cross-validation
+
+for (i in seq(1:length(folds[[1]]))) {  # loop over all "folds"
+  
+  # create the subset of training and test data corresponding to this "fold"
+  training_names <- folds[[1]][[i]]
+  test_names <- folds[[2]][[i]]
+  names <- c(names, test_names)   # append left-out sample ID to "names" vector for future reference
+  
+  # SANITY CHECK: test that the training and test do not overlap
+  if (length(intersect(training_names, test_names)) > 0) {
+    print("ERROR: overlap between training and test data")
+  }
+  else{
+    
+    # generate separate train and test dataframes
+    train = classification_eset[, training_names]
+    test = classification_eset[, test_names]
+    
+    
+    ##### HOST classification #####
+    
+    # run classification with just host data
+    print("Host 2")
+    
+    # add potential confounding variables to the regularized regression model
+    control2 <- c("Gender", "bloodstreamInfection", "anyImmunesup")   
+    host_output2 <-
+      classify_using_host_transcriptome.loocv(
+        TRAINING_eset,
+        training_names,
+        test_names,
+        control2,
+        genemap,
+        full_model = FALSE,
+        save_PDF = TRUE,
+        alpha = .5
+      )
+    
+    # append genes identified as predictive in this round to the full vector of predictive genes 
+    # (for evaluating which genes are over-represented)
+    all_host_genes2 <- c(all_host_genes2, rownames(host_output2$subset))
+    
+    # append the host classifier prediction for the left-out sample to the vector of all left-out samples
+    host_predictions2 <- c(host_predictions2, host_output2$test_classification)
+    host_output <- host_output2
+    
+    
+    ##### COMBINED logistic regression model ( using host/microbe; diversity NOT included ) #####
+    
+    # bind host and microbe training data
+    F1 <- cbind("host" = host_output$train_classification, 
+                "microbe" = train$microbe_score, 
+                "effective_group" = train[, training_names]$effective_group == 1)  
+    F1 <- F1[complete.cases(F1), ]
+    
+    # generate standard logistic regression model using host and microbe scores as input
+    model <-
+      glm(
+        formula = effective_group ~ host + microbe,
+        family = binomial(link = 'logit'),
+        data = as.data.frame(F1)
+      )  # glm logit combined model
+    
+    # create a vector of test data for the combined model 
+    # (including host score from this iteration of leave-one-out host prediction)
+    m1 <- cbind("host" = host_output$test_classification, "microbe" = test$microbe_score)
+    m1 <- m1[complete.cases(m1), ]
+    
+    # predict probability given this test data point
+    proportion_predictions_test <- predict(model, as.data.frame(t(m1)), type = "response")  
+    
+     # append predicted probability for sample to vector
+    combined_proportions_predictions <- c(combined_proportions_predictions, proportion_predictions_test)  
+    
+  }
+}
+
+# create a barplot showing the number of times each gene was identified as predictive
+# this is useful for debugging / evaluating the final model as a function of training set
+barplot(
+  sort(table(all_host_genes2)),
+  las = 2,
+  horiz = TRUE,
+  xlab = 'Present in N Folds',
+  ylab = 'Gene ID',
+  cex.names = .6
+)
+
+# Compute performance metrics for host and combined models over LOOCV
+names(host_predictions2) <- unlist(folds[[2]])
+names(combined_proportions_predictions) <- unlist(folds[[2]])
+
+# AUC for HOST leave-one-out cross-validation
+host_predictions2.auc <- pROC::roc(factor(TRAINING_eset$effective_group == 1),
+                                   host_predictions2,
+                                   ci = TRUE)
+
+# AUC for COMBONED leave-one-out cross-validation
+combined_proportions_predictions.auc <- pROC::roc(factor(TRAINING_eset$effective_group == 1),
+                                                  combined_proportions_predictions,
+                                                  ci = TRUE)
+
+# create a barplot of the host predictions from leave-one-out cross-validation
+barplot(host_predictions2, col = IC[TRAINING_eset$effective_group], las = 2)
+
+dev.off()  # close massive pdf of heatmaps and barcharts
+
+# out of curiosity - output the list of genes that were predictive in every round of cross-validation
+write.csv(names(table(all_host_genes2)[table(all_host_genes2) == dim(classification_eset)[[2]]]),
+          paste(output, "genes_from_every_round_LOOCV.csv", sep = ""),
+          quote = FALSE)
+
+#avg number of genes per round of cross-validation
+length(all_host_genes2) / length(TRAINING_eset$effective_group)
+table(all_host_genes2)[table(all_host_genes2) == length(TRAINING_eset$effective_group)]
+
+par(mfrow=c(2,1))
+# this is a replicate of the barplot that was saved to .pdf
+barplot(host_predictions2, col = IC[as.integer(TRAINING_eset$effective_group == 1) + 1], las = 2)
+print(host_predictions2.auc)  # AUC for leave-one-out crossvalidation
+
+barplot(combined_proportions_predictions + 1,
+        col = IC[as.integer(TRAINING_eset$effective_group == 1) + 1],
+        las = 2)
+print(combined_proportions_predictions.auc)
+```
+
+
+
+
+
+#### 7. Run Host and combined classification on the test set
+
+```{r}
+IC <- c("blue", "red")  # set colors for plots
+
+# control for these variables (same as those that were controlled in the LOOCV stage)
+control <- c("Gender", "bloodstreamInfection", "anyImmunesup")   
+
+# train on all training data and then apply model to the test sets
+host_output <-
+  classify_using_host_transcriptome.loocv(
+    TRAINING_AND_TEST_eset,
+    TRAINING_NAMES,
+    TEST_NAMES,
+    control,
+    genemap,
+    full_model = FALSE,
+    save_PDF = FALSE,
+    alpha = .5
+  )
+host_predictions <- host_output$test_classification   # save host predictions
+
+# after full host model training and validation, plot the barplot of predictions for the training and test sets
+barplot(host_output$train_classification,
+        col = IC[as.integer(TRAINING_eset$effective_group == 1) + 1],
+        las = 2)
+barplot(host_output$test_classification,
+        col = IC[as.integer(TEST_eset$effective_group == 1) + 1],
+        las = 2)
+
+# AUC values for training and test set
+pROC::roc(TRAINING_eset$effective_group,
+          host_output$train_classification,
+          ci = TRUE)
+pROC::roc(TEST_eset$effective_group == 1,
+          host_output$test_classification,
+          ci = TRUE)
+
+# Combined model WITH JUST HOST AND MICROBE SCORES, DIVERSITY NOT INCLUDED.
+# bind the host and microbe scores into a marix
+F1 <- cbind("host" = host_output$train_classification,
+            "microbe" = TRAINING_eset$microbe_score,
+            "effective_group" = TRAINING_eset[, names(host_output$train_classification)]$effective_group==1)  
+F1 <- F1[complete.cases(F1), ]
+
+# create glm for combined host and microbe prediction
+model <-
+  glm(
+    formula = effective_group ~ host + microbe,
+    family = binomial(link = 'logit'),
+    data = as.data.frame(F1)
+  )  # fit logistic regression model
+
+# create a matrix of TEST host and microbe scores
+m1 <- cbind("host" = host_output$test_classification, 
+            "microbe" = TEST_eset$microbe_score)  
+
+# pt 256 has microbe score = 0 because no microbes were identified. 
+# Therefore, manually assinging LRM score of 0.
+m1[is.na(m1)] <- 0  
+
+# predict the combined test probabilities
+proportion_predictions_test <- predict(model, as.data.frame(m1), type = "response")  
+#combined_proportions_predictions <- proportion_predictions_test
+
+ # calculate AUC for combined (host/microbe) model
+pROC::roc(TEST_eset$effective_group == 1,
+          proportion_predictions_test,
+          ci = TRUE)    
+
+# plot the predicted probabilities for the test set
+# NOTE: the probabilities may have high AUC, but setting a threshold would be challenging given that some 
+#       have probabilities very close to zero
+barplot(proportion_predictions_test + 1,
+        col = IC[as.integer(TEST_eset[, names(proportion_predictions_test)]$effective_group == 1) + 1], las = 2)
+
+```
+
+
+SANITY CHECK:
+Verify that the function used for prediction on outside data (classify_using_host_transcriptome.withmodel), 
+called using the external script (run_host.R), provides the same result as the hard-coded result in this analysis sciprt
+```{r} 
+x <- classify_using_host_transcriptome.withmodel(TEST_eset,host_output$weights)
+x$test_classification
+x$test_classification == host_predictions
+```
+
+
+
+Just for fun, what do the expression values for the genes selected as predictive look like?
+
+```{r, fig.height=6, fig.width=12}
+par(mfrow = c(2, 6))
+for (i in seq(1:length(names(host_output$weights)))) {
+  stripchart(
+    list(
+      exprs(classification_eset_notscaled[names(host_output$weights), colnames(classification_eset_notscaled[, classification_eset_notscaled$effective_group == 1])])[i, ],
+      exprs(classification_eset_notscaled[names(host_output$weights), colnames(classification_eset_notscaled[, classification_eset_notscaled$effective_group == 4])])[i, ]
+    ),
+    vertical = TRUE,
+    jitter = .05,
+    method = 'jitter',
+    pch = 16,
+    col = alpha(c('red', 'blue'), .5),
+    cex = .8,
+    main = names(host_output$weights)[i]
+  )
+}
+```
+
+#### 8. Basic differential expression analysis on the training data to enable pathway analysis
+
+This also allows us to generate the heatmap shown in Figure 5.
+```{r}
+
+# we will only be using the TRAINING data; however, TRAINING_eset variable was z-score normalized...
+# so it no longer contains integer "count" data. Therefore, we will apply filtering etc. to the
+# filtered_eset on only the TRAINING samples
+
+eset <- filtered_eset[, TRAINING_NAMES] #filtered_eset2[, TRAINING_NAMES]
+reads_threshold <- 50000  # set data filtering thresholds for genes and samples
+transcripts_threshold <- 1000
+nonzero_gene_thresh <- .5
+
+# filtering samples
+eset.qf1 <- eset[, colSums(exprs(eset)) > reads_threshold]
+eset.qf2 <- eset.qf1[, colSums(exprs(eset.qf1)) > transcripts_threshold]
+
+# filtering genes
+eset.qf3 <- eset.qf2[rownames(filterZeroRows(exprs(eset.qf2), nonzero_gene_thresh)), ]
+
+# Differential Expression Analysis
+eset.qf3$effective_group <- as.factor(eset.qf3$effective_group)  # convert DESeq dependent var to factor
+dds <- DESeqDataSetFromMatrix(exprs(eset.qf3), pData(eset.qf3), design = ~ effective_group)
+dds <- DESeq(dds)
+
+# DESeq results 
+print(resultsNames(dds))
+res <- results(dds, contrast = c("effective_group", "1", "4"))
+res <- res[order(res$padj), ]   # sort by padj
+
+# establish several different results subsets
+resSig.padj1 <- res[which(res$padj < 0.1),]
+resSig.padj05 <- res[which(res$padj < 0.05),]
+resSig.padj01 <- res[which(res$padj < 0.01),]
+resSig.padj005 <- res[which(res$padj < 0.005),]
+resSig.padj001 <- res[which(res$padj < 0.001),]
+resSig.lfc2 <- res[which(abs(res$log2FoldChange) > 2), ]
+resSig.lfc1 <- res[which(abs(res$log2FoldChange) > 1), ]
+
+write.table(resSig.padj05,
+            paste(
+              output,
+              paste(
+                'TableS5A',
+                reads_threshold,
+                transcripts_threshold,
+                nonzero_gene_thresh,
+                '.tsv',
+                sep = '_'
+              ),
+              sep = ""
+            ),
+            sep = '\t',
+            quote = FALSE)   # output table of significant genes at p < .05
+
+# Why run rlog transformation: (https://rdrr.io/bioc/DESeq2/man/rlog.html)
+# rlog transformation produces a similar variance stabilizing effect as varianceStabilizingTransformation, 
+# though rlog is more robust in the case when the size factors vary widely.
+# The transformation is useful when checking for outliers or as input for machine learning techniques 
+# such as clustering or linear discriminant analysis
+
+rld <- rlog(dds)
+rldassay <- assay(rld)
+
+#Colorbar for infection
+status <- dds$effective_group
+c <- c('red', 'blue', 'grey', 'blue')
+f.status <- factor(status)
+status.colour <- rep(0, length(f.status))
+for (i in 1:length(f.status))
+  status.colour[i] <- c[dds$effective_group[i]] #creates different colors for infxn/no infxn heatmap
+
+# create Yellow -> Blue color map for the heatmap
+brewer2 = rgb(colorRamp(c(brewer.pal(16, "YlGnBu")), space = "rgb", 
+                        interpolate ="spline")(0:255 / 255), maxColorValue = 255)
+
+
+# HEATMAP considering only the host gene expression classifier genes
+TT <- c('grey67', 'grey14')  # colors for training / test set status
+IC <- c("blue", "red")       # colors for infxn / no infxn status
+host_threshold <- -4  # threshold at which we achieve 100% sensitivity in the training data
+
+# This makes publication Figure 5B
+pdf(paste(output, "Figure5B.pdf", sep = ""), height = 7, width = 14)
+
+# convert the gene names to HGNC notation (as opposed to ENSEMBL)
+genemap2 <- genemap[!duplicated(genemap[, 1]), ]
+rownames(genemap2) <- genemap2$ensembl_gene_id
+mat <- exprs(TRAINING_AND_TEST_eset[names(host_output$weights), ])
+rownames(mat) <- genemap2[rownames(host_output$subset), c("hgnc_symbol")]
+
+# create the heatmap
+mat <- mat[, names(sort(c(host_predictions, host_predictions2)))]  # sort columns by host score 
+heat.c <- heatmap.plus(
+  mat,
+  col = brewer2,
+  scale = "row",
+  cexRow = 0.7,
+  ColSideColors = as.matrix(cbind(IC[as.integer(classification_eset[, colnames(mat)]$effective_group == 1) + 1],
+                                  TT[as.integer(colnames(mat) %in% TRAINING_NAMES) + 1])),
+  symbreaks = T,
+  trace = "none",
+  margin = c(10, 10),
+  cex = .8,
+  Colv = NA
+)
+
+dev.off()
+
+# This makes publication Figure 5A (barchart of host scores, in same column order as the heatmap)
+pdf(paste(output, "Figure5A.pdf", sep = ""), height = 5, width = 10)
+barplot(sort(c(host_predictions, host_predictions2)),
+        las = 2,
+        col = IC[as.integer(classification_eset[, colnames(mat)]$effective_group == 1) + 1],
+        cex.names = .8)
+abline(h = host_threshold,
+       lty = 2,
+       col = 'orange',
+       lw = 3)
+dev.off()
+
+
+#
+# # QUICK INVESTIGATION INTO OASL, IFIT2, CXCL10 per JOE'S THOUGHTS on another paper
+# #   *note: this did not have any impact on the performance when initially assessed 
+# #          (potentially due to few viral cases). Would be interesting for future follow-up
+# #          so I am keeping the code available
+#
+# c(names(host_output$weights),"ENSG00000135114","ENSG00000119922","ENSG00000169245")
+# vir_cols <- c("grey","deepskyblue3","green4","orange","green1")
+# imm_sup <- c("white","white","grey20")
+# mat2 <- exprs(classification_eset)[c(names(host_output$weights),"ENSG00000135114","ENSG00000119922","ENSG00000169245"),]
+#
+# rownames(mat2) <- genemap2[c(names(host_output$weights),"ENSG00000135114","ENSG00000119922","ENSG00000169245"),c("hgnc_symbol")]
+# mat2 <- mat2[,names(sort(colSums(mat2*c(host_output$weights,1,1,1))))]
+# heat.c <- heatmap.plus(mat2,
+#                        col=brewer,
+#                        scale="row",
+#                        cexRow=0.7,
+#                        ColSideColors = as.matrix(cbind(vir_cols[as.integer(classification_eset[,colnames(mat2)]$pathogenType)],
+#                                                        IC[as.integer(classification_eset[,colnames(mat2)]$effective_group ==1)+1])),
+#                        symbreaks=T,
+#                        trace="none",
+#                        margin=c(10,10),
+#                        cex=.8,
+#                        Colv = NA)
+#
+
+```
+
+
+#### 9. Compute and plot AUC Curves for TRAINING and TEST SETs
+
+These plots are incorporated into Figure S3, Figure 5, and Figure 6 (respectively)
+
+```{r, fig.height=6, fig.width=6}
+
+#
+# Function: plot_train_test_auc
+# Input: 
+#    training result: the prediction results for the training set LOOCV
+#    test result: the prediction results for the test set 
+#    title: plot title
+# 
+# Result: plot the AUC curves for training and test sets (overlayed), 
+#         with the AUC and CI values in the lower corner
+# 
+
+plot_train_test_auc <- function(training_result, test_result, title){
+  rocobj_train_smooth <- pROC::roc(factor(TRAINING_eset$effective_group == 1),
+            training_result, 
+            ci = TRUE)
+  rocobj_test_smooth <- pROC::roc(factor(TEST_eset$effective_group ==1 ),
+            test_result,
+            ci = TRUE)
+  
+  # Plot ROC curves for the MICROBE MODEL
+  plot(
+    rocobj_train_smooth,
+    col = "blue",
+    main = title,
+    cex.main = 1,
+    font.main = 1,
+    lw = 3
+  )  # TRAINING AUC
+  text(.3, .1, paste(
+    paste(
+      "LOOCV AUC = ",
+      round(rocobj_train_smooth$auc, 2),
+      " (",
+      round(rocobj_train_smooth$ci[1], 2),
+      "-",
+      round(rocobj_train_smooth$ci[3], 2),
+      ".00)",
+      sep = ""
+    )
+  ), cex = .8, col = 'blue')
+  lines(
+    rocobj_test_smooth,
+    col = "green4",
+    cex.main = 1,
+    font.main = 1,
+    lw = 3
+  )                                       # TEST AUC
+  text(.3, .05, paste(
+    paste(
+      "Test AUC: ",
+      round(rocobj_test_smooth$auc, 2),
+      " (",
+      round(rocobj_test_smooth$ci[1], 2),
+      "-",
+      round(rocobj_test_smooth$ci[3], 2),
+      ".00)",
+      sep = ""
+    )
+  ), cex = .8, col = 'green4')
+  
+  
+}
+
+pdf(
+  paste(output, "ROCcurves_Fig5C_FigS3_Fig6A.pdf", sep = ""),
+  height = 12,
+  width = 4
+)
+
+par(mfrow = c(3, 1))
+plot_train_test_auc( TRAINING_eset$microbe_score, TEST_eset$microbe_score, "LR Model Performance")
+plot_train_test_auc( host_predictions2, host_output$test_classification, "Host Model Performance")
+plot_train_test_auc( combined_proportions_predictions, proportion_predictions_test, "Combined Model Performance")
+dev.off()
+
+```
+
+
+
+
+
+
+#### 10. Implement the Rule-Out model for LRTI Rule-Out
+
+Using the thresholds identified for the individual tests (host and microbe), determine whether individual patients are negative on both tests.
+
+First, we plot the raw metric values to demonstrate where patients fall on both scales.
+
+```{r,fig.height=6, fig.width=6}
+
+IC <-  c("blue", "red")
+host_threshold = -4      # threshold achieving 100% sensitivity in the training set 
+microbe_threshold = 0.36    # threshold achieving 100% sensitivity for microbe model in training set 
+
+RNA_threshold = 2.22  # 2.22youden's index for training set that prioritizes both sens and spec...(0.9 and 0.9). 2.85 has 100% sens and 80% spec
+
+# scatterplot of raw scores on host and microbe with dashed lines indicating thresholds
+pdf(paste(output, "Figure6B.pdf", sep = ""),
+    height = 4,
+    width = 3.8)  
+
+# set boundaries for host axis
+min_host <- min(host_predictions2) - 1  
+max_host <- max(host_predictions2) + 1
+
+# scatterplot of host v. microbe
+plot(
+  host_predictions2,
+  filtered_eset[, TRAINING_NAMES]$microbe_score,
+  col = alpha(IC[as.integer(TRAINING_eset$effective_group == 1) + 1], .7),
+  pch = 1,
+  cex = 1,
+  xlab = "Host Predictions",
+  ylab = "Microbe Score",
+  xlim = c(min_host, max_host),
+  ylim = c(-.05, 1.05)
+)
+points(
+  host_output$test_classification,
+  filtered_eset[, TEST_NAMES]$microbe_score,
+  col = alpha(IC[as.integer(filtered_eset[, TEST_NAMES]$effective_group ==
+                                   1) + 1], .7),
+  pch = 16,
+  cex = 1,
+  xlab = "Host Predictions",
+  ylab = "Microbe Score"
+)
+#text(host_predictions2, filtered_eset[, TRAINING_NAMES]$microbe_score,TRAINING_NAMES)
+#text(host_output$test_classification, filtered_eset[, TEST_NAMES]$microbe_score,TEST_NAMES)
+abline(h = microbe_threshold, lty = 2, col = 'grey')    # dashed threshold line
+abline(v = host_threshold, lty = 2, col = 'grey')       # dashed threshold line
+
+dev.off()
+```
+
+Then, we abstract away the details by applying a boolean filter that asks whether the individual metric score was "passing" (considered LRTI) or not.
+
+```{r}
+
+#
+# Function: rule_out_model
+# Input: 
+#    host scores: host score - ie sum of scaled classifier gene values
+#    microbe scores: microbe score - ie LRM top microbe score per patient
+#    diversity scores: diversity score - ie RNA shannon diversity index
+#    host threshold: threshold for host model, values above this threshold are infections
+#    microbe threshold: threshold for microbe model, values above this threshold are infections
+#    diversity threshold: threshold for diversity metric, values below this threshold are intections
+#    groupID: the list containing true identity (ie Group 1 v. Group 4 patients)
+#    pdf_name: the file name for the outut PDF containing the heatmap representation of the rule-out model
+# 
+# Result: plot the heatmap of rule-out model predictions
+# 
+
+rule_out_model <- function(host, microbe, diversity, 
+                           hostT, microbeT, diversityT, groupID,pdf_name) {
+  
+  # Generate the combined matrix with host, microbe, and RNA data
+  output_combined_metric_values <- cbind("Host" = host,
+                                         "Microbe" = microbe,
+                                         "RNA_SDI" = diversity)
+  
+  print(cbind(
+      "Host" = host,
+      "Microbe" = microbe,
+      "RNA SDI" = diversity
+    ))
+  
+  # Apply boolean filters to the metrics based on input thresholds
+  combo <-
+    cbind(
+      "Host" = as.integer(host > hostT),
+      "Microbe" = as.integer(microbe > microbeT),
+      "RNA SDI" = as.integer(diversity < diversityT)
+    )
+  
+  # Implement OR function on the Host/Microbe scores to obtain rule-out score
+  a <-
+    (as.integer(as.integer(combo[, c("Host")] > 0) + as.integer(combo[, c("Microbe")] > 0)) > 0) * 2
+  
+  # bind rule-out score to the matrix
+  combo <- cbind(combo, a)
+  rownames(combo) <- names(host)
+  colnames(combo) <-
+    c("Host", "Microbe", "RNA SDI", "Host OR      \n Microbe&SDI")
+  
+  # we only care about host and microbe; remove RNA SDI from the final matrix
+  combo <- combo[, c("Host", "Microbe", "Host OR      \n Microbe&SDI")]
+  #combo[is.na(combo)] <- 0
+  
+  # colors for the output "heatmap" representation of rule-out model
+  mPal2 = rgb(colorRamp(
+    c("gray90", "gray30", "darkred"),
+    space = "rgb",
+    interpolate = "linear"
+  )(0:255 / 255),
+  maxColorValue = 255)
+    
+  # Plot the rule-out result for the training set
+  pdf(paste(output, pdf_name, sep = ""),
+      width = 3,
+      height = .2 * dim(combo)[1])
+  
+  # plot the "heatmap" representation of rule-out model
+  heatmap.2(
+    combo[, c("Host OR      \n Microbe&SDI", "Host", "Microbe")],
+    RowSideColors = IC[groupID],
+    trace = "none",
+    key = FALSE,
+    col = mPal2,
+    margin = c(10, 10),
+    sepwidth = c(0.005, 0.005),
+    sepcolor = "black",
+    colsep = 1:ncol(combo),
+    rowsep = 1:nrow(combo),
+    dendrogram = "none",
+    Colv = FALSE,
+    cexCol = 1,
+    srtCol = 45,
+    cexRow = .8
+  )
+  
+  dev.off()
+}
+
+# generate the rule-out model heatmap for the training data
+rule_out_model(host_predictions2, filtered_eset[, TRAINING_NAMES]$microbe_score, filtered_eset[, TRAINING_NAMES]$RNAdiv,
+               host_threshold, microbe_threshold, RNA_threshold, as.integer(filtered_eset[, TRAINING_NAMES]$effective_group == 1) + 1,"train6B.pdf")
+
+# generate the rule-out model heatmap for the test data
+rule_out_model(host_output$test_classification, filtered_eset[, TEST_NAMES]$microbe_score, filtered_eset[, TEST_NAMES]$RNAdiv,
+               host_threshold, microbe_threshold, RNA_threshold, as.integer(filtered_eset[, TEST_NAMES]$effective_group == 1) + 1,"test6B.pdf")
+
+```
+
+
+#### 11. Apply the rule-out model to the other data (Group 2 patients and Group 3 patients)
+
+Apply to Group 2 patients (LRTI+C)
+
+```{r}
+
+# obtain the host metric predictions for group 2 patients, trained on the ful ltraining set
+host_output_g2 <- classify_using_host_transcriptome.withmodel( NOT_TRAINING_eset[, NOT_TRAINING_eset$effective_group == 2],
+                                              host_output$weights)
+
+# barplot showing the predicted host metric per Group 2 patient
+barplot(host_output_g2$test_classification, col = 'orangered', las = 2)   
+
+# get only the host results where value is not NA
+h <- host_output_g2$test_classification[!is.na(host_output_g2$test_classification)]
+
+# add additional NA values to the host predictions where RNA-seq coverage was below threshold
+# we will still plot the host scores for these individuals
+h2 <- c(h, rep(NA,4))
+names(h2) <- c(names(h), c("TA.316", "TA.320", "TA.329", "TA.330"))
+
+# generate the rule-out-model heatmap
+rule_out_model(h2,
+               raw_eset[, names(h2)]$microbe_score,
+               raw_eset[, names(h2)]$RNAdiv,
+               host_threshold, microbe_threshold, RNA_threshold,
+               as.integer(raw_eset[, names(h2)]$effective_group == 1) + 1,"group2_6B.pdf")
+
+```
+
+Apply to Group 3 patients (unk-LRTI)
+
+```{r}
+
+# obtain host metric predictions for Group 3 patients, trained on the full training set
+host_output_g3 <- classify_using_host_transcriptome.withmodel( NOT_TRAINING_eset[, NOT_TRAINING_eset$effective_group == 3],
+                                              host_output$weights)
+
+# barplot of host metric predictions for Group 3 patients
+barplot(host_output_g3$test_classification,
+        col = 'orangered',
+        las = 2)  
+
+# get only the host results where value is not NA
+h <- host_output_g3$test_classification[!is.na(host_output_g3$test_classification)]
+
+# generate the rule-out-model heatmap
+rule_out_model(h,
+               raw_eset[, names(h)]$microbe_score,
+               raw_eset[, names(h)]$RNAdiv,
+               host_threshold, microbe_threshold, RNA_threshold,
+               as.integer(raw_eset[, names(h)]$effective_group == 1) + 1,"group3_6B.pdf")
+```
+
+
+#### 12. Learning curve analysis
+
+To evaluate whether the training set was large enough to propoerly estimate model performance, we generated "learning curves". We track the AUC and MSE as the training set increases from 8, 10, 12, 14, 16, 18, and finally 20 (the entire set) of samples. 
+
+```{r, eval=FALSE}
+control <- c("Gender", "bloodstreamInfection", "anyImmunesup")
+
+genes <- c()
+overall_aucs <- c()
+overall_train_errs <- c()
+overall_test_errs <- c()
+
+grp1 <- TRAINING_NAMES[1:10]
+grp4 <- TRAINING_NAMES[11:20]
+
+for (i in seq(1:25)) {
+  # iterate over the learning curve computation 25 times to estimate mean and variance in curve
+  
+  lc_aucs <- c()
+  lc_train_err <- c()
+  lc_test_err <- c()
+  
+  for (i in seq(2:11)) {
+    # loop through all possible training set sizes (in multiples of 2)
+    if (i > 4) {
+      this_train <- c(sample(grp1, i), sample(grp4, i))
+      
+      # implement a LOOCV scheme here to obtain training error estimates downstream:
+      loo_train_pred <- c()
+      for (k in this_train) {
+        train <- setdiff(this_train, k)
+        dummy <-
+          classify_using_host_transcriptome.loocv(
+            TRAINING_AND_TEST_eset,
+            train,
+            k,
+            control,
+            genemap,
+            full_model = FALSE,
+            save_PDF = FALSE,
+            alpha = .5
+          )
+        loo_train_pred <-
+          c(loo_train_pred, dummy$test_classification)
+      }#optimize = "npv",
+      
+      # compute the test set host metric
+      HO <-
+        classify_using_host_transcriptome.loocv(
+          TRAINING_AND_TEST_eset,
+          this_train,
+          TEST_NAMES,
+          control,
+          genemap,
+          full_model = FALSE,
+          save_PDF = FALSE,
+          alpha = .5
+        )#.2)optimize = "npv",
+      
+      # calculate the error in training and test sets
+      atrain <-
+        as.integer(loo_train_pred > -4) - as.integer(TRAINING_AND_TEST_eset[, this_train]$effective_group ==
+                                                       1)   # training error
+      train_err <- sum(atrain ** 2) / length(atrain)
+      atest <-
+        as.integer(HO$test_classification > -4) - as.integer(TRAINING_AND_TEST_eset[, names(HO$test_classification)]$effective_group ==
+                                                               1)  # test error
+      test_err <- sum(atest ** 2) / length(atest)
+      
+      # append training and test MSE, and test AUC to variables tracking progress over the size of the learning curve
+      lc_train_err <- c(lc_train_err, train_err)
+      lc_test_err <- c(lc_test_err, test_err)
+      lc_aucs <-
+        c(
+          lc_aucs,
+          pROC::roc(
+            TEST_eset$effective_group == 1,
+            HO$test_classification,
+            ci = TRUE
+          )$auc[1]
+        )
+      
+      # keep track of which genes are selected as predictive given the subset training set
+      genes <- c(genes, names(HO$weights))
+    }
+  }
+  
+  # track the AUC and errors over multiple iterations
+  overall_aucs <- c(overall_aucs, list(lc_aucs))
+  overall_train_errs <- c(overall_train_errs, list(lc_train_err))
+  overall_test_errs <- c(overall_test_errs, list(lc_test_err))
+}
+
+# extract AUCs from list of lists
+auc10 <- sapply(overall_aucs, function(x)
+  x[[1]])
+auc12 <- sapply(overall_aucs, function(x)
+  x[[2]])
+auc14 <- sapply(overall_aucs, function(x)
+  x[[3]])
+auc16 <- sapply(overall_aucs, function(x)
+  x[[4]])
+auc18 <- sapply(overall_aucs, function(x)
+  x[[5]])
+auc20 <- sapply(overall_aucs, function(x)
+  x[[6]])
+
+pdf(paste(output, "FigureS5BC.pdf"),
+    height = 4,
+    width = 8)
+par(mfrow = c(1, 2))
+
+# Plot the test AUC as function of increasing training size
+plot(
+  c(10, 12, 14, 16, 18, 20),
+  c(overall_aucs[[1]]),
+  ylim = c(-.1, 1.1),
+  xlim = c(8, 20),
+  xlab = "N Training Samples",
+  ylab = "Test Set AUC",
+  main = "Test AUC by Training Size",
+  pch = 16,
+  col = alpha('black', .3)
+)
+for (i in seq(1:length(overall_aucs))) {
+  if (i > 1) {
+    points(
+      c(10, 12, 14, 16, 18, 20),
+      c(overall_aucs[[i]]),
+      pch = 16,
+      col = alpha('black', .3)
+    )
+  }
+}
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(
+    mean(auc10) - var(auc10),
+    mean(auc12) - var(auc12),
+    mean(auc14) - var(auc14),
+    mean(auc16) - var(auc16),
+    mean(auc18) - var(auc18),
+    mean(auc20) - var(auc20)
+  ),
+  col = 'gold',
+  type = 'l',
+  ylim = c(0, 12),
+  lw = 1.2
+)
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(
+    mean(auc10) + var(auc10),
+    mean(auc12) + var(auc12),
+    mean(auc14) + var(auc14),
+    mean(auc16) + var(auc16),
+    mean(auc18) + var(auc18),
+    mean(auc20) + var(auc20)
+  ),
+  col = 'gold',
+  type = 'l',
+  ylim = c(0, 12),
+  lw = 1.2
+)
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(
+    mean(auc10),
+    mean(auc12),
+    mean(auc14),
+    mean(auc16),
+    mean(auc18),
+    mean(auc20)
+  ),
+  col = 'red',
+  type = 'l',
+  ylim = c(0, 12),
+  lwd = 1.2
+)
+
+# extract the training errors from list of lists
+train10 <- sapply(overall_train_errs, function(x)
+  x[[1]])
+train12 <- sapply(overall_train_errs, function(x)
+  x[[2]])
+train14 <- sapply(overall_train_errs, function(x)
+  x[[3]])
+train16 <- sapply(overall_train_errs, function(x)
+  x[[4]])
+train18 <- sapply(overall_train_errs, function(x)
+  x[[5]])
+train20 <- sapply(overall_train_errs, function(x)
+  x[[6]])
+
+# extract the test errors from list of lists
+test10 <- sapply(overall_test_errs, function(x)
+  x[[1]])
+test12 <- sapply(overall_test_errs, function(x)
+  x[[2]])
+test14 <- sapply(overall_test_errs, function(x)
+  x[[3]])
+test16 <- sapply(overall_test_errs, function(x)
+  x[[4]])
+test18 <- sapply(overall_test_errs, function(x)
+  x[[5]])
+test20 <- sapply(overall_test_errs, function(x)
+  x[[6]])
+
+# Plot the MSE (training and test) as a function of increasing training set size
+plot(
+  c(10, 12, 14, 16, 18, 20),
+  c(overall_test_errs[[1]]),
+  col = alpha('darkgreen', .4),
+  ylim = c(-0.1, 1.1),
+  xlab = "N Training Samples",
+  ylab = "MSE",
+  main = "Learning Curve: Host Classifier Performance",
+  pch = 16,
+  xlim = c(8, 20)
+)
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(overall_train_errs[[1]]),
+  col = alpha('blue', .4),
+  pch = 16
+)
+for (i in seq(1:(length(overall_test_errs)-1))) {
+  points(
+    c(10, 12, 14, 16, 18, 20),
+    c(overall_test_errs[[1 + i]]),
+    col = alpha('darkgreen', .4),
+    pch = 16
+  )
+  points(
+    c(10, 12, 14, 16, 18, 20),
+    c(overall_train_errs[[1 + i]]),
+    col = alpha('blue', .4),
+    pch = 16
+  )
+}
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(
+    mean(test10),
+    mean(test12),
+    mean(test14),
+    mean(test16),
+    mean(test18),
+    mean(test20)
+  ),
+  col = 'darkgreen',
+  type = 'l',
+  ylim = c(0, 12),
+  lwd = 1.2
+)
+points(
+  c(10, 12, 14, 16, 18, 20),
+  c(
+    mean(train10),
+    mean(train12),
+    mean(train14),
+    mean(train16),
+    mean(train18),
+    mean(train20)
+  ),
+  col = 'blue',
+  type = 'l',
+  lwd = 1.2
+)
+
+dev.off()
+
+par(mar = c(3, 10, 1, 1))
+barplot(
+  tail(sort(table(genes)), n = 30),
+  horiz = TRUE,
+  las = 2,
+  cex.names = .8
+)   # just-for-fun plot of gene and number of times it was predictive in LC computations
+# *note, genes that were predictive with the full set will be enriched +25 because they will be predictive in every final iteration
+
+```
+
+
+#### 13. Diversity analysis 
+
+
+Using the raw microbial matrix (merged_microbes variable in the mBALPkg), compute various diversity metrics using implementation in the Vegan package.
+
+```{r}
+
+# subset of just RNA values
+RNA_microbes <- merged_microbes[, grep("RNA", colnames(merged_microbes))]  
+
+# subset of just DNA values
+DNA_microbes <- merged_microbes[, grep("DNA", colnames(merged_microbes))]  
+
+RNA_names <- gsub('-', '.', classification_eset$RNAfilename)
+DNA_names <- gsub('-', '.', classification_eset$DNAfilename)
+
+# Compute SIMPSONS DIVERSITY INDEX
+rna_SDI <- vegan::diversity(t(RNA_microbes), index = "simpson")
+dna_SDI <- vegan::diversity(t(DNA_microbes), index = "simpson")
+
+# Compute SHANNON DIVERSITY INDEX
+rna_shannon <- vegan::diversity(t(RNA_microbes), index = "shannon")
+dna_shannon <- vegan::diversity(t(DNA_microbes), index = "shannon")
+
+# Compute RICHNESS
+rna_richness <- colSums(RNA_microbes > 0)
+dna_richness <- colSums(DNA_microbes > 0)
+
+# Compute BURDEN (total microbial sequence abundance)
+rna_burden <- colSums(RNA_microbes)
+dna_burden <- colSums(DNA_microbes)
+
+```
+
+
+Diversity Analysis Functions
+```{r}
+
+#
+# Function: run_diversity
+# Input: 
+#    eset: the pre-computed diversity metric (in the form of a numeric list with associated filenames)
+#    TEST_eset: this variable indicates the name of the metadata column with the filename variable of interest
+#    shannon: the precomputed numeric list of Shannon diversity index values associated with each filename
+#    filename_var: the metadata column associated with the filenames of interest (ie RNAfilename, DNAfilename)
+#    diversity_var: the metadata  column associated with the diversity variable (ie RNAdiv, DNAdiv)
+#    pdf_filename: the filename for the PDF file output (3-panel diversity figure)
+# 
+# Result: Run PERMANOVA analysis on the Bray-curtis distance matrix, then eva
+#    group 1 v. group 4 patients; then plot the boxplot of Shannon diversity index and the
+#    shannon diversity AUC curves for training and test datasets
+# 
+
+run_diversity <-
+  function(eset,
+           TEST_eset,
+           shannon,
+           filename_var,
+           diversity_var,
+           pdf_filename) {
+    set.seed(4)  # set random seed for consistency in replicating results
+    
+    training_filenames <- gsub('-', '.', pData(eset)[, c(filename_var)])
+    training_filenames_g1 <-
+      gsub('-', '.', pData(eset[, eset$effective_group == 1])[, c(filename_var)])
+    training_filenames_g4 <-
+      gsub('-', '.', pData(eset[, eset$effective_group == 4])[, c(filename_var)])
+    
+    # select only the samples will filenames of interest (ie only RNA filenames or DNA filenames)
+    merged_microbes_dummy_rnaV <-
+      merged_microbes[, gsub('-', '.', training_filenames)]
+    
+    # calculate Bray-curtis distance
+    BC <-
+      as.matrix(vegan::vegdist(t(merged_microbes_dummy_rnaV[, training_filenames]),
+                               method = "bray"))
+    
+    # run NMDS on the bray-curtis distance matrix
+    example_NMDS <- vegan::metaMDS(BC, k = 2, trymax = 1000)
+    
+    # prepare to plot solution
+    x <- example_NMDS$points[, 1]
+    y <- example_NMDS$points[, 2]
+    
+    # set up  covariate for adonis2 function (error with adonis function, so this is a workaround)
+    a <-  as.integer(pData(eset)[,"effective_group"])
+    names(a) <- gsub('-', '.', training_filenames)
+    a <- as.data.frame(a)
+    colnames(a) <- c("effective_group")
+    a <- cbind(a,a)
+    colnames(a) <- c("effective_group","x")
+    a$effective_group <- as.factor(a$effective_group)
+    
+    # Run a permanova test using the adonis function in vegan.
+    # Here, we are testing the hypothesis that the two groups (G1 v. G4) have different centroids
+    permanova_result <- vegan::adonis2(BC~effective_group, a, permutations = 999)
+    print(permanova_result)
+    print(paste(output, pdf_filename))
+    pdf(paste(output, pdf_filename), height = 4, width = 11)    # 3-panel Figure S4
+    par(mfrow = c(1, 3))
+    
+    # Compute statistical significance of Shannon diversity
+    w <- wilcox.test(shannon[training_filenames_g1], shannon[training_filenames_g4])
+    print(w)
+    
+    # boxplot of shannon diversity (Figure 4C)
+    print(training_filenames_g1)
+    print(list(shannon[training_filenames_g1], shannon[training_filenames_g4]))
+    boxplot(
+      list(shannon[training_filenames_g1], shannon[training_filenames_g4]),
+      vertical = TRUE, col = alpha(c("red", "blue"), .9), method = "jitter", jitter = .1,
+      pch = 17, cex = 2, names = c("LRTI+C/M", "no-LRTI"), ylab = "Shannon Diversity Index",
+      outline = FALSE, ylim = c(-.05, 4.15)
+    )
+    text(2, 0, paste("p = ", round(w$p.value, 5)))
+    stripchart(
+      list(shannon[training_filenames_g1], shannon[training_filenames_g4]),
+      vertical = TRUE, method = "jitter", jitter = .1,
+      pch = 1, cex = 1, main = title, cex.main = .8, font.main = 1, add = TRUE
+    )
+    
+    # plot the NMDS projection and permanova results (Figure 4B)
+    plot(
+      x, y, xlab = "NMDS 1", ylab = "NMDS 2",
+      col = alpha(IC[as.integer(eset$effective_group == 1) + 1], .9),
+      pch = 16, font.main = 1, cex.axis = .8, cex.main = .8
+    )
+    vegan::ordispider(
+      example_NMDS, group = eset$effective_group, show = "1", col = alpha("red", .7)
+    )
+    vegan::ordispider(
+      example_NMDS, group = eset$effective_group, show = "4", col = alpha("blue", .7)
+    )
+    text(.3, -.5, "p = .005", cex = .8)
+    text(-.2, .13, "no-LRTI", cex = .6, col = "blue")
+    text(.33, .1, "LRTI+C/M", cex = .6, col = "red")
+    
+    # plot the ROC curves (Figure S4C)
+    train <-
+      pROC::roc(factor(eset[, eset$effective_group %in% c(1, 4)]$effective_group == 1),
+                pData(eset[, eset$effective_group %in% c(1, 4)])[, c(diversity_var)],
+                ci = TRUE)
+    test <-
+      pROC::roc(factor(TEST_eset[, TEST_eset$effective_group %in% c(1, 4)]$effective_group == 1),
+                pData(TEST_eset[, TEST_eset$effective_group %in% c(1, 4)])[, c(diversity_var)],
+                ci = TRUE)
+    plot(train, col = 'blue')
+    lines(test, col = 'green4')
+    text(.3, .2, paste(
+           "Train AUC = ",
+           round((train)$auc, 2)," (",
+           round(train$ci[1], 2),"-",
+           round(train$ci[3], 2),")",
+           sep = ""
+         ),
+         col = 'blue')
+    text(.3, .15, paste(
+           "Test AUC = ",
+           round((test)$auc, 2), " (",
+           round(test$ci[1], 2), "-",
+           round(test$ci[3], 2), ")",
+           sep = ""
+         ), col = 'green4')
+    
+    dev.off()
+    
+  }
+
+getwd()
+#
+# Function: compare_diversity_metrics
+# Input: 
+#    metric: the pre-computed diversity metric (in the form of a numeric list with associated filenames)
+#    filename_variable: this variable indicates the name of the metadata column with the filename variable of interest
+# 
+# Result: perform wilcox rank sum test to evaluate significance of that diversity metric in 
+#    group 1 v. group 4 patients; then compute AUC curves for training and test datasets
+# 
+
+compare_diversity_metrics <-
+  function(metric, filename_variable) {
+    
+    # Compute wilcox rank sum p-value
+    w <-
+      wilcox.test(metric[names(metric) %in% 
+                           gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 1])[,c(filename_variable)])],
+                  metric[names(metric) %in% 
+                           gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 4])[,c(filename_variable)])])
+    print(paste("Wilcox p =",w$p.value))
+    
+    # Compute Training ROC
+    train_roc <- pROC::roc(factor(TRAINING_eset[, TRAINING_eset$effective_group %in% c(1, 4)]$effective_group == 1),
+              metric[gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group %in% c(1, 4)])[,c(filename_variable)])],
+              ci = TRUE)
+    print(paste("Train AUC:",round(train_roc$auc,3), "CI =", round(train_roc$ci[1],3), "-", round(train_roc$ci[3],3)))
+    
+    # Compute test ROC
+    test_roc <- pROC::roc(factor(TEST_eset[, TEST_eset$effective_group %in% c(1, 4)]$effective_group == 1),
+              metric[gsub('-', '.', pData(TEST_eset[, TEST_eset$effective_group %in% c(1, 4)])[,c(filename_variable)])], 
+              ci = TRUE)
+    print(paste("Test AUC:",round(test_roc$auc,3), "CI =", round(test_roc$ci[1],3), "-", round(test_roc$ci[3],3)))
+    
+    # return(list(c(metric[names(metric) %in% 
+    #                        gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 1])[,c(filename_variable)])],metric[names(metric) %in% 
+    #                        gsub('-', '.', pData(TEST_eset[, TEST_eset$effective_group == 1])[,c(filename_variable)])]),
+    #              c(metric[names(metric) %in% 
+    #                        gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 4])[,c(filename_variable)])],
+    #                metric[names(metric) %in% 
+    #                        gsub('-', '.', pData(TEST_eset[, TEST_eset$effective_group == 4])[,c(filename_variable)])])))
+    
+    return(list(metric[names(metric) %in% 
+                           gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 1])[,c(filename_variable)])],
+                 metric[names(metric) %in% 
+                           gsub('-', '.', pData(TRAINING_eset[, TRAINING_eset$effective_group == 4])[,c(filename_variable)])]))
+   
+  }
+
+```
+
+
+Run RNA diversity analysis
+```{r}
+# Generate Figure 4 from manuscript
+run_diversity(TRAINING_eset, TEST_eset, rna_shannon,"RNAfilename", "RNAdiv","Figure4.pdf")
+
+# Compute summary stats and significance values for Table S4
+compare_diversity_metrics(rna_shannon, "RNAfilename")
+compare_diversity_metrics(rna_SDI, "RNAfilename")
+compare_diversity_metrics(rna_richness, "RNAfilename")
+rna_burden_review <- compare_diversity_metrics(rna_burden, "RNAfilename")
+```
+
+Run DNA diversity analysis
+```{r}
+# Generate Figure S4 from manuscript
+run_diversity(TRAINING_eset, TEST_eset, dna_shannon,  "DNAfilename","DNAdiv","FigureS4.pdf")
+
+# Compute summary stats and significance values for Table S4
+compare_diversity_metrics(dna_shannon, "DNAfilename")
+compare_diversity_metrics(dna_SDI, "DNAfilename")
+compare_diversity_metrics(dna_richness, "DNAfilename")
+dna_burden_reviewer <- compare_diversity_metrics(dna_burden, "DNAfilename")
+```
+
+
+
+### REVIEWER COMMENTS
+
+## DESeq2 Virus v. Bacteria
+
+```{r}
+
+# Using the Derivation and Validation cohorts, evaluate known Viral vs. known bacterial - do not include co-infecitons
+eset <- filtered_eset[,colnames(filtered_eset) %in% c(TRAINING_NAMES, TEST_NAMES)]
+reads_threshold <- 90000  # set data filtering thresholds for genes and samples
+transcripts_threshold <- 1000
+nonzero_gene_thresh <- .5
+
+# filtering samples
+eset.qf1 <- eset[, colSums(exprs(eset)) > reads_threshold]
+eset.qf2 <- eset.qf1[, colSums(exprs(eset.qf1)) > transcripts_threshold]
+
+# filtering genes
+eset.qf3 <- eset.qf2[rownames(filterZeroRows(exprs(eset.qf2), nonzero_gene_thresh)), ]
+eset.qf4 <- eset.qf3[,eset.qf3$pathogenType %in% c("bac","vir")]
+eset.qf4$pathogenType <- as.factor(eset.qf4$pathogenType == "bac")
+
+# Differential Expression Analysis
+#eset.qf3$effective_group <- as.factor(eset.qf3$effective_group)  # convert DESeq dependent var to factor
+dds <- DESeqDataSetFromMatrix(exprs(eset.qf4), pData(eset.qf4), design = ~ pathogenType)
+dds <- DESeq(dds)
+
+# DESeq results 
+print(resultsNames(dds))
+res <- results(dds, contrast = c("pathogenType", "TRUE", "FALSE"))
+res <- res[order(res$padj), ]   # sort by padj
+
+# establish several different results subsets
+resSig.padj1 <- res[which(res$padj < 0.1),]
+resSig.padj05 <- res[which(res$padj < 0.05),]
+resSig.padj01 <- res[which(res$padj < 0.01),]
+resSig.padj005 <- res[which(res$padj < 0.005),]
+resSig.padj001 <- res[which(res$padj < 0.001),]
+
+
+
+
+# follow-up analysis, repeat above but include samples that 
+# were PREDICTED VIRAL in viral v. all others analysis
+
+eset <- filtered_eset
+reads_threshold <- 90000  # set data filtering thresholds for genes and samples
+transcripts_threshold <- 1000
+nonzero_gene_thresh <- .5
+
+# filtering samples
+eset.qf1 <- eset[, colSums(exprs(eset)) > reads_threshold]
+eset.qf2 <- eset.qf1[, colSums(exprs(eset.qf1)) > transcripts_threshold]
+
+# filtering genes
+eset.qf3 <- eset.qf2[rownames(filterZeroRows(exprs(eset.qf2), nonzero_gene_thresh)), ]
+
+pdat <- pData(eset.qf3)
+pdat <- pdat[,c("MBALStudyId","pathogenType")]
+pdat[rownames(pdat) %in% c("TA.205","TA.290","TA.295","TA.311","TA.315","TA.321","TA.335","TA.337",
+       "TA.202","TA.209","TA.216","TA.254","TA.320","TA.353","TA.367","TA.361"),c("pathogenType")] = "vir"
+pdat[!(rownames(pdat) %in% c("TA.205","TA.290","TA.295","TA.311","TA.315","TA.321","TA.335","TA.337",
+       "TA.202","TA.209","TA.216","TA.254","TA.320","TA.353","TA.367","TA.361")),c("pathogenType")] = "bac"
+
+eset.qf4 = ExpressionSet(exprs(eset.qf3), phenoData = AnnotatedDataFrame(pdat))
+eset.qf4$pathogenType <- as.factor(eset.qf4$pathogenType == "bac")
+
+# Differential Expression Analysis
+dds <- DESeqDataSetFromMatrix(exprs(eset.qf4), pData(eset.qf4), design = ~ pathogenType)
+dds <- DESeq(dds)
+
+# DESeq results 
+print(resultsNames(dds))
+res <- results(dds, contrast = c("pathogenType", "TRUE", "FALSE"))
+res <- res[order(res$padj), ]   # sort by padj
+
+# establish several different results subsets
+resSig.padj1 <- res[which(res$padj < 0.1),]
+resSig.padj05 <- res[which(res$padj < 0.05),]
+resSig.padj01 <- res[which(res$padj < 0.01),]
+resSig.padj005 <- res[which(res$padj < 0.005),]
+resSig.padj001 <- res[which(res$padj < 0.001),]
+
+```
+
+
+
+

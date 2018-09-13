@@ -1,0 +1,70 @@
+Acinetobacter baumannii
+Aspergillus flavus
+Aspergillus fumigatus
+Aspergillus niger
+Aspergillus terreus
+Bacteroides fragilis
+Blastomyces dermatitidis
+Bordatella pertussis
+Burkholderia cenocepacia
+Burkholderia pseudomallei
+Chlamydophila pneumoniae
+Chlamydophila psittaci
+Citrobacter fruendii
+Citrobacter koseri
+Coccidioides immitis
+Coccidioides posadisii
+Coxiella burnetii
+Cryptococcus neoformans
+Cryptococcus gattii
+Enterobacter aerogenes
+Enterobacter cloacae
+Escherichia coli
+Francisella tularemia
+Fusobacterium necrophorum
+Fusobacterium nucleatum
+Haemophilus influenzae
+Histoplasma capsulatum
+Moraxella catarrhalis
+Morganella morganii
+Mucor
+Mycobacterium tuberculosis
+Mycoplasma pneumoniae
+Nocardia
+Pasteurella multocida
+Pneumocystis jirovecii
+Proteus mirabilis
+Pseudomonas aeruginosa
+Rhizomucor
+Serratia marcescens
+Stenotrophomonas maltophilia
+Streptococcus pneumoniae
+Streptococcus pyogenes
+Streptococcus anginosus
+Streptococcus intermedius
+Streptococcus constellatus
+Staphylococcus aureus
+Adenovirus
+Alphacoronavirus
+Betacoronavirus
+Coronavirus
+Cytomegalovirus
+Human herpesvirus 5 ( 10359 )
+Human respiratory
+Human mastadenovirus
+Human coronavirus
+Human coronavirus 229E ( 11137 )
+Human parainfluenza
+Human respiratory syncytial virus
+Influenza A
+Influenza B
+Influenza C
+Parainfluenza virus
+Respiratory syncytial virus
+Rhinovirus A
+Rhinovirus B
+Rhinovirus C
+Klebsiella oxytoca
+Klebsiella pneumoniae
+Legionella pneumophila
+Metapneumovirus

@@ -1,0 +1,14 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),6,1,1,5.98,5.98,0.19,0.19,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),1,0,0,1.88,1.85,0.48,0.48,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),1,1,1,0.98,0.98,1.06,1.06,0.0,0.0,0.0,0.0
+Viruses,SEN virus ( 136966 ),No genus ( -1 ),0,76,0,99.0,0.0,0.77,0.0,0.0,0.0,0.0,0.0
+Viruses,Torque teno virus ( 68887 ),No genus ( -1 ),0,8,0,8.27,0.0,0.67,0.0,17.0,0.0,0.19,0.0
+Viruses,uncultured virus ( 340016 ),No genus ( -1 ),0,0,0,2.78,0.0,0.1,0.0,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,-0.08,-0.09,0.1,0.1,0.0,0.0,0.0,0.0
+Mammalia,Papio anubis ( 9555 ),Papio ( 9554 ),0,0,0,-0.16,-0.16,0.1,0.1,0.0,0.0,0.0,0.0
+Mammalia,Bos taurus ( 9913 ),Bos ( 9903 ),0,0,0,-0.16,-0.17,0.1,0.1,0.0,0.0,0.0,0.0
+Bacteria,Enterobacter cloacae ( 550 ),Enterobacter ( 547 ),0,0,0,-0.17,-0.19,0.1,0.1,0.0,0.0,0.0,0.0
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.1,0.0,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia gladioli ( 28095 ),Burkholderia ( 32008 ),0,0,0,-0.31,-0.34,0.1,0.0,0.0,0.0,0.0,0.0
+Bacteria,Pseudoxanthomonas suwonensis ( 314722 ),Pseudoxanthomonas ( 83618 ),0,0,0,-0.37,-0.35,0.1,0.0,0.0,0.0,0.0,0.0

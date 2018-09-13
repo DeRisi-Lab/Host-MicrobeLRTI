@@ -1,0 +1,34 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Viruses,Torque teno virus 13 ( 687352 ),Alphatorquevirus ( 687331 ),81697,1408,904,100.0,18.37,7.16,7.7,100.0,99.0,6.92,7.31
+Viruses,Torque teno virus 3 ( 687342 ),Alphatorquevirus ( 687331 ),428,23,904,100.0,18.37,0.23,7.7,0.0,99.0,0.0,7.31
+Viruses,Torque teno virus 19 ( 687358 ),Alphatorquevirus ( 687331 ),285,15,904,100.0,18.37,0.16,7.7,0.0,99.0,0.0,7.31
+Viruses,Torque teno virus 15 ( 687354 ),Alphatorquevirus ( 687331 ),285,15,904,100.0,18.37,0.16,7.7,0.0,99.0,0.0,7.31
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),4,2,2,1.64,1.64,1.56,1.56,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),1,0,0,1.82,1.79,0.47,0.47,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),1,1,1,1.09,1.09,0.93,0.93,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),0,0,0,2.2,2.2,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,0.69,0.69,0.31,0.31,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus aethiops ( 9534 ),Chlorocebus ( 392815 ),0,0,0,5.66,0.06,0.16,0.16,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,0.57,0.57,0.08,0.08,0.0,0.0,0.0,0.0
+Viruses,uncultured Anellovirus ( 1034771 ),No genus ( -1 ),0,7,0,100.0,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Viruses,Torque teno virus ( 68887 ),No genus ( -1 ),0,4621,0,99.0,0.0,45.05,0.0,99.0,0.0,1.63,0.0
+Viruses,uncultured virus ( 340016 ),No genus ( -1 ),0,0,0,2.22,0.0,0.08,0.0,0.0,0.0,0.0,0.0
+Viruses,SEN virus ( 136966 ),No genus ( -1 ),0,38,0,99.0,0.0,0.39,0.0,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus salivarius ( 1304 ),Streptococcus ( 1301 ),0,0,0,-0.12,-0.18,0.08,0.31,0.0,-0.24,0.0,0.23
+Bacteria,Atopobium parvulum ( 1382 ),Atopobium ( 1380 ),0,0,0,0.2,-0.12,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus sp. VT 162 ( 1419814 ),Streptococcus ( 1301 ),0,0,0,-0.14,-0.18,0.08,0.31,0.0,-0.24,0.0,0.23
+Mammalia,Papio anubis ( 9555 ),Papio ( 9554 ),0,0,0,-0.16,-0.16,0.08,0.08,0.0,0.0,0.0,0.0
+Eukaryotes,Protopolystoma xenopodis ( 117903 ),Protopolystoma ( 117902 ),0,0,0,-0.2,-0.2,0.08,0.08,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus sp. I-P16 ( 1156433 ),Streptococcus ( 1301 ),0,0,0,-0.24,-0.18,0.08,0.31,0.0,-0.24,0.0,0.23
+Propionbacterium acnes,Propionibacterium acnes ( 1747 ),Propionibacterium ( 1743 ),0,0,0,-0.27,-0.27,0.08,0.0,0.0,0.0,0.0,0.0
+Acidovorax,Acidovorax ebreus ( 721785 ),Acidovorax ( 12916 ),0,0,0,-0.28,-0.26,0.08,0.08,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.24,-0.18,0.16,0.31,0.0,0.0,0.0,0.0
+Bacteria,Campylobacter concisus ( 199 ),Campylobacter ( 194 ),0,0,0,-0.09,-0.18,0.31,0.31,0.05,-0.19,0.16,0.16
+Bacteria,Streptococcus parasanguinis ( 1318 ),Streptococcus ( 1301 ),0,0,0,-0.23,-0.18,0.08,0.31,-0.35,-0.24,0.08,0.23
+Bacteria,Propionibacterium propionicum ( 1750 ),Propionibacterium ( 1743 ),0,0,0,-0.47,-0.27,0.08,0.0,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,0.85,-0.18,0.08,0.31,0.0,0.0,0.0,0.0
+Bacteria,Prevotella melaninogenica ( 28132 ),Prevotella ( 838 ),0,0,0,-0.25,-0.22,0.16,0.16,-0.18,-0.16,0.16,0.16
+Bacteria,Rothia dentocariosa ( 2047 ),Rothia ( 32207 ),0,0,0,-0.12,-0.14,0.86,0.86,-0.17,-0.23,0.23,0.31
+Bacteria,Veillonella parvula ( 29466 ),Veillonella ( 29465 ),0,0,0,-0.17,-0.17,0.62,0.62,-0.2,-0.23,0.23,0.47
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,2.18,-0.18,0.08,0.31,0.0,0.0,0.0,0.0
+Bacteria,Stenotrophomonas maltophilia ( 40324 ),Stenotrophomonas ( 40323 ),0,0,0,-0.31,-0.32,0.54,0.54,-0.37,-0.36,0.31,0.39

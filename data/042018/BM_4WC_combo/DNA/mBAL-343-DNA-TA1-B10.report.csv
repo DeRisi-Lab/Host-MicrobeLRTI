@@ -1,0 +1,31 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Bacteria,Burkholderia cenocepacia ( 95486 ),Burkholderia ( 32008 ),1202,1629,281,6.36,0.84,216.16,279.4302940938182,4.81,0.16,53.05,92.22
+Caudovirales (dsDNA phages),Burkholderia phage KL3 ( 910474 ),P2likevirus ( 140410 ),315,99,3,100.0,3.18,0.99,0.99,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia cepacia ( 292 ),Burkholderia ( 32008 ),99,119,281,2.23,0.84,52.8,279.4302940938182,0.55,0.16,3.47,92.22
+Bacteria,Burkholderia sp. JS667 ( 622617 ),Burkholderia ( 32008 ),2,3,281,4.43,0.84,0.74,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Burkholderia ambifaria ( 152480 ),Burkholderia ( 32008 ),0,5,281,-0.26,0.84,0.99,279.4302940938182,0.73,0.16,8.43,92.22
+Bacteria,Burkholderia oklahomensis ( 342113 ),Burkholderia ( 32008 ),0,0,281,0.09,0.84,2.23,279.4302940938182,0.0,0.16,0.0,92.22
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.51,0.51,0.5,0.5,0.0,0.0,0.0,0.0
+Bacteria,Olsenella uli ( 133926 ),Olsenella ( 133925 ),0,0,0,0.26,0.21,0.25,0.25,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Burkholderia phage KS10 ( 557289 ),No genus ( -1 ),0,24,0,100.0,0.0,0.25,0.0,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,-0.08,-0.08,0.25,0.25,0.0,0.0,0.0,0.0
+Bacteria,Comamonas testosteroni ( 285 ),Comamonas ( 283 ),0,0,0,-0.15,-0.16,0.25,0.25,0.0,0.0,0.0,0.0
+Bacteria,Streptococcus thermophilus ( 1308 ),Streptococcus ( 1301 ),0,0,0,-0.15,-0.18,0.25,0.25,0.0,-0.24,0.0,0.25
+Bacteria,Enterobacter aerogenes ( 548 ),Enterobacter ( 547 ),0,0,0,-0.14,-0.19,0.25,0.25,0.08,-0.24,0.25,0.25
+Acidovorax,Acidovorax ebreus ( 721785 ),Acidovorax ( 12916 ),0,0,0,-0.28,-0.26,0.25,0.25,0.0,0.0,0.0,0.0
+Bacteria,Advenella mimigardefordensis ( 302406 ),Advenella ( 290425 ),0,0,0,0.61,-0.13,0.25,0.25,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas denitrificans ( 43306 ),Pseudomonas ( 286 ),0,0,0,-0.31,-0.3,0.25,0.0,0.0,0.0,0.0,0.0
+Bacteria,Alicycliphilus denitrificans ( 179636 ),Alicycliphilus ( 201096 ),0,0,0,-0.33,-0.33,0.25,0.25,0.0,0.0,0.0,0.0
+Bacteria,Ralstonia pickettii ( 329 ),Ralstonia ( 48736 ),0,0,0,-0.36,-0.35,0.25,0.25,0.0,-0.36,0.0,0.25
+Bacteria,Achromobacter xylosoxidans ( 85698 ),Achromobacter ( 222 ),0,0,0,-0.28,-0.28,0.5,0.5,0.0,0.0,0.0,0.0
+Bacteria,Burkholderia sp. KJ006 ( 416344 ),Burkholderia ( 32008 ),0,0,281,-0.07,0.84,0.74,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Bordetella petrii ( 94624 ),Bordetella ( 517 ),0,0,0,-0.36,-0.35,0.25,0.25,-0.3,-0.34,0.25,0.25
+Bacteria,Burkholderia ubonensis ( 101571 ),Burkholderia ( 32008 ),0,0,281,-0.29,0.84,0.25,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Burkholderia glumae ( 337 ),Burkholderia ( 32008 ),0,0,281,-0.29,0.84,0.25,279.4302940938182,-0.14,0.16,0.5,92.22
+Bacteria,Burkholderia fungorum ( 134537 ),Burkholderia ( 32008 ),0,0,281,-0.35,0.84,0.25,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Burkholderia gladioli ( 28095 ),Burkholderia ( 32008 ),0,0,281,-0.29,0.84,0.5,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Burkholderia thailandensis ( 57975 ),Burkholderia ( 32008 ),0,0,281,-0.12,0.84,1.74,279.4302940938182,-0.05,0.16,0.74,92.22
+Bacteria,Burkholderia vietnamiensis ( 60552 ),Burkholderia ( 32008 ),0,0,281,-0.32,0.84,0.74,279.4302940938182,0.0,0.16,0.0,92.22
+Bacteria,Burkholderia lata ( 482957 ),Burkholderia ( 32008 ),0,0,281,-0.24,0.84,0.99,279.4302940938182,-0.08,0.16,0.99,92.22
+Bacteria,Burkholderia multivorans ( 87883 ),Burkholderia ( 32008 ),0,0,281,-0.3,0.84,0.5,279.4302940938182,-0.18,0.16,3.22,92.22
+Bacteria,Burkholderia pseudomallei ( 28450 ),Burkholderia ( 32008 ),0,0,281,-0.22,0.84,1.24,279.4302940938182,-0.27,0.16,1.49,92.22

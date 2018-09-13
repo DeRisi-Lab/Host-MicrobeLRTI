@@ -1,0 +1,10 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Viruses,Human herpesvirus 5 ( 10359 ),Cytomegalovirus ( 10358 ),15656,559,425,99.0,2.93,4.18,4.18,99.0,99.0,1.47,1.6
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,1.36,1.34,0.37,0.37,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,1.18,1.18,0.12,0.12,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.08,0.08,0.37,0.37,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas fluorescens ( 294 ),Pseudomonas ( 286 ),0,0,0,-0.25,-0.3,0.12,0.0,0.0,0.0,0.0,0.0
+Bacteria,Amycolatopsis methanolica ( 1814 ),Amycolatopsis ( 1813 ),0,0,0,-0.29,-0.33,0.12,0.12,0.0,0.0,0.0,0.0
+Bacteria,Neisseria meningitidis ( 487 ),Neisseria ( 482 ),0,0,0,-0.08,-0.2,1.35,1.84,-0.36,-0.3,0.12,0.61
+Bacteria,Neisseria lactamica ( 486 ),Neisseria ( 482 ),0,0,0,0.38,-0.2,0.49,1.84,0.0,-0.3,0.0,0.61
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,1.55,-0.27,0.12,0.12,0.0,0.0,0.0,0.0

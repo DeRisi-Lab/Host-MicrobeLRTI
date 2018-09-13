@@ -1,0 +1,14 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),585,6,17,1.89,1.89,0.18,0.18,100.0,100.0,0.06,0.06
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),3,2,2,1.56,1.56,1.29,1.29,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),2,1,2,1.36,1.36,1.35,1.35,0.51,0.51,0.06,0.06
+Mammalia,Colobus angolensis ( 54131 ),Colobus ( 9570 ),1,0,0,4.33,4.33,0.06,0.06,0.0,0.0,0.0,0.0
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),0,0,0,1.57,1.57,0.06,0.06,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),0,0,0,0.2,0.19,0.12,0.12,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,-0.02,-0.04,0.12,0.12,0.0,0.0,0.0,0.0
+Bacteria,Shigella flexneri ( 623 ),Shigella ( 620 ),0,0,0,-0.19,-0.14,0.06,0.06,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas fluorescens ( 294 ),Pseudomonas ( 286 ),0,0,0,-0.25,-0.3,0.06,0.0,0.0,-0.39,0.0,0.06
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.2,-0.13,0.23,0.41,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas sp. TKP ( 1415630 ),Pseudomonas ( 286 ),0,0,0,-0.16,-0.3,0.06,0.0,-0.34,-0.39,0.06,0.06
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,5.47,-0.13,0.18,0.41,0.0,0.0,0.0,0.0
+Mammalia,Pan troglodytes ( 9598 ),Pan ( 9596 ),0,5,0,100.0,-0.11,0.06,0.06,0.0,0.0,0.0,0.0

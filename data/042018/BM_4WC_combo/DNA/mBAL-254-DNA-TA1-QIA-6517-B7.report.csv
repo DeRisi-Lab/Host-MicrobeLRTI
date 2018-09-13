@@ -1,0 +1,19 @@
+Category,Species,Genus,Score1,Score2,Score3,NT Species Z,NT Genus Z,NT Species rM,NT Genus rM,NR Species Z,NR Genus Z,NR Species rM,NR Genus rM
+Mammalia,Nomascus leucogenys ( 61853 ),Nomascus ( 325165 ),6,1,1,5.78,5.78,0.19,0.19,0.0,0.0,0.0,0.0
+Mammalia,Pongo abelii ( 9601 ),Pongo ( 9599 ),4,1,1,2.67,2.63,0.65,0.65,0.0,0.0,0.0,0.0
+Mammalia,Cercocebus atys ( 9531 ),Cercocebus ( 9529 ),0,0,0,2.04,2.04,0.19,0.19,0.0,0.0,0.0,0.0
+Mammalia,Homo sapiens ( 9606 ),Homo ( 9605 ),0,0,0,0.57,0.57,0.75,0.75,0.0,0.0,0.0,0.0
+Mammalia,Chlorocebus sabaeus ( 60711 ),Chlorocebus ( 392815 ),0,0,0,0.42,0.38,0.28,0.28,0.0,0.0,0.0,0.0
+Mammalia,Gorilla gorilla ( 9593 ),Gorilla ( 9592 ),0,0,0,0.23,0.23,0.28,0.28,0.0,0.0,0.0,0.0
+Mammalia,Macaca fascicularis ( 9541 ),Macaca ( 9539 ),0,0,0,2.7,0.03,0.09,0.75,0.0,0.0,0.0,0.0
+Mammalia,Macaca nemestrina ( 9545 ),Macaca ( 9539 ),0,0,0,1.09,0.03,0.09,0.75,0.0,0.0,0.0,0.0
+Mammalia,Pan paniscus ( 9597 ),Pan ( 9596 ),0,0,0,0.0,0.0,0.09,0.09,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Pseudomonas phage JBD18 ( 1225791 ),No genus ( -1 ),0,0,0,2.67,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Pseudomonas phage PAJU2 ( 504346 ),No genus ( -1 ),0,0,0,-0.06,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Viruses,SEN virus ( 136966 ),No genus ( -1 ),0,5,0,56.74,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Caudovirales (dsDNA phages),Pseudomonas phage JBD67 ( 1225793 ),No genus ( -1 ),0,0,0,1.25,0.0,0.09,0.0,0.0,0.0,0.0,0.0
+Mammalia,Macaca mulatta ( 9544 ),Macaca ( 9539 ),0,0,0,-0.04,0.03,0.56,0.75,0.0,0.0,0.0,0.0
+Mammalia,Bos taurus ( 9913 ),Bos ( 9903 ),0,0,0,-0.17,-0.17,0.09,0.09,0.0,0.0,0.0,0.0
+Mammalia,Sus scrofa ( 9823 ),Sus ( 9822 ),0,0,0,-0.27,-0.27,0.09,0.09,0.0,0.0,0.0,0.0
+Bacteria,Pseudomonas chlororaphis ( 587753 ),Pseudomonas ( 286 ),0,0,-5,-0.34,-0.29,0.09,5.3542918722727295,0.0,-0.38,0.0,3.54
+Bacteria,Pseudomonas aeruginosa ( 287 ),Pseudomonas ( 286 ),0,-1,-5,-0.15,-0.29,7.55,5.3542918722727295,-0.28,-0.38,2.61,3.54
