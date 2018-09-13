@@ -1,6 +1,8 @@
 # Host-MicrobeLRTI
 
-This directory contains all the required data and scripts required to run the analysis outlined in Integrating Host Response and Unbiased Microbe Detection for Lower Respiratory Tract Infection Diagnosis in Critically Ill Adults. The Pathogen v. Commensal model is implemented in a jupyter notebook, while the host and microbe combined model is implemented in R markdown, with all data pre-processing steps pre-set in the mBALPkg.
+This directory contains all the required data and scripts required to run the analysis outlined in the manuscript: _Integrating Host Response and Unbiased Microbe Detection for Lower Respiratory Tract Infection Diagnosis in Critically Ill Adults_. 
+
+The Pathogen v. Commensal model is implemented in a jupyter notebook, while the host and microbe combined model is implemented in R markdown, with all data pre-processing steps pre-set in the mBALPkg.
 
 ## Citation
 
