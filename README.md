@@ -4,7 +4,24 @@ This directory contains all the required data and scripts required to run the an
 
 The Pathogen v. Commensal model is implemented in a jupyter notebook, while the host and microbe combined model is implemented in R markdown, with all data pre-processing steps pre-set in the mBALPkg.
 
+The analysis focuses on four patient groups:
+
+1. LRTI+C+M,  LRTI defined by both  clinical  and  microbiologic  criteria.
+2. LRTI+C, LRTI defined by clinical criteria alonewith negative conventional microbiologictesting
+3. unk-LRTI, respiratory failure due to unclearcause, infectious or non-infectious
+4. no-LRTI, no  evidence  of  LRTI and a  clear 
+Page 7of 34alternative explanation for acute respiratory failure
+
+For interpretability sake, in the code these are referred to by the covariate **effective_group**, with labels as follows:
+
+Group 1 = LRTI+C+M
+Group 2 = LRTI+C
+Group 3 = unk-LRTI
+Group 4 = no-LRTI
+
+
 ## Citation
+
 
 # Pathogen v. Commensal Model
 
