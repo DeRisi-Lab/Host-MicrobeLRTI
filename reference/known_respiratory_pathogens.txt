@@ -5,15 +5,15 @@ Aspergillus niger
 Aspergillus terreus
 Bacteroides fragilis
 Blastomyces dermatitidis
-Bordatella pertussis
+Bordetella pertussis
 Burkholderia cenocepacia
 Burkholderia pseudomallei
 Chlamydophila pneumoniae
 Chlamydophila psittaci
-Citrobacter fruendii
+Citrobacter freundii
 Citrobacter koseri
 Coccidioides immitis
-Coccidioides posadisii
+Coccidioides posadasii
 Coxiella burnetii
 Cryptococcus neoformans
 Cryptococcus gattii
@@ -49,11 +49,11 @@ Alphacoronavirus
 Betacoronavirus
 Coronavirus
 Cytomegalovirus
-Human herpesvirus 5 ( 10359 )
+Human herpesvirus 5
 Human respiratory
 Human mastadenovirus
 Human coronavirus
-Human coronavirus 229E ( 11137 )
+Human coronavirus 229E
 Human parainfluenza
 Human respiratory syncytial virus
 Influenza A
